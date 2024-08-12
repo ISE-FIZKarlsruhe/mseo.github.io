@@ -9,7 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
         <obo:IAO_0000232 xml:lang="en">v1.0.10 (2022-09-06): changed language from german to english on &quot;hasShape&quot;, &quot;influencedBy&quot; and others. Added &quot;isSubpropertyOf&quot; to some ObjectProperties by Martin Huschka.
 
 v1.0.9 (2021-11-12): hasImpactOn, influencedBy and hasQuality added as Object Property by Martin Huschka.

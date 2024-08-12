@@ -7,7 +7,7 @@
 @base <https://w3id.org/digitalconstruction/BuildingMaterials> .
 
 <https://w3id.org/digitalconstruction/BuildingMaterials> rdf:type owl:Ontology ;
-    owl:imports <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/bmo_ontology.ttl> ;
+    owl:imports <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/bmo_ontology.ttl> ;
     <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
     <http://purl.org/dc/terms/creator> "Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)" ;
     <http://purl.org/dc/terms/creator> "Prathap Valluru (prathap.valluru@tu-dresden.de)" ;

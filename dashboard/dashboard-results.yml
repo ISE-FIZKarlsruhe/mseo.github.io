@@ -79,7 +79,7 @@ ontologies:
       rdfs: 89
       xsd: 8
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/AMONTOLOGY.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/AMONTOLOGY.owl
   namespace: AMONTOLOGY
   results:
     FP01 Open:
@@ -188,7 +188,7 @@ ontologies:
       skos: 44
       xsd: 2
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/asmo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/asmo.owl
   namespace: ASMO
   results:
     FP01 Open:
@@ -290,7 +290,7 @@ ontologies:
       rdfs: 1788
       xsd: 10
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD-DOMAIN.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD-DOMAIN.owl
   namespace: BWMD-DOMAIN
   results:
     FP01 Open:
@@ -393,7 +393,7 @@ ontologies:
       rdfs: 871
       xsd: 10
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD-MID.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD-MID.owl
   namespace: BWMD-MID
   results:
     FP01 Open:
@@ -406,7 +406,7 @@ ontologies:
       file: fp3
       status: ERROR
     FP04 Versioning:
-      comment: Version IRI 'https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl'
+      comment: Version IRI 'https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl'
         is not in recommended format
       status: WARN
     FP05 Scope:
@@ -442,7 +442,7 @@ ontologies:
       ERROR: 6
       INFO: 1
       WARN: 1
-  version: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl
+  version: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl
 - base_generated: true
   base_prefixes:
   - cco
@@ -511,7 +511,7 @@ ontologies:
       rdfs: 2336
       xsd: 9
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/CCO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/CCO.ttl
   namespace: CCO
   results:
     FP01 Open:
@@ -601,7 +601,7 @@ ontologies:
       rdfs: 25
       skos: 22
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/cdco.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/cdco.owl
   namespace: CDCO
   results:
     FP01 Open:
@@ -725,7 +725,7 @@ ontologies:
       skos: 971
       xsd: 12
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/CHAMEO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/CHAMEO.ttl
   namespace: CHAMEO
   results:
     FP01 Open:
@@ -866,7 +866,7 @@ ontologies:
       skos: 2
       xsd: 26
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/cheminf.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/cheminf.owl
   namespace: CHEMINF
   results:
     FP01 Open:
@@ -977,7 +977,7 @@ ontologies:
     - H
     - M
     - O
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/chmo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/chmo.owl
   namespace: CHMO
   sha256_hash: 24c727e9ac706cc4a9a5af11f8819963d474715f9aee53aea2c5a7f5b60a42e7
 - base_generated: true
@@ -1042,7 +1042,7 @@ ontologies:
       rdfs: 52
       xsd: 20
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/cif-core.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/cif-core.ttl
   namespace: CIF-core
   results:
     FP01 Open:
@@ -1143,7 +1143,7 @@ ontologies:
       skos: 61
       xsd: 28
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/cmso.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/cmso.owl
   namespace: CMSO
   results:
     FP01 Open:
@@ -1249,7 +1249,7 @@ ontologies:
       skos: 15
       xsd: 31
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/CSO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/CSO.owl
   namespace: CSO
   results:
     FP01 Open:
@@ -1349,7 +1349,7 @@ ontologies:
       skos: 158
       xsd: 170
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/DEB.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/DEB.owl
   namespace: DEB
   results:
     FP01 Open:
@@ -1452,7 +1452,7 @@ ontologies:
       skos: 4
       xsd: 16
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/DISO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/DISO.ttl
   namespace: DISO
   results:
     FP01 Open:
@@ -1562,7 +1562,7 @@ ontologies:
       skos: 8
       xsd: 40
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/DSIM.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/DSIM.owl
   namespace: DSIM
   results:
     FP01 Open:
@@ -1686,7 +1686,7 @@ ontologies:
       skos: 1481
       xsd: 388
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO.ttl
   namespace: EMMO
   results:
     FP01 Open:
@@ -1739,13 +1739,13 @@ ontologies:
 - base_generated: true
   changed: true
   failure: failed_robot_base
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_BVC.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_BVC.ttl
   namespace: EMMO_BVC
   sha256_hash: fdb9e0b092b01e1b8a2d5f1ba68fcb83550bbfd3b4015ef28a317059119ff67e
 - base_generated: true
   changed: true
   failure: failed_robot_base
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_BattINFO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_BattINFO.ttl
   namespace: EMMO_BattINFO
   sha256_hash: 282d5be1272eb95796303be22189d4bd39340a888839dfddcff6a64f08d6e75a
 - base_generated: true
@@ -1810,7 +1810,7 @@ ontologies:
       skos: 44
       xsd: 18
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_Datamodel.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_Datamodel.ttl
   namespace: EMMO_Datamodel
   results:
     FP01 Open:
@@ -1934,7 +1934,7 @@ ontologies:
       skos: 646
       xsd: 31
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_atomistic.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_atomistic.ttl
   namespace: EMMO_atomistic
   results:
     FP01 Open:
@@ -2060,7 +2060,7 @@ ontologies:
       skos: 4123
       xsd: 42
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_crystallography.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_crystallography.ttl
   namespace: EMMO_crystallography
   results:
     FP01 Open:
@@ -2187,7 +2187,7 @@ ontologies:
       skos: 645
       xsd: 34
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_mappings.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_mappings.ttl
   namespace: EMMO_mappings
   results:
     FP01 Open:
@@ -2309,7 +2309,7 @@ ontologies:
       skos: 987
       xsd: 44
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_mechanical_testing.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_mechanical_testing.owl
   namespace: EMMO_mechanical_testing
   results:
     FP01 Open:
@@ -2426,7 +2426,7 @@ ontologies:
       skos: 240
       xsd: 10
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_microstructure.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_microstructure.owl
   namespace: EMMO_microstructure
   results:
     FP01 Open:
@@ -2519,7 +2519,7 @@ ontologies:
       prefix_unknown: 2564
       rdfs: 646
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EXPO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EXPO.owl
   namespace: EXPO
   results:
     FP01 Open:
@@ -2640,7 +2640,7 @@ ontologies:
     - mwo
     - nfdicore
     - opmw
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/FOAF.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/FOAF.owl
   namespace: FOAF
   results:
     FP01 Open:
@@ -2754,7 +2754,7 @@ ontologies:
       skos: 421
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/GPO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/GPO.ttl
   namespace: GPO
   results:
     FP01 Open:
@@ -2885,7 +2885,7 @@ ontologies:
       rdfs: 508
       xsd: 4
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/IAO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/IAO.owl
   namespace: IAO
   results:
     FP01 Open:
@@ -2974,7 +2974,7 @@ ontologies:
       rdfs: 28
       skos: 22
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/ldo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/ldo.owl
   namespace: LDO
   results:
     FP01 Open:
@@ -3077,7 +3077,7 @@ ontologies:
       rdfs: 1214
       xsd: 10
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/LPBFO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/LPBFO.owl
   namespace: LPBFO
   results:
     FP01 Open:
@@ -3187,7 +3187,7 @@ ontologies:
       rdfs: 54
       xsd: 97
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MAMBO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MAMBO.owl
   namespace: MAMBO
   results:
     FP01 Open:
@@ -3292,7 +3292,7 @@ ontologies:
       rdfs: 186
       xsd: 47
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MDO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MDO.owl
   namespace: MDO
   results:
     FP01 Open:
@@ -3383,7 +3383,7 @@ ontologies:
       skos: 504
       xsd: 5
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MDS.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MDS.owl
   namespace: MDS
   results:
     FP01 Open:
@@ -3475,7 +3475,7 @@ ontologies:
       rdfs: 192
       xsd: 1618
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MOL_BRINELL.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MOL_BRINELL.ttl
   namespace: MOL_BRINELL
   results:
     FP01 Open:
@@ -3581,7 +3581,7 @@ ontologies:
       rdfs: 987
       xsd: 27
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MOL_TENSILE.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MOL_TENSILE.owl
   namespace: MOL_TENSILE
   results:
     FP01 Open:
@@ -3698,7 +3698,7 @@ ontologies:
       skos: 819
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MSEO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MSEO.ttl
   namespace: MSEO
   results:
     FP01 Open:
@@ -3803,7 +3803,7 @@ ontologies:
       skos: 96
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MSLE.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MSLE.owl
   namespace: MSLE
   results:
     FP01 Open:
@@ -3920,7 +3920,7 @@ ontologies:
       skos: 23
       xsd: 193
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MatOnto.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MatOnto.ttl
   namespace: MatOnto
   results:
     FP01 Open:
@@ -4017,7 +4017,7 @@ ontologies:
       rdfs: 174
       xsd: 19
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MaterialsMine.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MaterialsMine.ttl
   namespace: MaterialsMine
   results:
     FP01 Open:
@@ -4122,7 +4122,7 @@ ontologies:
       rdfs: 2110
       xsd: 112
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/NPO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/NPO.owl
   namespace: NPO
   results:
     FP01 Open:
@@ -4243,7 +4243,7 @@ ontologies:
       skos: 320
       xsd: 16
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/nanomine.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/nanomine.ttl
   namespace: NanoMine
   results:
     FP01 Open:
@@ -4338,7 +4338,7 @@ ontologies:
       skos: 1
       xsd: 11
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OA.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OA.ttl
   namespace: OA
   results:
     FP01 Open:
@@ -4448,7 +4448,7 @@ ontologies:
     - SEMMD
     - SP
     - UO
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OBO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OBO.ttl
   namespace: OBO
   results:
     FP01 Open:
@@ -4575,7 +4575,7 @@ ontologies:
       rdfs: 2119
       xsd: 6
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/oeo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/oeo.owl
   namespace: OEO
   results:
     FP01 Open:
@@ -4701,7 +4701,7 @@ ontologies:
       skos: 2318
       xsd: 13
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
   namespace: OIEcharacterisation-methods
   results:
     FP01 Open:
@@ -4811,7 +4811,7 @@ ontologies:
       rdfs: 189
       skos: 543
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OIEmanufacturing.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEmanufacturing.ttl
   namespace: OIEmanufacturing
   results:
     FP01 Open:
@@ -4922,7 +4922,7 @@ ontologies:
       rdfs: 128
       skos: 237
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OIEmaterials.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEmaterials.ttl
   namespace: OIEmaterials
   results:
     FP01 Open:
@@ -5044,7 +5044,7 @@ ontologies:
       skos: 488
       xsd: 10
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OIEmodels.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEmodels.ttl
   namespace: OIEmodels
   results:
     FP01 Open:
@@ -5155,7 +5155,7 @@ ontologies:
       rdfs: 190
       skos: 698
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OIEsoftware.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEsoftware.ttl
   namespace: OIEsoftware
   results:
     FP01 Open:
@@ -5268,7 +5268,7 @@ ontologies:
       skos: 3
       xsd: 854
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OM.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OM.ttl
   namespace: OM
   results:
     FP01 Open:
@@ -5387,7 +5387,7 @@ ontologies:
       skos: 100
       xsd: 120
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OSMO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OSMO.ttl
   namespace: OSMO
   results:
     FP01 Open:
@@ -5483,7 +5483,7 @@ ontologies:
       prov: 22
       rdfs: 32
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/P-Plan.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/P-Plan.owl
   namespace: P-Plan
   results:
     FP01 Open:
@@ -5625,7 +5625,7 @@ ontologies:
     - T
     - UO
     - nfdicore
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/PATO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/PATO.owl
   namespace: PATO
   sha256_hash: 44e9269d861cd6cee4af1d41480bcd4580863d32d2668af299f3c1e0eaaa6bc6
 - base_generated: true
@@ -5677,7 +5677,7 @@ ontologies:
       skos: 55
       xsd: 4
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/pldo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/pldo.owl
   namespace: PLDO
   results:
     FP01 Open:
@@ -5792,7 +5792,7 @@ ontologies:
       skos: 482
       xsd: 7
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/PMDCO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/PMDCO.ttl
   namespace: PMDCO
   results:
     FP01 Open:
@@ -5887,7 +5887,7 @@ ontologies:
       skos: 50
       xsd: 5
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/podo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/podo.owl
   namespace: PODO
   results:
     FP01 Open:
@@ -5982,7 +5982,7 @@ ontologies:
       rdfs: 32
       skos: 2
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/prima-core.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/prima-core.ttl
   namespace: PRIMA
   results:
     FP01 Open:
@@ -6151,7 +6151,7 @@ ontologies:
 - base_generated: true
   changed: true
   failure: failed_robot_base
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/photovoltaics.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/photovoltaics.ttl
   namespace: Photovoltaics
   sha256_hash: 16e6a77cb413dc5d78df163e1c7a9bbe3e976e80ab30389a3130cf13062857d7
 - base_generated: true
@@ -6228,7 +6228,7 @@ ontologies:
       skos: 172
       xsd: 198
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/QUDT.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/QUDT.ttl
   namespace: QUDT
   results:
     FP01 Open:
@@ -6335,7 +6335,7 @@ ontologies:
       rdfs: 49
       xsd: 24
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/QUDV.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/QUDV.owl
   namespace: QUDV
   results:
     FP01 Open:
@@ -6439,7 +6439,7 @@ ontologies:
       rdfs: 266
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SAREF.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SAREF.ttl
   namespace: SAREF
   results:
     FP01 Open:
@@ -6581,7 +6581,7 @@ ontologies:
       skos: 546
       xsd: 1256
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SEMMD.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SEMMD.ttl
   namespace: SEMMD
   results:
     FP01 Open:
@@ -6669,7 +6669,7 @@ ontologies:
       prefix_unknown: 1988
       skos: 3962
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SKOS_MDO.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SKOS_MDO.ttl
   namespace: SKOS_MDO
   results:
     FP01 Open:
@@ -6763,7 +6763,7 @@ ontologies:
       rdfs: 41
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SO.owl
   namespace: SO
   results:
     FP01 Open:
@@ -6875,7 +6875,7 @@ ontologies:
       prefix_unknown: 1477
       rdfs: 780
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SP.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SP.owl
   namespace: SP
   results:
     FP01 Open:
@@ -6967,7 +6967,7 @@ ontologies:
       skos: 69
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SSN.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SSN.ttl
   namespace: SSN
   results:
     FP01 Open:
@@ -7063,7 +7063,7 @@ ontologies:
       prefix_unknown: 415
       rdfs: 956
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/UO.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/UO.owl
   namespace: UO
   results:
     FP01 Open:
@@ -7159,7 +7159,7 @@ ontologies:
       schema: 2
       xsd: 1
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/WILD.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/WILD.owl
   namespace: WILD
   results:
     FP01 Open:
@@ -7269,7 +7269,7 @@ ontologies:
       skos: 221
       xsd: 23
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/bmo.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/bmo.ttl
   namespace: bmo
   results:
     FP01 Open:
@@ -7322,7 +7322,7 @@ ontologies:
 - base_generated: true
   changed: true
   failure: failed_robot_base
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/enanomapper.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/enanomapper.ttl
   namespace: enanomapper
   sha256_hash: 57cf655e95ab9c2b2e71f2af6d35c476f05a9aa64953fb0461da24665adc3877
 - base_generated: true
@@ -7582,7 +7582,7 @@ ontologies:
       rdfs: 104
       xsd: 26
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo.owl
   namespace: matinfo
   results:
     FP01 Open:
@@ -7681,7 +7681,7 @@ ontologies:
       skos: 2
       xsd: 2
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/mvc.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/mvc.ttl
   namespace: mvc
   results:
     FP01 Open:
@@ -7796,7 +7796,7 @@ ontologies:
       skos: 13
       xsd: 5
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/mwo.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/mwo.owl
   namespace: mwo
   results:
     FP01 Open:
@@ -8035,7 +8035,7 @@ ontologies:
       rdfs: 110
       xsd: 22
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/ONTORULEsteel.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/ONTORULEsteel.ttl
   namespace: ontorule
   results:
     FP01 Open:
@@ -8253,7 +8253,7 @@ ontologies:
       rdfs: 6
       xsd: 739
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/periodictable.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/periodictable.owl
   namespace: periodictable
   results:
     FP01 Open:
@@ -8467,7 +8467,7 @@ ontologies:
       rdfs: 187
       xsd: 4
     'Info: Which ontologies use it?': []
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/tribAin.ttl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/tribAin.ttl
   namespace: tribAIn
   results:
     FP01 Open:
@@ -8590,6 +8590,6 @@ ontologies:
       rdfs: 1292
       skos: 1204
       xsd: 942
-  mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/vimmp.owl
+  mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/vimmp.owl
   namespace: vimmp
   sha256_hash: d22a014085312695ca78f0d46351650aeecb52cc724ed71f53eabd58752ff260

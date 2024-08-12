@@ -61,7 +61,7 @@ metrics:
     skos: 3
     xsd: 854
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OM.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OM.ttl
 namespace: OM
 results:
   FP01 Open:

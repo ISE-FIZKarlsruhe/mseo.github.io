@@ -1,6 +1,6 @@
 base_generated: true
 changed: true
 failure: failed_robot_base
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/enanomapper.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/enanomapper.ttl
 namespace: enanomapper
 sha256_hash: 57cf655e95ab9c2b2e71f2af6d35c476f05a9aa64953fb0461da24665adc3877

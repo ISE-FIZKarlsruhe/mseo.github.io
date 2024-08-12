@@ -408,7 +408,7 @@
 <oops:Importance>Minor</oops:Importance>
 <oops:NumberAffectedElements>1</oops:NumberAffectedElements>
 <oops:Affects>
-<oops:AffectedElement>https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MOL_TENSILE.owl</oops:AffectedElement>
+<oops:AffectedElement>https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MOL_TENSILE.owl</oops:AffectedElement>
 </oops:Affects>
 </oops:Pitfall>
 </oops:OOPSResponse>

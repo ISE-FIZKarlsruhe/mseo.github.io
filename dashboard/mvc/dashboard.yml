@@ -44,7 +44,7 @@ metrics:
     skos: 2
     xsd: 2
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/mvc.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/mvc.ttl
 namespace: mvc
 results:
   FP01 Open:

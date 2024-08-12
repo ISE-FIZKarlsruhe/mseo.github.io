@@ -75,7 +75,7 @@ metrics:
     skos: 2318
     xsd: 13
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
 namespace: OIEcharacterisation-methods
 results:
   FP01 Open:

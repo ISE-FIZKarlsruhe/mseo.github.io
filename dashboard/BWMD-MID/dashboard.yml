@@ -51,7 +51,7 @@ metrics:
     rdfs: 871
     xsd: 10
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD-MID.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD-MID.owl
 namespace: BWMD-MID
 results:
   FP01 Open:
@@ -64,7 +64,7 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl'
+    comment: Version IRI 'https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl'
       is not in recommended format
     status: WARN
   FP05 Scope:
@@ -100,4 +100,4 @@ summary:
     ERROR: 6
     INFO: 1
     WARN: 1
-version: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl
+version: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl

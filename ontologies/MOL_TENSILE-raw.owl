@@ -14,7 +14,7 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://www.materials.fraunhofer.de/ontologies/MoL_TensileTest">
         <owl:versionIRI rdf:resource="https://gitlab.cc-asp.fraunhofer.de/hart/matolab_mechanik/-/raw/master/mol_tt.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
         <rdfs:comment xml:lang="en">This ontology was created by: Team Mechanik - Mat-O-Lab Materials &lt;d74c5619.fraunhofer.onmicrosoft.com@emea.teams.ms&gt;</rdfs:comment>
     </owl:Ontology>
     

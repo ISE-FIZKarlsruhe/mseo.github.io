@@ -214,8 +214,8 @@ valid_imports,https://big-map.github.io/BattINFO/ontology/electrochemistry/0.3.0
 valid_imports,https://big-map.github.io/BattINFO/ontology/electrochemistry/0.3.0/electrochemistry/electrochemistry.ttl,list_value
 valid_imports,https://big-map.github.io/BattINFO/ontology/emmo/1.0.0-beta3/generic-concepts/generic-concepts.ttl,list_value
 valid_imports,https://raw.githubusercontent.com/BIG-MAP/BattINFO/master/battinfo.ttl,list_value
-valid_imports,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/GPO.ttl,list_value
+valid_imports,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/GPO.ttl,list_value
 valid_imports,https://raw.githubusercontent.com/emmo-repo/EMMO/1.0.0-beta3/emmo.ttl,list_value
 valid_imports,https://raw.githubusercontent.com/emmo-repo/emmo-repo.github.io/master/versions/1.0.0-beta3/emmo-reference-inferred.ttl,list_value
 valid_imports_incl,https://raw.githubusercontent.com/BIG-MAP/BattINFO/master/battinfo.ttl,list_value
-valid_imports_incl,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/GPO.ttl,list_value
+valid_imports_incl,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/GPO.ttl,list_value

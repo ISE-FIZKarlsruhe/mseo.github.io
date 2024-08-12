@@ -39,7 +39,7 @@ metrics:
     rdfs: 25
     skos: 22
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/cdco.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/cdco.owl
 namespace: CDCO
 results:
   FP01 Open:

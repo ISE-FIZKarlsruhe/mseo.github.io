@@ -57,7 +57,7 @@ metrics:
     rdfs: 54
     xsd: 97
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MAMBO.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MAMBO.owl
 namespace: MAMBO
 results:
   FP01 Open:

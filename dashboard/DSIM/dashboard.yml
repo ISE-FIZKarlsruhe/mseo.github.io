@@ -59,7 +59,7 @@ metrics:
     skos: 8
     xsd: 40
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/DSIM.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/DSIM.owl
 namespace: DSIM
 results:
   FP01 Open:

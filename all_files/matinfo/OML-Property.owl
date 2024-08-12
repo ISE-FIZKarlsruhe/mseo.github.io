@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:unitd="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#"
+    xmlns:unitd="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#"
-  xml:base="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl">
+    xmlns="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#"
+  xml:base="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl">
   <owl:Ontology rdf:about="">
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl"/>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     ></owl:versionInfo>
   </owl:Ontology>
@@ -559,14 +559,14 @@
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="UnitSystem">
     <rdfs:domain rdf:resource="#Property"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitSystem"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitSystem"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="TestTemperature">
     <rdfs:range rdf:resource="#Temperature"/>
     <rdfs:domain rdf:resource="#Creep"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="UnitDimension">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitDimension"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitDimension"/>
     <rdfs:domain rdf:resource="#Property"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="TimeToReachTotalStrain5.0">
@@ -645,7 +645,7 @@
   <SpontaneousMagnetization rdf:ID="spontaneous_magnetization">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >A / m</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
   </SpontaneousMagnetization>
   <HallCoefficient rdf:ID="hall_coefficient">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -656,7 +656,7 @@
     >Pa</rdfs:comment>
   </C22>
   <MassMagneticSusceptibility rdf:ID="mass_magnetic_susceptibility">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#specific_volume"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#specific_volume"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >m3 / kg</rdfs:comment>
   </MassMagneticSusceptibility>
@@ -680,7 +680,7 @@
   <MeltingTemperature rdf:ID="melting_temperature">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
   </MeltingTemperature>
   <C23 rdf:ID="c23">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -717,7 +717,7 @@
   </C44>
   <MeanValence rdf:ID="mean_valence"/>
   <ElectricStrengthOfDielectric rdf:ID="electric_strength_of_dielectric">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#electric_field_strength"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#electric_field_strength"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >V / m</rdfs:comment>
   </ElectricStrengthOfDielectric>
@@ -729,7 +729,7 @@
   <TemperaturesForPhaseTransition rdf:ID="temperatures_for_phase_transition">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
   </TemperaturesForPhaseTransition>
   <SuperconductingTransitionTemperature rdf:ID="superconducting_transition_temperature">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -744,7 +744,7 @@
     >Pa</rdfs:comment>
   </C14>
   <LongitudinalSoundVelocity rdf:ID="longitudinal_sound_velocity">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#speed"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#speed"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >m / s</rdfs:comment>
   </LongitudinalSoundVelocity>
@@ -774,7 +774,7 @@
     >T</rdfs:comment>
   </UpperCriticalMagneticFieldStrength>
   <PhaseTransitionAtLowTemperature rdf:ID="phase_transition_at_low_temperature">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
   </PhaseTransitionAtLowTemperature>
@@ -824,17 +824,17 @@
   <OpticalAbsorptionCoefficient rdf:ID="optical_absorption_coefficient">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >1 / m</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#wave_number"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#wave_number"/>
   </OpticalAbsorptionCoefficient>
   <PhaseTransitionAtHighTemperature rdf:ID="phase_transition_at_high_temperature">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
   </PhaseTransitionAtHighTemperature>
   <MagneticAnisotropyField rdf:ID="magnetic_anisotropy_field">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >T</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_flux_density"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_flux_density"/>
   </MagneticAnisotropyField>
   <CoherenceLength rdf:ID="coherence_length">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
@@ -857,21 +857,21 @@
     >1 / K</rdfs:comment>
   </VolumeThermalExpansionCoefficient_D>
   <SoundVelocity rdf:ID="sound_velocity">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#speed"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#speed"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >m / s</rdfs:comment>
   </SoundVelocity>
   <CriticalTemperatureForMagneticTransition rdf:ID="critical_temperature_for_magnetic_transition">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
   </CriticalTemperatureForMagneticTransition>
   <ThermoelectricPower rdf:ID="thermoelectric_power">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >V / K</rdfs:comment>
   </ThermoelectricPower>
   <PeritecticTemperature rdf:ID="peritectic_temperature">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
   </PeritecticTemperature>
@@ -881,7 +881,7 @@
   </VolumeCompressibility>
   <SaturationMagneticMoment rdf:ID="saturation_magnetic_moment"/>
   <TransverseSoundVelocity rdf:ID="transverse_sound_velocity">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#speed"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#speed"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >m / s</rdfs:comment>
   </TransverseSoundVelocity>
@@ -905,7 +905,7 @@
   <VolumeMagnetization rdf:ID="volume_magnetization">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >A / m</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
   </VolumeMagnetization>
   <ImaginaryPartOfPermittivity rdf:ID="imaginary_part_of_permittivity"/>
   <ShearModulus rdf:ID="shear_modulus">
@@ -935,7 +935,7 @@
     >W m</rdfs:comment>
   </ElectricalResistivity>
   <NeelTemperature rdf:ID="neel_temperature">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
   </NeelTemperature>
@@ -960,7 +960,7 @@
   <CriticalFieldForMagneticTransition rdf:ID="critical_field_for_magnetic_transition">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >A / m</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
   </CriticalFieldForMagneticTransition>
   <HallMobility rdf:ID="hall_mobility"/>
   <PhaseTransitionAtHighPressure rdf:ID="phase_transition_at_high_pressure">
@@ -999,7 +999,7 @@
     >1 / Pa</rdfs:comment>
   </LinearCompressibility>
   <HeatCapacityDiscontinuityAtPhaseTransition rdf:ID="heat_capacity_discontinuity_at_phase_transition">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#heat_capacity"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#heat_capacity"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >J / K mol</rdfs:comment>
   </HeatCapacityDiscontinuityAtPhaseTransition>
@@ -1021,7 +1021,7 @@
     ></rdfs:comment>
   </rdf:Description>
   <CurieTemperature rdf:ID="curie_temperature">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
   </CurieTemperature>
@@ -1050,11 +1050,11 @@
   <SaturationVolumeMagnetization rdf:ID="saturation_volume_magnetization">
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >A / m</rdfs:comment>
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#magnetic_field_strength"/>
   </SaturationVolumeMagnetization>
   <ElectronDensityOfStatesAtFermiLevelPerSpin rdf:ID="electron_density_of_states_at_fermi_level_per_spin"/>
   <ParamagneticCurieTemperature rdf:ID="paramagnetic_curie_temperature">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#thermodynamic_temperature"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >K</rdfs:comment>
   </ParamagneticCurieTemperature>
@@ -1071,7 +1071,7 @@
     >J / K mol</rdfs:comment>
   </MolarEntropy>
   <Density rdf:ID="density">
-    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#linear_mass_density"/>
+    <UnitSystem rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/NEDO-UnitDimensions.owl#linear_mass_density"/>
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >kg / m3</rdfs:comment>
   </Density>

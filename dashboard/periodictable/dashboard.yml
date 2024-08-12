@@ -46,7 +46,7 @@ metrics:
     rdfs: 6
     xsd: 739
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/periodictable.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/periodictable.owl
 namespace: periodictable
 results:
   FP01 Open:

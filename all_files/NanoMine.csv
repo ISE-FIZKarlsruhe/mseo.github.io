@@ -230,7 +230,7 @@ undecl_entity_count,2072,single_value
 undecl_entity_count_incl,2072,single_value
 valid_imports,http://purl.org/ontology/bibo/,list_value
 valid_imports,https://raw.githubusercontent.com/MaastrichtU-IDS/semanticscience/a691e98d8423457e69353ec6d5c120df20eded7a/ontology/sio/release/sio-subset-dash_labels.owl,list_value
-valid_imports,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/nschema.ttl,list_value
+valid_imports,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/nschema.ttl,list_value
 valid_imports_incl,http://purl.org/ontology/bibo/,list_value
 valid_imports_incl,https://raw.githubusercontent.com/MaastrichtU-IDS/semanticscience/a691e98d8423457e69353ec6d5c120df20eded7a/ontology/sio/release/sio-subset-dash_labels.owl,list_value
-valid_imports_incl,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/nschema.ttl,list_value
+valid_imports_incl,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/nschema.ttl,list_value

@@ -47,7 +47,7 @@ metrics:
     skos: 158
     xsd: 170
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/DEB.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/DEB.owl
 namespace: DEB
 results:
   FP01 Open:

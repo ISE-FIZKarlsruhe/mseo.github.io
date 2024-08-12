@@ -66,7 +66,7 @@ metrics:
     rdfs: 2336
     xsd: 9
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/CCO.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/CCO.ttl
 namespace: CCO
 results:
   FP01 Open:

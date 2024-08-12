@@ -13,7 +13,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid">
-        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
+        <owl:versionIRI rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <mid:BWMD_00834 xml:lang="en">Christoph Schweizer (Fraunhofer IWM)</mid:BWMD_00834>
         <rdfs:comment xml:lang="en">This is the mid-level module of the BWMD_ontology.</rdfs:comment>

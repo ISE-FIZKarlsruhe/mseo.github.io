@@ -44,7 +44,7 @@ metrics:
     prov: 22
     rdfs: 32
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/P-Plan.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/P-Plan.owl
 namespace: P-Plan
 results:
   FP01 Open:

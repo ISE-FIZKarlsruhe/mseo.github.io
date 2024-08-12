@@ -70,6 +70,6 @@ metrics:
     rdfs: 1292
     skos: 1204
     xsd: 942
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/vimmp.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/vimmp.owl
 namespace: vimmp
 sha256_hash: d22a014085312695ca78f0d46351650aeecb52cc724ed71f53eabd58752ff260

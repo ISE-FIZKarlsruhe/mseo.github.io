@@ -11,7 +11,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://emmo.info/datamodel/metamodel">
         <owl:versionIRI rdf:resource="http://emmo.info/datamodel/0.0.2/metamodel"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/emmo_datamodel_entity.ttl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/emmo_datamodel_entity.ttl"/>
         <dcterms:abstract xml:lang="en">A metamodel extension of the simple SOFT7 datamodel for entities.</dcterms:abstract>
         <dcterms:creator xml:lang="en">Jesper Friis, SINTEF</dcterms:creator>
         <dcterms:creator xml:lang="en">Thomas Hagelien, SINTEF</dcterms:creator>

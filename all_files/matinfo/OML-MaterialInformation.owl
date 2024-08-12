@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:process="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#"
+    xmlns:process="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#"
     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-    xmlns="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#"
-    xmlns:substance="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#"
+    xmlns="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#"
+    xmlns:substance="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:environment="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#"
+    xmlns:environment="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:geometry="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Geometry.owl#"
-  xml:base="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl">
+    xmlns:geometry="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Geometry.owl#"
+  xml:base="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl">
   <owl:Ontology rdf:about="">
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Geometry.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Geometry.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl"/>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     ></owl:versionInfo>
   </owl:Ontology>
@@ -31,33 +31,33 @@
   </owl:Class>
   <owl:ObjectProperty rdf:ID="ChemicalComposition">
     <rdfs:domain rdf:resource="#EngineeringMaterial"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Atom"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Atom"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="ManufacturingCondition">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#ManufacturingProcess"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#ManufacturingProcess"/>
     <rdfs:domain rdf:resource="#EngineeringMaterial"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Property">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Property"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Property"/>
     <rdfs:domain rdf:resource="#MaterialProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="MeasurementMethod">
     <rdfs:domain rdf:resource="#MaterialProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Environment">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#Environment"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#Environment"/>
     <rdfs:domain rdf:resource="#MaterialProperty"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="SubstanceClass">
     <rdfs:domain rdf:resource="#EngineeringMaterial"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Substance"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Substance"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Specimen">
     <rdfs:domain rdf:resource="#MaterialProperty"/>
     <rdfs:range rdf:resource="#EngineeringMaterial"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Equation">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Equation"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Equation"/>
     <rdfs:domain rdf:resource="#MaterialProperty"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:ID="Application">

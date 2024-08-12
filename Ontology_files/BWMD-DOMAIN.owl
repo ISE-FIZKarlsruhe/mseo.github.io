@@ -14,7 +14,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain">
         <owl:versionIRI rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/master/BWMD_domain.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
         <mid:BWMD_00834 xml:lang="en">Christoph Schweizer (Fraunhofer IWM)</mid:BWMD_00834>
         <mid:BWMD_00835 xml:lang="en">Philipp von Hartrott (Fraunhofer IWM)</mid:BWMD_00835>
         <rdfs:comment xml:lang="de">1. Kontakt:

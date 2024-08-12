@@ -75,7 +75,7 @@ metrics:
     skos: 645
     xsd: 34
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_mappings.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_mappings.ttl
 namespace: EMMO_mappings
 results:
   FP01 Open:

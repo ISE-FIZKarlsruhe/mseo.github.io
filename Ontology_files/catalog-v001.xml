@@ -41,14 +41,14 @@
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://purl.vimmp.eu/semantics/combined/combined-vimmp-ontologies.ttl" uri="vimmp.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://purls.helmholtz-metadaten.de/disos/cso" uri="CSO.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://purls.helmholtz-metadaten.de/disos/sim" uri="DSIM.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl" uri="matinfo/OML-Environment.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Geometry.owl" uri="matinfo/OML-Geometry.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl" uri="matinfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl" uri="matinfo/OML-Process.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl" uri="matinfo/OML-Property.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl" uri="matinfo/OML-Substance.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl" uri="matinfo/OML-UnitDimension.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/PhysicalConstant.owl" uri="matinfo/PhysicalConstant.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl" uri="matinfo/OML-Environment.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Geometry.owl" uri="matinfo/OML-Geometry.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl" uri="matinfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl" uri="matinfo/OML-Process.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl" uri="matinfo/OML-Property.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl" uri="matinfo/OML-Substance.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl" uri="matinfo/OML-UnitDimension.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/PhysicalConstant.owl" uri="matinfo/PhysicalConstant.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://www.emi.fraunhofer.de/ontologies/LPBFO" uri="LPBFO.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="duplicate:https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain" uri="BWMD-DOMAIN.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="duplicate:https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/domain" uri="BWMD_domain.owl"/>
@@ -56,6 +56,6 @@
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="duplicate:https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid" uri="BWMD_mid.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://www.materials.fraunhofer.de/ontologies/MoL_TensileTest" uri="MOL_TENSILE.owl"/>
         <uri id="Automatically generated entry, Timestamp=1718797626140" name="https://www.niso.org/standards-committees/ssos/ssos01.owl" uri="ssos.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1718797626140" name="shadowed:https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl" uri="matinfo/OML-MaterialInformation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1718797626140" name="shadowed:https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl" uri="matinfo/OML-MaterialInformation.owl"/>
     </group>
 </catalog>

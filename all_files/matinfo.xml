@@ -92,7 +92,7 @@
 <Averagenumberofpaths>303.0</Averagenumberofpaths>
 </Graphmetrics>
 <ClassMetrics>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Atom">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Atom">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -103,7 +103,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#ManufacturingProcess">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#ManufacturingProcess">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -114,7 +114,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Equation">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Equation">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -125,7 +125,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#Environment">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#Environment">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -136,7 +136,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#MaterialProperty">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#MaterialProperty">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -147,7 +147,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Property">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Property">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -158,7 +158,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#InformationSource">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#InformationSource">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -169,7 +169,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#MaterialInformation">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#MaterialInformation">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -180,7 +180,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#EngineeringMaterial">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-MaterialInformation.owl#EngineeringMaterial">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>
@@ -191,7 +191,7 @@
 <Classinstancescount>0</Classinstancescount>
 <Classpropertiescount>0</Classpropertiescount>
 </Class>
-<Class iri="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Substance">
+<Class iri="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Substance">
 <Classconnectivity>0</Classconnectivity>
 <Classfulness>0.0</Classfulness>
 <Classimportance>0.0</Classimportance>

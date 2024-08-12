@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:unitd="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#"
+    xmlns:unitd="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#"
     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#"
+    xmlns="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:property="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#"
-  xml:base="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl">
+    xmlns:property="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#"
+  xml:base="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl">
   <owl:Ontology rdf:about="">
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     ></owl:versionInfo>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl"/>
   </owl:Ontology>
   <owl:Class rdf:ID="Current">
     <rdfs:subClassOf>
@@ -93,20 +93,20 @@
     <rdfs:subClassOf rdf:resource="#Environment"/>
   </owl:Class>
   <owl:ObjectProperty rdf:ID="UnitDimension">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitDimension"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitDimension"/>
     <rdfs:domain rdf:resource="#Environment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Pressure">
     <rdfs:domain rdf:resource="#EnvironmentalPressure"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Pressure"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Pressure"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Temperature">
     <rdfs:domain rdf:resource="#EnvironmentalTemperature"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="UnitSystem">
     <rdfs:domain rdf:resource="#Environment"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitSystem"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-UnitDimension.owl#UnitSystem"/>
   </owl:ObjectProperty>
   <owl:DatatypeProperty rdf:ID="typeOfLiquid">
     <rdfs:range>

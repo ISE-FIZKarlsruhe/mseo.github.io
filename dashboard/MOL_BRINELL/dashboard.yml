@@ -40,7 +40,7 @@ metrics:
     rdfs: 192
     xsd: 1618
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/MOL_BRINELL.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MOL_BRINELL.ttl
 namespace: MOL_BRINELL
 results:
   FP01 Open:

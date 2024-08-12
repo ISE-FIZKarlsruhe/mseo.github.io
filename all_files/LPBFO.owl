@@ -14,7 +14,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://www.emi.fraunhofer.de/ontologies/LPBFO">
         <owl:versionIRI rdf:resource="https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/LPBFO/-/raw/master/LPBFO.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl"/>
         <mid:BWMD_00834 xml:lang="en">Martin Jäcklein (Fraunhofer EMI)</mid:BWMD_00834>
         <obo:IAO_0000232 xml:lang="en">v1.1.9 (2022-09-20): Added &quot;hasEnvironmentalImpact&quot; for carbon footprint labelling. Deleted &quot;hasQuality&quot; in LPBFO since appearance in BWMD_mid.
 v1.1.8 (2022-09-06): Added &quot;CO2Emission&quot; for carbon footprint labelling.

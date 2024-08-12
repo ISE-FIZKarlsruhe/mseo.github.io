@@ -10,7 +10,7 @@
 
 <http://emmo.info/datamodel/collection> rdf:type owl:Ontology ;
                                          owl:versionIRI <http://emmo.info/datamodel/0.0.2/collection> ;
-                                         owl:imports <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/transaction.ttl> ;
+                                         owl:imports <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/transaction.ttl> ;
                                          dcterms:abstract "An extension of the metamodel adding collections."@en ;
                                          dcterms:creator "Jesper Friis, SINTEF"@en ,
                                                          "Thomas Hagelien, SINTEF"@en ;

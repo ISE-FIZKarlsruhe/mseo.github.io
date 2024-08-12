@@ -70,7 +70,7 @@ metrics:
   - mwo
   - nfdicore
   - opmw
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/FOAF.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/FOAF.owl
 namespace: FOAF
 results:
   FP01 Open:

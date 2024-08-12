@@ -62,7 +62,7 @@ metrics:
     prefix_unknown: 1477
     rdfs: 780
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/SP.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/SP.owl
 namespace: SP
 results:
   FP01 Open:

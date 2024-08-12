@@ -30,7 +30,7 @@ for index, row in df_all.iterrows():
         if not os.path.isfile('all_files/' +  filename):
             urllib.request.urlretrieve(url, 'all_files/' +  filename)
 
-        command = f"docker run -v C:/Users/eno/Documents/Git_repo/ebrahimnorouzi_github/mseo.github.io/all_files:/work --rm -ti obolibrary/robot robot measure --input /work/{filename} --metrics all --output /work/{namespace}.csv"
+        command = f"docker run -v C:/Users/eno/Documents/Git_repo/ISE-FIZKarlsruhe_github/mseo.github.io/all_files:/work --rm -ti obolibrary/robot robot measure --input /work/{filename} --metrics all --output /work/{namespace}.csv"
 
 
         if not os.path.isfile('all_files/' +  namespace + '.csv'):

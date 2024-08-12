@@ -53,7 +53,7 @@ metrics:
     rdfs: 89
     xsd: 8
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/AMONTOLOGY.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/AMONTOLOGY.owl
 namespace: AMONTOLOGY
 results:
   FP01 Open:

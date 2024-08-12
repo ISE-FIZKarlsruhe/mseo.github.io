@@ -7,7 +7,7 @@
 @base <https://w3id.org/digitalconstruction/Variables> .
 
 <https://w3id.org/digitalconstruction/Variables> rdf:type owl:Ontology ;
-                                                  owl:imports <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/bmo_contexts.ttl> ;
+                                                  owl:imports <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/bmo_contexts.ttl> ;
                                                   <http://purl.org/dc/elements/1.1/creator> "Seppo Törmä" ;
                                                   <http://purl.org/dc/elements/1.1/date> "2020-03-09" ;
                                                   <http://purl.org/dc/elements/1.1/title> "Digital Construction Variables" ;

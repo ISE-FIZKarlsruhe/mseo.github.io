@@ -171,5 +171,5 @@ tboxrbox_axiom_count_incl,877,single_value
 undecl_entity_count,404,single_value
 undecl_entity_count_incl,404,single_value
 valid_imports,http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl,list_value
-valid_imports,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl,list_value
-valid_imports_incl,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl,list_value
+valid_imports,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl,list_value
+valid_imports_incl,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl,list_value

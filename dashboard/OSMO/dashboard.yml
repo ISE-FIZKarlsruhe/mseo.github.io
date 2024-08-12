@@ -68,7 +68,7 @@ metrics:
     skos: 100
     xsd: 120
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OSMO.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OSMO.ttl
 namespace: OSMO
 results:
   FP01 Open:

@@ -62,7 +62,7 @@ metrics:
     rdfs: 187
     xsd: 4
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/tribAin.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/tribAin.ttl
 namespace: tribAIn
 results:
   FP01 Open:

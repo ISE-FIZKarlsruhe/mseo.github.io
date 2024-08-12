@@ -55,4 +55,4 @@ for index, row in df_all.iterrows():
 
 df_all.to_csv("output2_mse.csv")
 
-#docker run -v C:/Users/eno/Documents/Git_repo/ebrahimnorouzi_github/mseo.github.io/all_files:/work --rm -ti obolibrary/robot robot measure --input /work/bmo.ttl --output /work/bmo.csv
+#docker run -v C:/Users/eno/Documents/Git_repo/ISE-FIZKarlsruhe_github/mseo.github.io/all_files:/work --rm -ti obolibrary/robot robot measure --input /work/bmo.ttl --output /work/bmo.csv

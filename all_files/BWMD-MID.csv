@@ -182,7 +182,7 @@ obj_property_count,27,single_value
 obj_property_count_incl,27,single_value
 ontology_anno_count,10,single_value
 ontology_iri,https://www.materials.fraunhofer.de/ontologies/BWMD_ontology/mid,single_value
-ontology_version_iri,https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/BWMD_mid.owl,single_value
+ontology_version_iri,https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl,single_value
 owl2,true,single_value
 owl2_dl,true,single_value
 owl2_el,false,single_value

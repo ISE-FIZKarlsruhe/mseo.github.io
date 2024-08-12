@@ -59,7 +59,7 @@ metrics:
   - SEMMD
   - SP
   - UO
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/OBO.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OBO.ttl
 namespace: OBO
 results:
   FP01 Open:

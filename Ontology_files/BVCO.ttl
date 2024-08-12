@@ -13,8 +13,8 @@
 @base <https://bvco.ontology.link> .
 
 <https://bvco.ontology.link> rdf:type owl:Ontology ;
-                              owl:imports <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/GPO.ttl> ,
-                                          <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/battinfo.ttl> ;
+                              owl:imports <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/GPO.ttl> ,
+                                          <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/battinfo.ttl> ;
                               terms:abstract "Ontology  to model processes along the Battery value chain"@en ;
                               terms:creator "Lukas Gold <lukas.gold@isc.fraunhofer.de>"@en ,
                                             "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ;

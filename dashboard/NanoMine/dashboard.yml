@@ -71,7 +71,7 @@ metrics:
     skos: 320
     xsd: 16
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/nanomine.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/nanomine.ttl
 namespace: NanoMine
 results:
   FP01 Open:

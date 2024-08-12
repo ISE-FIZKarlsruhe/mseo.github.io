@@ -43,7 +43,7 @@ metrics:
     prefix_unknown: 2564
     rdfs: 646
   'Info: Which ontologies use it?': []
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EXPO.owl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EXPO.owl
 namespace: EXPO
 results:
   FP01 Open:

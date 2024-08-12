@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#"
+    xmlns="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl#"
     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-    xmlns:substance="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#"
+    xmlns:substance="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:environment="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#"
+    xmlns:environment="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:property="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#"
-  xml:base="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl">
+    xmlns:property="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#"
+  xml:base="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Process.owl">
   <owl:Ontology rdf:about="">
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl"/>
-    <owl:imports rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl"/>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     ></owl:versionInfo>
   </owl:Ontology>
@@ -30,12 +30,12 @@
     <rdfs:subClassOf rdf:resource="#ManufacturingProcess"/>
   </owl:Class>
   <owl:ObjectProperty rdf:ID="EndingTemperature">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
     <rdfs:domain rdf:resource="#HeatTreatment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="RawMaterial">
     <rdfs:domain rdf:resource="#ManufacturingProcess"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Atom"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Substance.owl#Atom"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Environment">
     <rdfs:domain>
@@ -46,18 +46,18 @@
         </owl:unionOf>
       </owl:Class>
     </rdfs:domain>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#Environment"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Environment.owl#Environment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="Pre-HeatingTemperature">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
     <rdfs:domain rdf:resource="#Welding"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="HoldingTime">
     <rdfs:domain rdf:resource="#HeatTreatment"/>
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Time"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Time"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="ProcessingTemperature">
-    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
+    <rdfs:range rdf:resource="https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/matinfo/OML-Property.owl#Temperature"/>
     <rdfs:domain rdf:resource="#HeatTreatment"/>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="HeatTreatmentProcess">

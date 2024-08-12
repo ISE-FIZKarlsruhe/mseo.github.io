@@ -1,6 +1,6 @@
 base_generated: true
 changed: true
 failure: failed_robot_base
-mirror_from: https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/EMMO_BVC.ttl
+mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/EMMO_BVC.ttl
 namespace: EMMO_BVC
 sha256_hash: fdb9e0b092b01e1b8a2d5f1ba68fcb83550bbfd3b4015ef28a317059119ff67e

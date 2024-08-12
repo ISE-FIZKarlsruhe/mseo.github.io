@@ -8,8 +8,8 @@
 
 <https://w3id.org/digitalconstruction/Entities> rdf:type owl:Ontology ;
                                                  owl:imports <https://raw.githubusercontent.com/BFO-ontology/BFO/master/bfo.owl> ,
-                                                             <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/bmo_contexts.ttl> ,
-                                                             <https://raw.githubusercontent.com/ebrahimnorouzi/mseo.github.io/master/Ontology_files/bmo_variables.ttl> ;
+                                                             <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/bmo_contexts.ttl> ,
+                                                             <https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/bmo_variables.ttl> ;
                                                  <http://purl.org/dc/elements/1.1/date> "2020-03-20" ;
                                                  <http://purl.org/dc/elements/1.1/title> "Digital Construction Entities" ;
                                                  <http://purl.org/dc/terms/created> "2020-01-12" ;
