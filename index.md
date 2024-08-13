@@ -1,6 +1,6 @@
 ## Welcome to the Ontology Evaluation Dashboard for Materials Science and Engineering
 
-#### [Link to the paper]([https://ISE-FIZKarlsruhe.github.io/mseo.github.io/dashboard/about.html](https://arxiv.org/abs/2408.06034))
+#### [Link to the paper](https://arxiv.org/abs/2408.06034)
 
 #### Contact person [Ebrahim Norouzi](https://www.fiz-karlsruhe.de/en/forschung/lebenslauf-und-publikationen-ebrahim-norouzi)
 
