@@ -3,7 +3,7 @@ base_prefixes:
 - saref
 - SAREFALT
 changed: true
-date: 2024-06-19 14:11:17.491054
+date: 2024-09-30 13:45:04.517673
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 264

@@ -3,17 +3,17 @@ base_prefixes:
 - OIEcharacterisation-methods
 - OIECHARACTERISATION-METHODSALT
 changed: true
-date: 2024-06-19 14:13:09.458607
+date: 2024-09-30 13:46:57.185257
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 6687
+    AnnotationAssertion: 6684
     AnnotationPropertyDomain: 2
     AnnotationPropertyRangeOf: 17
     AsymmetricObjectProperty: 22
-    ClassAssertion: 5
+    ClassAssertion: 6
     DataPropertyDomain: 5
     DataPropertyRange: 5
-    Declaration: 1954
+    Declaration: 1972
     DisjointClasses: 30
     DisjointObjectProperties: 12
     DisjointUnion: 79
@@ -22,25 +22,25 @@ metrics:
     InverseFunctionalObjectProperty: 2
     InverseObjectProperties: 9
     IrrefexiveObjectProperty: 35
-    ObjectPropertyDomain: 97
-    ObjectPropertyRange: 123
+    ObjectPropertyDomain: 104
+    ObjectPropertyRange: 129
     Rule: 12
     SubAnnotationPropertyOf: 35
-    SubClassOf: 2226
+    SubClassOf: 2227
     SubDataPropertyOf: 8
-    SubObjectPropertyOf: 235
+    SubObjectPropertyOf: 243
     SymmetricObjectProperty: 14
     TransitiveObjectProperty: 5
-  'Axioms: Number of axioms': 11901
+  'Axioms: Number of axioms': 11939
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 63
-  'Entities: Number of classes': 1691
+  'Entities: Number of annotation properties': 64
+  'Entities: Number of classes': 1693
   'Entities: Number of data properties': 10
-  'Entities: Number of individuals': 5
-  'Entities: Number of object properties': 201
+  'Entities: Number of individuals': 6
+  'Entities: Number of object properties': 209
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 7228
+    Class: 7248
     DataAllValuesFrom: 3
     DataExactCardinality: 2
     DataHasValue: 203
@@ -67,12 +67,12 @@ metrics:
   'Info: Syntax': Turtle
   'Info: Usage of namespaces in axioms':
     dc: 27
-    foaf: 9
-    owl: 25
-    prefix_unknown: 12559
+    foaf: 11
+    owl: 26
+    prefix_unknown: 12623
     rdf: 213
-    rdfs: 952
-    skos: 2318
+    rdfs: 947
+    skos: 2317
     xsd: 13
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
