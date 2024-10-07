@@ -187,7 +187,7 @@ metrics:
     ENVO: 6
     CARO: 2
     owl: 1006
-    xsd: 1122
+    xsd: 1130
     PATO: 8646
     skos: 3
     rdfs: 11989
@@ -204,7 +204,7 @@ metrics:
     CL: 5475
     NCBITaxon: 1062
     dc11: 49
-    rdf: 322
+    rdf: 313
     IAO: 10660
     RO: 13101
     obo: 2963
@@ -216,7 +216,7 @@ metrics:
     ENVO: 6
     CARO: 2
     owl: 1006
-    xsd: 1122
+    xsd: 1130
     PATO: 8646
     skos: 3
     rdfs: 11989
@@ -233,7 +233,7 @@ metrics:
     CL: 5475
     NCBITaxon: 1062
     dc11: 49
-    rdf: 322
+    rdf: 313
     IAO: 10660
     RO: 13101
     obo: 2963
