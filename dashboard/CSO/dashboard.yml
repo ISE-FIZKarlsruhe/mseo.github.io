@@ -3,7 +3,7 @@ base_prefixes:
 - CSO
 - CSOALT
 changed: true
-date: 2024-06-19 14:13:17.634035
+date: 2024-09-30 13:48:35.256647
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 154
