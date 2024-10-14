@@ -3,7 +3,7 @@ base_prefixes:
 - emmo
 - EMMOALT
 changed: true
-date: 2024-06-19 14:07:16.616103
+date: 2024-10-14 13:37:03.603710
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 4541

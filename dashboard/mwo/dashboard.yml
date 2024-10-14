@@ -3,7 +3,7 @@ base_prefixes:
 - mwo
 - MWOALT
 changed: true
-date: 2024-06-19 14:12:16.184824
+date: 2024-10-14 13:42:00.489419
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 557
