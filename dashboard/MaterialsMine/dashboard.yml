@@ -3,7 +3,7 @@ base_prefixes:
 - materialsmine
 - MATERIALSMINEALT
 changed: true
-date: 2024-06-19 14:10:41.829245
+date: 2024-10-21 13:42:09.578034
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 159

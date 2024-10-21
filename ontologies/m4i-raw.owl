@@ -2,6 +2,7 @@
 @prefix m4i:     <http://w3id.org/nfdi4ing/metadata4ing#> .
 @prefix bibo:    <http://purl.org/ontology/bibo/> .
 @prefix biro:    <http://purl.org/spar/biro/> .
+@prefix cr:      <http://mlcommons.org/croissant/> .
 @prefix dcat:    <http://www.w3.org/ns/dcat#> .
 @prefix dcc:     <https://ptb.de/dcc/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -16,6 +17,7 @@
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema:  <https://schema.org/> .
 @prefix si:      <https://ptb.de/si/> .
+@prefix sio:     <http://semanticscience.org/resource/> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix ssn:     <http://www.w3.org/ns/ssn/> .
 @prefix vann:    <http://purl.org/vocab/vann/> .
@@ -24,56 +26,47 @@
 @base            <http://w3id.org/nfdi4ing/metadata4ing#> .
 
 <http://w3id.org/nfdi4ing/metadata4ing#> rdf:type owl:Ontology ;
-                                         rdfs:label    "Metadata4Ing" ;
-                                         dcterms:title "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
-                                         vann:preferredNamespacePrefix "m4i" ;
-                                         vann:preferredNamespaceUri    "http://w3id.org/nfdi4ing/metadata4ing#" ;
-                                         owl:versionIRI   <http://w3id.org/nfdi4ing/metadata4ing/1.2.1> ;
-                                         dcterms:replaces <http://w3id.org/nfdi4ing/metadata4ing/1.2.0> ;
-                                         owl:versionInfo  "v1.2.1" ;
-                                         bibo:status      "active"@en ;
-                                         dcterms:created  "2022-02-22" ;
-                                         dcterms:issued   "2022-02-22" ;
-                                         dcterms:modified "2023-10-20" ;
-                                         foaf:depiction   <https://www.leonvanwissen.nl/vocab/roar/docs/resources/roar-graph.svg> ;
-                                         foaf:logo        <https://raw.githubusercontent.com/TEC-Toolkit/ECFO/21b4380e1f84f85f7cbc59f724157498e9d72094/Logo%20ECFO.svg> ;
-                                         foaf:logo        <https://www.leonvanwissen.nl/vocab/roar/docs/resources/roar-logo.png> ;
-                                         schema:image     <https://raw.githubusercontent.com/TEC-Toolkit/ECFO/21b4380e1f84f85f7cbc59f724157498e9d72094/Logo%20ECFO.svg> ;
-                                         schema:logo      <https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/-/raw/develop/visualizations/Logo.png> ;
-                                         schema:logo      <https://raw.githubusercontent.com/TEC-Toolkit/ECFO/21b4380e1f84f85f7cbc59f724157498e9d72094/Logo%20ECFO.svg> ;
-                                         dcterms:abstract "The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance." ;
-                                         schema:citation  "Metadata4Ing Workgroup (2022). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
-                                         bibo:doi         <https://doi.org/10.5281/zenodo.5957104> ;
-                                         dcterms:license  <https://creativecommons.org/licenses/by/4.0/> ;
-                                         dcterms:rights   <https://creativecommons.org/licenses/by/4.0/> ;
-                                         dcterms:source <https://doi.org/10.52825/CoRDI.v1i.271> ,
-                                                        <https://doi.org/10.5281/zenodo.7362037> ,
-                                                        <https://nfdi4ing.de/wp-content/uploads/2019/10/Programmheft-NFDI4Ing-Community-Meeting.pdf#page=6> ;
-                                         dcterms:references <https://doi.org/10.14454/3w3z-sa82> , 
-                                                            <https://doi.org/10.5281/zenodo.3982367> ,
-                                                            <https://doi.org/10.5281/zenodo.3816686> ,
-                                                            <https://doi.org/10.52825/cordi.v1i.271> ,
-                                                            <https://doi.org/10.26083/tuprints-00024573> ,
-                                                            <https://doi.org/10.5281/zenodo.4846313> ,
-                                                            <https://doi.org/10.1504/IJMSO.2020.107792> ;
-                                         dcterms:publisher   "NFDI4Ing (https://www.nfdi4ing.de/)" ;
-                                         dcterms:creator     "Metadata4Ing Workgroup" ;
-                                         dcterms:contributor "Ashish Karmacharya (https://orcid.org/0000-0003-2822-7648), Technische Universität Darmstadt (https://ror.org/05n911h24, https://isni.org/isni/0000000109401669)" ,
-                                                             "Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62, https://isni.org/isni/0000000123222966)" ,
-                                                             "Cord Wiljes (https://orcid.org/0000-0003-2528-5391), Universität Bielefeld (https://ror.org/02hpadn98, https://isni.org/isni/0000000109449128)" ,
-                                                             "Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77, https://isni.org/isni/0000000419369713)" ,
-                                                             "Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66, https://isni.org/isni/0000000110900254)" ,
-                                                             "Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03, https://isni.org/isni/0000000121861887)" ,
-                                                             "Johanna Hickmann (https://orcid.org/0000-0002-7535-8344), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03, https://isni.org/isni/0000000121861887)" ,
-                                                             "Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16, https://isni.org/isni/0000000123369749)" ,
-                                                             "Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34, https://isni.org/isni/0000000121811804)" ,
-                                                             "Jürgen Windeck (https://orcid.org/0000-0003-1909-4353), Technische Universität Darmstadt (https://ror.org/05n911h24, https://isni.org/isni/0000000109401669)" ,
-                                                             "Martin Thomas Horsch (https://orcid.org/0000-0002-9464-6739), Norges miljø- og biovitenskapelige universitet (NMBU) (https://ror.org/04a1mvv97, https://isni.org/isni/000000040607975X)" ,
-                                                             "Nils Hoppe (https://orcid.org/0000-0003-0580-9717), Technische Universität München (TUM) (https://ror.org/02kkvpp62, https://isni.org/isni/0000000123222966)" ,
-                                                             "Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38, https://isni.org/isni/0000000121875445)" ,
-                                                             "Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16, https://isni.org/isni/0000000123369749)" ,
-                                                             "Susanne Arndt (https://orcid.org/0000-0002-1019-9151), Technische Informationsbibliothek (TIB) (https://ror.org/04aj4c181, https://isni.org/isni/0000000121746694)" ;
-                                         rdfs:comment """
+    rdfs:label    "Metadata4Ing" ;
+    dcterms:title "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
+    vann:preferredNamespacePrefix "m4i" ;
+    vann:preferredNamespaceUri    "http://w3id.org/nfdi4ing/metadata4ing#" ;
+    owl:versionIRI   <http://w3id.org/nfdi4ing/metadata4ing/1.3.0> ;
+    dcterms:replaces <http://w3id.org/nfdi4ing/metadata4ing/1.2.1> ;
+    owl:versionInfo  "v1.3.0" ;
+    bibo:status      "active"@en ;
+    dcterms:created  "2022-02-22" ;
+    dcterms:issued   "2022-02-22" ;
+    dcterms:modified "2024-09-20" ;
+    dcterms:abstract "The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance." ;
+    schema:citation  "Metadata4Ing Workgroup (2022). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
+    bibo:doi        <https://doi.org/10.5281/zenodo.5957104> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights  <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:source  <https://doi.org/10.52825/CoRDI.v1i.271> ,
+                    <https://doi.org/10.5281/zenodo.7362037> ,
+                    <https://nfdi4ing.de/wp-content/uploads/2019/10/Programmheft-NFDI4Ing-Community-Meeting.pdf#page=6> ;
+    dcterms:references <https://doi.org/10.14454/G8E5-6293> , 
+                       <https://doi.org/10.5281/zenodo.3982367> ,
+                       <https://doi.org/10.5281/zenodo.3816686> ,
+                       <https://doi.org/10.52825/cordi.v1i.271> ,
+                       <https://doi.org/10.26083/tuprints-00024573> ,
+                       <https://doi.org/10.5281/zenodo.4846313> ,
+                       <https://doi.org/10.1504/IJMSO.2020.107792> ;
+    dcterms:publisher "NFDI4Ing (https://www.nfdi4ing.de/)" ;
+    dcterms:creator   "Metadata4Ing Workgroup" ;
+    dcterms:contributor "Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77)" ,
+        "Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03)" ,
+        "Susanne Arndt (https://orcid.org/0000-0002-1019-9151), Technische Informationsbibliothek (TIB) (https://ror.org/04aj4c181)" ,
+        "Marc Fuhrmans (https://orcid.org/0000-0002-9826-018X), Technische Universität Darmstadt (https://ror.org/05n911h24)" ,
+        "Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66)" ,
+        "Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38)" ,
+        "Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34)" ,
+        "Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)" ,
+        "Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)" ,
+        "Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62)" ,
+        "Vasiliki Sdralia (https://orcid.org/0000-0002-7213-5110), Technische Universität München (TUM) (https://ror.org/02kkvpp62)" ,
+        "Alexander Wellmann (https://orcid.org/0000-0002-9033-5538), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)" ;
+    rdfs:comment """
 Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing. 
 New concepts and properties are located in the namespace of Metadata4Ing.
 Metadata4Ing does not import complete ontologies for the sake of relevance, readability, understandability and usability by and for engineers.
@@ -85,6 +78,7 @@ To get the original set of statements we encourage to visit the original namespa
 Metadata4Ing reuses elements from the following ontologies:
 - BIBO = Bibliographic Ontology  
 - BIRO = Bibliographic Reference Ontology  
+- CR = Croissant
 - DCAT = Data Catalog  
 - DCC = Digital Calibration Certificate  
 - DCTERMS = Dublin Core Terms  
@@ -101,6 +95,7 @@ Metadata4Ing reuses elements from the following ontologies:
 - RDFS = RDF Schema  
 - SCHEMA = schema.org  
 - D-SI = Digital System of Units  
+- SIO = Semanticscience Integrated Ontology  
 - SKOS = Simple Knowledge Organization System  
 - SSN = Semantic Sensor Network Ontology  
 - VANN = Vocabulary for Annotating vocabulary descriptions  
@@ -695,6 +690,41 @@ m4i:realizesMethod rdf:type owl:ObjectProperty ;
                    skos:prefLabel "realisiert Methode"@de ,
                                   "realizes method"@en .
 
+###  http://w3id.org/nfdi4ing/metadata4ing#realizesMethod
+m4i:representsVariable rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf sio:SIO_000210 ;
+                   rdfs:domain cr:Field ;
+                   rdfs:range m4i:Variable ;
+                   skos:definition "Points to a variable that is represented through a field within a recordset"@en ;
+                   skos:prefLabel "repräsentiert Variable"@de ,
+                                  "represents variable"@en .
+
+
+sio:SIO_000001 rdf:type owl:ObjectProperty ;
+                   skos:definition "A is related to B iff there is some relation between A and B."@en,
+		                   "A ist verwandt zu B wenn eine Beziehnung zwischen beiden besteht";
+                   skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels" ;
+                   skos:prefLabel "is related to"@en ,
+                                  "ist verwandt mit"@de .
+
+
+sio:SIO_000210 rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf sio:SIO_000628 ;
+                   skos:definition "A represents B when A serves as a sign, symbol or model of B."@en,
+		                   "A repräsentiert B wenn es als ein Zeichen, Symbol oder Modell von B dient";
+                   skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels" ;
+                   skos:prefLabel "repräsentiert"@de ,
+                                  "represents"@en .
+
+
+sio:SIO_000628 rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf sio:SIO_000001 ;
+                   skos:definition "refers to is a relation between one entity and the entity that it makes reference to."@en,
+		                   "bezieht sich auf ist eine Relation zwischen einer Entität und einer anderen Entität, auf die sie sich bezieht";
+                   skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels" ;
+                   skos:prefLabel "bezieht sich auf"@de ,
+                                  "refers to"@en .
+
 
 ###  http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor
 pims-ii:isAdmissibleUnitFor rdf:type owl:ObjectProperty ;
@@ -753,6 +783,31 @@ pims-ii:isVariableInAssignment rdf:type owl:ObjectProperty ;
                                skos:prefLabel "is variable in assignment"@en ,
                                               "ist Variable in Zuweisung"@de .
 
+cr:source rdf:type owl:ObjectProperty ;
+          skos:definition "The data source of the field. This will generally reference a FileObject or FileSet's contents (e.g., a specific column of a table)."@en ,
+                          "Die Datenquelle eines Feldes in einem Datensatz. Referenziert in der Regel ein cr:FileObject oder cr:FileSet"@de ;
+          skos:editorialNote "changed by m4i: added skos:prefLabel and skos:definition, added german labels, removed schema:rangeIncludes and schema:domainIncludes properties"@en ;
+          skos:prefLabel "source"@en ,
+                         "Quelle"@de .
+
+cr:field rdf:type owl:ObjectProperty ;
+         rdfs:domain cr:RecordSet ;
+         rdfs:range cr:Field ;
+         skos:definition "A data element that appears in the records of the RecordSet (e.g., one column of a table)."@en ,
+                         "Ein Datenelement, das in den Einträgen eines RecordSets erscheint (z.B. eine Spalte einer Tabelle)"@de ;
+         skos:editorialNote "changed by m4i: added skos:prefLabel and skos:definition, added german labels, removed schema:rangeIncludes and schema:domainIncludes properties"@en ;
+         skos:prefLabel "field"@en ,
+                        "hat Feld"@de .
+
+
+cr:containedIn a rdf:Property ;
+               skos:definition "Another FileObject or FileSet that this one is contained in, e.g., in the case of a file extracted from an archive. When this property is present, the contentUrl is evaluated as a relative path within the container object."@en,
+                               "Ein weiteres FileObject oder FileSet, in dem das aktuelle enthalten ist. Wenn diese Eigenschaft vorhanden ist, wird die contentUrl als relativer Pfad innerhalb des Container-Objektes interpretiert"@de;
+               skos:editorialNote "changed by m4i: added skos:prefLabel and skos:definition, added german labels, removed schema:rangeIncludes and schema:domainIncludes properties"@en ;
+               skos:prefLabel "containedIn"@en ,
+                              "enthalten in"@de .
+
+
 
 ###  http://www.w3.org/ns/dcat#compressFormat
 dcat:compressFormat rdf:type owl:ObjectProperty ;
@@ -760,9 +815,9 @@ dcat:compressFormat rdf:type owl:ObjectProperty ;
                     rdfs:isDefinedBy dcat: ;
                     skos:definition "The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file."@en ;
                     skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels, removed redundant notes, removed other languages than english in comment, label, changeNote and definition"@en ;
+                    skos:scopeNote "This property is to be used when the files in the distribution are compressed, e.g. in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available."@en ;
                     skos:prefLabel "Kompressionsformat"@de ,
-                                   "compression format"@en ;
-                    skos:scopeNote "This property is to be used when the files in the distribution are compressed, e.g. in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available."@en .
+                                   "compression format"@en .
 
 
 ###  http://www.w3.org/ns/dcat#distribution
@@ -782,9 +837,9 @@ dcat:downloadURL rdf:type owl:ObjectProperty ;
                  rdfs:isDefinedBy dcterms: ;
                  skos:definition "The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType."@en ;
                  skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels, removed redundant notes, removed other languages than english in comment, label, changeNote and definition"@en ;
+                 skos:scopeNote "dcat:downloadURL SHOULD be used for the address at which this distribution is available directly, typically through a HTTP Get request."@en ;
                  skos:prefLabel "Downloadlink"@de ,
-                                "download URL"@en ;
-                 skos:scopeNote "dcat:downloadURL SHOULD be used for the address at which this distribution is available directly, typically through a HTTP Get request."@en .
+                                "download URL"@en .
 
 
 ###  http://www.w3.org/ns/dcat#inSeries
@@ -806,9 +861,9 @@ dcat:mediaType rdf:type owl:ObjectProperty ;
                rdfs:isDefinedBy dcat: ;
                skos:definition "The media type of the distribution as defined by IANA."@en ;
                skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels, removed redundant notes, removed other languages than english in comment, label, changeNote and definition"@en ;
+               skos:scopeNote "This property SHOULD be used when the media type of the distribution is defined in the IANA media types registry https://www.iana.org/assignments/media-types/, otherwise dcterms:format MAY be used with different values."@en ;
                skos:prefLabel "Medientyp"@de ,
-                              "media type"@en ;
-               skos:scopeNote "This property SHOULD be used when the media type of the distribution is defined in the IANA media types registry https://www.iana.org/assignments/media-types/, otherwise dcterms:format MAY be used with different values."@en .
+                              "media type"@en .
 
 
 ###  http://www.w3.org/ns/dcat#packageFormat
@@ -817,9 +872,9 @@ dcat:packageFormat rdf:type owl:ObjectProperty ;
                    rdfs:isDefinedBy dcat: ;
                    skos:definition "The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together."@en ;
                    skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels, removed redundant notes, removed other languages than english in comment, label, changeNote and definition"@en ;
+                   skos:scopeNote "This property to be used when the files in the distribution are packaged, e.g. in a TAR file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available."@en ;
                    skos:prefLabel "Packformat"@de ,
-                                  "packaging format"@en ;
-                   skos:scopeNote "This property to be used when the files in the distribution are packaged, e.g. in a TAR file, a Frictionless Data Package or a Bagit file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available."@en .
+                                  "packaging format"@en .
 
 
 ###  http://www.w3.org/ns/prov#agent
@@ -836,12 +891,10 @@ prov:agent rdf:type owl:ObjectProperty ;
 prov:hadRole rdf:type owl:ObjectProperty ;
              owl:inverseOf prov:wasRoleIn ;
              rdfs:domain prov:Association ;
-             rdfs:label "had role"@en ,
-                        "hatte Rolle"@de ;
              skos:definition "prov:hadRole references the Role (i.e. the function of an entity with respect to an activity)"@en ;
-             skos:editorialNote "changed by m4i: added german label"@en ,
-                                "changed by m4i: simplified definition"@en ,
-                                "changed by m4i: simplified rdfs:domain to prov:Association"@en .
+             skos:editorialNote "changed by m4i: exchanged original rdfs:label by skos:prefLabel, added german label, simplified definition, simplified rdfs:domain to prov:Association"@en ;
+             skos:prefLabel "had role"@en ,
+                            "hatte Rolle"@de .
 
 
 ###  http://www.w3.org/ns/prov#qualifiedAssociation
@@ -861,9 +914,11 @@ prov:qualifiedAssociation rdf:type owl:ObjectProperty ;
         prov:agent   :SomePerson;
         prov:hadRole :SomeRole;
         rdfs:comment \":SomePerson had the :SomeRole in this :SomeProcess\"@en
-    ].
+    ] ; 
+                          skos:prefLabel "has qualified association"@en , 
+                                         "hat qualifizierte Beziehung"@de .
 
-The direct relation between an activity and an agent expressed with 'has participant' (http://purl.obolibrary.org/obo/RO_0000057 or http://www.w3.org/ns/prov#wasAssociatedWith) does not give details about the agent's role in that activity. Using the property prov:qualifiedAssociation one can point to a blank node (cf. https://en.wikipedia.org/w/index.php?title=Blank_node&oldid=1015446558) containing additional information about the participation relation.
+The direct relation between an activity and an agent expressed with 'has participant' (http://purl.obolibrary.org/obo/RO_0000057 or http://www.w3.org/ns/prov#wasAssociatedWith) does not give details about the agent's role in that activity. Using the property prov:qualifiedAssociation one can point to a blank node (cf. https://en.wikipedia.org/w/index.php?title=Blank_node) containing additional information about the participation relation.
 """@en ;
                           skos:note "In metadata4ing use obo:RO_0000057 or prov:wasAssociatedWith as unqualified form for the relation between an activity and an agent."@en ;
                           skos:prefLabel "näher beschriebene Verbindung"@de ,
@@ -896,10 +951,10 @@ prov:wasAssociatedWith rdf:type owl:ObjectProperty ;
 
 ###  http://www.w3.org/ns/prov#wasRoleIn
 prov:wasRoleIn rdf:type owl:ObjectProperty ;
-               rdfs:label "war Rolle in"@de ,
-                          "was role in"@en ;
                skos:definition "prov:wasRoleIn references the association (e.g. between an agent and an activity) in which a role shall be defined. Inverse property of prov:hadRole." ;
-               skos:editorialNote "changed by m4i: added german label, added skos:definition, harmonized spelling to OBO naming conventions (lower case, space separated)"@en .
+               skos:editorialNote "changed by m4i: exchanged original rdfs:label by skos:prefLabel, added german label, added skos:definition, harmonized spelling to OBO naming conventions (lower case, space separated)"@en ;
+               skos:prefLabel "war Rolle in"@de ,
+                              "was role in"@en .
 
 
 ###  http://www.w3.org/ns/ssn/hasProperty
@@ -1422,6 +1477,47 @@ schema:temporal rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
+
+###  http://mlcommons.org/croissant/Field
+cr:Field rdf:type owl:Class ;
+  rdfs:subClassOf schema:Intangible ;
+  skos:prefLabel "Field"@en,
+  		 "Feld"@de;
+  skos:definition "A component of the structure of a RecordSet, such as a column of a table."@en,
+  		  "Ein Bestandteil der Struktur eines RecordSets wie z.B. eine Spalte einer Tabelle"@de ;
+              skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel and skos:definition"@en .
+
+
+###  http://mlcommons.org/croissant/FileObject
+cr:FileObject rdf:type owl:Class ;
+              rdfs:subClassOf schema:CreativeWork ;
+              skos:definition "An individual file that is part of a dataset."@en ,
+                              "Eine Einzeldatei, die Teil eines Datensatzes ist."@de ;
+              skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel, harmonized spelling to OBO naming conventions (lower case, space separated)"@en ;
+              skos:prefLabel "file object"@en ,
+                             "Dateiobject"@de .
+
+
+###  http://mlcommons.org/croissant/FileSet
+cr:FileSet rdf:type owl:Class ;
+           rdfs:subClassOf schema:Intangible ;
+           skos:definition "A set of homogeneous files extracted from a container, optionally filtered by inclusion and/or exclusion filters."@en ,
+                           "Ein Satz homogener Dateien, die aus einem Container extrahiert wurden, optional gefiltert durch Einschluss- und/oder Ausschlussfilter."@de ;
+           skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel, harmonized spelling to OBO naming conventions (lower case, space separated)"@en ;
+           skos:prefLabel "file set"@en ,
+                          "Dateimenge"@de .
+			  
+###  http://mlcommons.org/croissant/RecordSet
+cr:RecordSet rdf:type owl:Class ;
+  	     rdfs:subClassOf schema:Intangible ;
+  	     skos:prefLabel "record set"@en,
+	     		    "Menge von Einträgen"@de;
+	     skos:definition "A description of a set of structured records from one or more data sources and their structure, expressed as a set of fields."@en,
+	     		     "Eine Beschreibung einer Menge strukturierter Einträge von einer oder mehrerer Datenquellen mit ihrer Struktur, ausgedrückt durch eine Menge von Feldern"@de;
+             skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel and skos:definition, harmonized spelling to OBO naming conventions (lower case, space separated)"@en .		     
+
+
+
 ###  http://purl.obolibrary.org/obo/BFO_0000015
 obo:BFO_0000015 rdf:type owl:Class ;
                 skos:closeMatch pims-ii:Process ;
@@ -1467,6 +1563,15 @@ qudt:Unit rdf:type owl:Class ;
           skos:editorialNote "changed by m4i: added skos:prefLabel, added German label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en ;
           skos:prefLabel "Einheit"@de ,
                          "unit"@en .
+
+
+###  http://schema.org/CreativeWork
+schema:CreativeWork rdf:type owl:Class .
+
+
+###  http://schema.org/Dataset
+schema:Dataset rdf:type owl:Class ;
+               owl:equivalentClass dcat:Dataset .
 
 
 ###  http://w3id.org/nfdi4ing/metadata4ing#Method
@@ -1638,7 +1743,7 @@ dcat:Distribution rdf:type owl:Class ;
                   skos:prefLabel "Verteilung"@de ,
                                  "distribution"@en .
 
-
+				 
 ###  http://www.w3.org/ns/prov#Activity
 prov:Activity rdf:type owl:Class ;
               rdfs:subClassOf obo:BFO_0000015 ;
@@ -1932,7 +2037,7 @@ m4i:Other rdf:type owl:NamedIndividual ,
                    prov:Role ;
           rdfs:seeAlso "https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/contributorType/#other"^^xsd:anyURI ;
           skos:definition "Any person or institution making a significant contribution to the development and/or maintenance of the resource, but whose contribution is notadequately described by any of the other values for contributorType"@en ;
-          skos:editorialNote "Label adjusted. Do we really need to define all these person roles in our ontology? (GIACOMO)" ;
+          skos:editorialNote "changed by m4i: added skos:prefLabel, added german label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en ;
           skos:prefLabel "other person"@en ,
                          "weitere Person"@de ;
           skos:scopeNote "Could be a photographer, artist, or writer whose contribution helped to publicize the resource (as opposed to creating it), a reviewer of the resource, someone providing administrative services to the author (such as depositing updates into an online repository, analysing usage, etc.), or one of many other roles."@en .
@@ -2069,4 +2174,4 @@ m4i:WorkPackageLeader rdf:type owl:NamedIndividual ,
                                      "work package leader"@en .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
