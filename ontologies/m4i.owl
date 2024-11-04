@@ -6,43 +6,39 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bibo="http://purl.org/ontology/bibo/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
     <owl:Ontology rdf:about="http://w3id.org/nfdi4ing/metadata4ing#">
-        <owl:versionIRI rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.2.1"/>
+        <owl:versionIRI rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.3.0"/>
         <terms:abstract>The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance.</terms:abstract>
-        <terms:contributor>Ashish Karmacharya (https://orcid.org/0000-0003-2822-7648), Technische Universität Darmstadt (https://ror.org/05n911h24, https://isni.org/isni/0000000109401669)</terms:contributor>
-        <terms:contributor>Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62, https://isni.org/isni/0000000123222966)</terms:contributor>
-        <terms:contributor>Cord Wiljes (https://orcid.org/0000-0003-2528-5391), Universität Bielefeld (https://ror.org/02hpadn98, https://isni.org/isni/0000000109449128)</terms:contributor>
-        <terms:contributor>Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77, https://isni.org/isni/0000000419369713)</terms:contributor>
-        <terms:contributor>Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66, https://isni.org/isni/0000000110900254)</terms:contributor>
-        <terms:contributor>Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03, https://isni.org/isni/0000000121861887)</terms:contributor>
-        <terms:contributor>Johanna Hickmann (https://orcid.org/0000-0002-7535-8344), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03, https://isni.org/isni/0000000121861887)</terms:contributor>
-        <terms:contributor>Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16, https://isni.org/isni/0000000123369749)</terms:contributor>
-        <terms:contributor>Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34, https://isni.org/isni/0000000121811804)</terms:contributor>
-        <terms:contributor>Jürgen Windeck (https://orcid.org/0000-0003-1909-4353), Technische Universität Darmstadt (https://ror.org/05n911h24, https://isni.org/isni/0000000109401669)</terms:contributor>
-        <terms:contributor>Martin Thomas Horsch (https://orcid.org/0000-0002-9464-6739), Norges miljø- og biovitenskapelige universitet (NMBU) (https://ror.org/04a1mvv97, https://isni.org/isni/000000040607975X)</terms:contributor>
-        <terms:contributor>Nils Hoppe (https://orcid.org/0000-0003-0580-9717), Technische Universität München (TUM) (https://ror.org/02kkvpp62, https://isni.org/isni/0000000123222966)</terms:contributor>
-        <terms:contributor>Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38, https://isni.org/isni/0000000121875445)</terms:contributor>
-        <terms:contributor>Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16, https://isni.org/isni/0000000123369749)</terms:contributor>
-        <terms:contributor>Susanne Arndt (https://orcid.org/0000-0002-1019-9151), Technische Informationsbibliothek (TIB) (https://ror.org/04aj4c181, https://isni.org/isni/0000000121746694)</terms:contributor>
+        <terms:contributor>Alexander Wellmann (https://orcid.org/0000-0002-9033-5538), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)</terms:contributor>
+        <terms:contributor>Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62)</terms:contributor>
+        <terms:contributor>Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77)</terms:contributor>
+        <terms:contributor>Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66)</terms:contributor>
+        <terms:contributor>Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03)</terms:contributor>
+        <terms:contributor>Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)</terms:contributor>
+        <terms:contributor>Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34)</terms:contributor>
+        <terms:contributor>Marc Fuhrmans (https://orcid.org/0000-0002-9826-018X), Technische Universität Darmstadt (https://ror.org/05n911h24)</terms:contributor>
+        <terms:contributor>Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38)</terms:contributor>
+        <terms:contributor>Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)</terms:contributor>
+        <terms:contributor>Susanne Arndt (https://orcid.org/0000-0002-1019-9151), Technische Informationsbibliothek (TIB) (https://ror.org/04aj4c181)</terms:contributor>
+        <terms:contributor>Vasiliki Sdralia (https://orcid.org/0000-0002-7213-5110), Technische Universität München (TUM) (https://ror.org/02kkvpp62)</terms:contributor>
         <terms:created>2022-02-22</terms:created>
         <terms:creator>Metadata4Ing Workgroup</terms:creator>
         <terms:issued>2022-02-22</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:modified>2023-10-20</terms:modified>
+        <terms:modified>2024-09-20</terms:modified>
         <terms:publisher>NFDI4Ing (https://www.nfdi4ing.de/)</terms:publisher>
-        <terms:references rdf:resource="https://doi.org/10.14454/3w3z-sa82"/>
+        <terms:references rdf:resource="https://doi.org/10.14454/G8E5-6293"/>
         <terms:references rdf:resource="https://doi.org/10.1504/IJMSO.2020.107792"/>
         <terms:references rdf:resource="https://doi.org/10.26083/tuprints-00024573"/>
         <terms:references rdf:resource="https://doi.org/10.5281/zenodo.3816686"/>
         <terms:references rdf:resource="https://doi.org/10.5281/zenodo.3982367"/>
         <terms:references rdf:resource="https://doi.org/10.5281/zenodo.4846313"/>
         <terms:references rdf:resource="https://doi.org/10.52825/cordi.v1i.271"/>
-        <terms:replaces rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.2.0"/>
+        <terms:replaces rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.2.1"/>
         <terms:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:source rdf:resource="https://doi.org/10.5281/zenodo.7362037"/>
         <terms:source rdf:resource="https://doi.org/10.52825/CoRDI.v1i.271"/>
@@ -64,6 +60,7 @@ To get the original set of statements we encourage to visit the original namespa
 Metadata4Ing reuses elements from the following ontologies:
 - BIBO = Bibliographic Ontology  
 - BIRO = Bibliographic Reference Ontology  
+- CR = Croissant
 - DCAT = Data Catalog  
 - DCC = Digital Calibration Certificate  
 - DCTERMS = Dublin Core Terms  
@@ -80,20 +77,15 @@ Metadata4Ing reuses elements from the following ontologies:
 - RDFS = RDF Schema  
 - SCHEMA = schema.org  
 - D-SI = Digital System of Units  
+- SIO = Semanticscience Integrated Ontology  
 - SKOS = Simple Knowledge Organization System  
 - SSN = Semantic Sensor Network Ontology  
 - VANN = Vocabulary for Annotating vocabulary descriptions  
 - XSD = XML Schema Definition  
 </rdfs:comment>
         <rdfs:label>Metadata4Ing</rdfs:label>
-        <owl:versionInfo>v1.2.1</owl:versionInfo>
-        <foaf:depiction rdf:resource="https://www.leonvanwissen.nl/vocab/roar/docs/resources/roar-graph.svg"/>
-        <foaf:logo rdf:resource="https://raw.githubusercontent.com/TEC-Toolkit/ECFO/21b4380e1f84f85f7cbc59f724157498e9d72094/Logo%20ECFO.svg"/>
-        <foaf:logo rdf:resource="https://www.leonvanwissen.nl/vocab/roar/docs/resources/roar-logo.png"/>
+        <owl:versionInfo>v1.3.0</owl:versionInfo>
         <schema:citation xml:lang="en">Metadata4Ing Workgroup (2022). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.</schema:citation>
-        <schema:image rdf:resource="https://raw.githubusercontent.com/TEC-Toolkit/ECFO/21b4380e1f84f85f7cbc59f724157498e9d72094/Logo%20ECFO.svg"/>
-        <schema:logo rdf:resource="https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/-/raw/develop/visualizations/Logo.png"/>
-        <schema:logo rdf:resource="https://raw.githubusercontent.com/TEC-Toolkit/ECFO/21b4380e1f84f85f7cbc59f724157498e9d72094/Logo%20ECFO.svg"/>
     </owl:Ontology>
 </rdf:RDF>
 

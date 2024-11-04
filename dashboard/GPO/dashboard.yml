@@ -3,7 +3,7 @@ base_prefixes:
 - gpo
 - GPOALT
 changed: true
-date: 2024-06-19 14:10:15.287018
+date: 2024-11-04 13:41:12.384209
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 967

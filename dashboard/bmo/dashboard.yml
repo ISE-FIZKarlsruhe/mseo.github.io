@@ -3,7 +3,7 @@ base_prefixes:
 - bmo
 - BMOALT
 changed: true
-date: 2024-06-19 14:11:11.863719
+date: 2024-11-04 13:42:09.815063
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 612
@@ -100,7 +100,7 @@ results:
     status: ERROR
   ROBOT Report:
     status: PASS
-sha256_hash: 7a078e0d8dac52660796c59ee5694c00fb5b9760a0d9adbf3f64560e95231c7c
+sha256_hash: 7c7f78eda983f2a566a7df796c1f27238d944fabd26192edef6821e2d6d5e656
 summary:
   comment: 8 errors
   status: ERROR

@@ -3,7 +3,7 @@ base_prefixes:
 - qudv
 - QUDVALT
 changed: true
-date: 2024-06-19 14:12:03.333000
+date: 2024-11-04 13:42:58.486513
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 52

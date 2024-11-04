@@ -3,7 +3,7 @@ base_prefixes:
 - prov
 - PROVOALT
 changed: true
-date: 2024-06-19 14:10:12.606109
+date: 2024-11-04 13:41:09.798944
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 678
@@ -36,12 +36,12 @@ metrics:
   'Info: Experimental OBO score':
     _dashboard: 0.504
     _formula: (1*impact+1*dashboard)/2
-    _impact: 0.143
+    _impact: 0.119
     _impact_external: 0
     _reuse: 0.109
-    oboscore: 0.324
+    oboscore: 0.311
   'Info: How many externally documented uses?': 0
-  'Info: How many ontologies use it?': 12
+  'Info: How many ontologies use it?': 10
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
@@ -56,14 +56,12 @@ metrics:
   - DSIM
   - MDO
   - NanoMine
-  - OEO
   - P-Plan
   - PMDCO
   - PRIMA
   - QUDT
   - bmo
   - m4i
-  - opmw
 mirror_from: http://www.w3.org/ns/prov-o.owl
 namespace: PROVO
 results:

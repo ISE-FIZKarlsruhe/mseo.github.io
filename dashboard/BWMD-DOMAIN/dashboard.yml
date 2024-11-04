@@ -3,7 +3,7 @@ base_prefixes:
 - BWMD-DOMAIN
 - BWMD-DOMAINALT
 changed: true
-date: 2024-06-19 14:10:03.787723
+date: 2024-11-04 13:41:01.142613
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 2151
@@ -92,7 +92,7 @@ results:
     status: ERROR
   ROBOT Report:
     status: PASS
-sha256_hash: f1665b26bb03163d7f01211626356bbc30863f9f42f94494358a7c563bfb6bf9
+sha256_hash: 727b4486f9ff037bfa9b842890c084fcfa05fa12951cfa78a408cf282fe051cc
 summary:
   comment: 6 errors
   status: ERROR

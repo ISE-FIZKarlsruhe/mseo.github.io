@@ -45,11 +45,11 @@ metrics:
     ObjectUnionOf: 9
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
-    _impact: 0.107
+    _impact: 0.095
     _impact_external: 0
     _reuse: 0.743
   'Info: How many externally documented uses?': 0
-  'Info: How many ontologies use it?': 9
+  'Info: How many ontologies use it?': 8
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
@@ -90,7 +90,6 @@ metrics:
   - SEMMD
   - T
   - UO
-  - nfdicore
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/PATO.owl
 namespace: PATO
 sha256_hash: 44e9269d861cd6cee4af1d41480bcd4580863d32d2668af299f3c1e0eaaa6bc6
