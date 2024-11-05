@@ -3,7 +3,7 @@ base_prefixes:
 - LPBFO
 - LPBFOALT
 changed: true
-date: 2024-06-19 14:10:10.164489
+date: 2024-11-04 13:41:07.277915
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1579
@@ -94,7 +94,7 @@ results:
     status: ERROR
   ROBOT Report:
     status: PASS
-sha256_hash: 0d015a2265fe2a45682032a77b6c72708d6e73223e312f5a123e5b87adf7c9d4
+sha256_hash: ef04bd8cfcee52a863b558c97081fc5b6418838263502c01c5e6091cead77ea8
 summary:
   comment: 7 errors
   status: ERROR

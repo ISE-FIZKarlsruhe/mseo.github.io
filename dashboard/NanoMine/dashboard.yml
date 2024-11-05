@@ -3,7 +3,7 @@ base_prefixes:
 - nanomine
 - NANOMINEALT
 changed: true
-date: 2024-06-19 14:10:55.559715
+date: 2024-11-04 13:41:53.318644
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 8930
@@ -111,7 +111,7 @@ results:
     status: PASS
   ROBOT Report:
     status: PASS
-sha256_hash: 69035580100f10dc62a4712052e473ec800467398e712ce758bfc46323820267
+sha256_hash: e23f4d672db02f0962f076ba56a3611961cb2c3afde5e54e80cc62d837a5dddf
 summary:
   comment: 7 errors
   status: ERROR

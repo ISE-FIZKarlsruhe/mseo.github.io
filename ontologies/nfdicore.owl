@@ -10,7 +10,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://nfdi.fiz-karlsruhe.de/ontology">
-        <owl:versionIRI rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/2.0.0"/>
+        <owl:versionIRI rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/2.1.0"/>
         <terms:abstract xml:lang="en">### INTRODUCTION
 
 The [National Research Data Infrastructure (NFDI) initiative](https://www.nfdi.de/) has seen the establishment of various consortia, each dedicated to developing a research data infrastructure tailored to its respective domain. To facilitate interoperability across these consortia, the NFDIcore ontology (prefix nfdicore) has been developed and serves as a mid level ontology for representing metadata about NFDI resources such as individuals, organizations, projects, data portals, etc.  
@@ -23,6 +23,8 @@ Aligning with [IAO](https://github.com/information-artifact-ontology/IAO) and [S
 3. Planned processes and events, e.g. nfdicore:Project, nfdicore:Contributing, nfdicore:Event.
 
 Current development is managed via [GitHub](https://github.com/ISE-FIZKarlsruhe/nfdicore). Feel free to give feedback, contribute, or raise issues.
+
+More detailed information and can be found in the [NFDIcore ontology documentation](https://ise-fizkarlsruhe.github.io/nfdicore/docs/). 
 
 ### RESOURCES
 
@@ -59,21 +61,21 @@ In general, a process (BFO_0000015) can encompass subordinate processes and may 
 The nfdicore:Event is associated with temporal entities that transpire over time, commonly marked by specific incidents or occurrences. The nfdicore:Event, classified as an occurrent (BFO_0000003), serves as a representation for various happenings such as conferences, workshops, or activities like &quot;the 37th German Congress for Art History&quot; or &quot;Workshop &quot;Introduction to Iconclass&quot;&quot;. Events are characterized by their start and end times and can be connected to agents involved in the events.
 
 ![image](https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/v2.0.0/figures/events.png)</terms:abstract>
-        <terms:bibliographicCitation>Oleksandra Bruns, Tabea Tietz, Etienne Posthumus, Jörg Waitelonis, Harald Sack. NFDIcore Ontology. Revision: v2.0.0. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/2.0.0</terms:bibliographicCitation>
-        <terms:created>2024-04-10</terms:created>
+        <terms:bibliographicCitation>Oleksandra Bruns, Tabea Tietz, Etienne Posthumus, Jörg Waitelonis, Harald Sack. NFDIcore Ontology. Revision: v2.1.0. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/2.1.0</terms:bibliographicCitation>
+        <terms:created>2024-10-21</terms:created>
         <terms:creator rdf:resource="https://nfdi4culture.de/id/E1925"/>
         <terms:creator rdf:resource="https://nfdi4culture.de/id/E2415"/>
         <terms:creator rdf:resource="https://nfdi4culture.de/id/E2416"/>
         <terms:creator rdf:resource="https://nfdi4culture.de/id/E3095"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
+        <terms:description xml:lang="en">NFDIcore ontology</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms:title>NFDIcore Ontology</terms:title>
+        <terms:title xml:lang="en">NFDIcore Ontology</terms:title>
         <bibo:status xml:lang="en">Ontology Specification</bibo:status>
-        <vann:preferredNamespacePrefix rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/nfdicore"/>
         <vann:preferredNamespaceUri rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/"/>
         <rdfs:label>NFDIcore</rdfs:label>
-        <owl:priorVersion rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/1.1.1"/>
-        <owl:versionInfo>v2.0.0</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/2.0.0"/>
+        <owl:versionInfo>2.1.0</owl:versionInfo>
     </owl:Ontology>
 </rdf:RDF>
 

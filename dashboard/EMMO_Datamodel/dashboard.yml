@@ -3,7 +3,7 @@ base_prefixes:
 - emmo_datamodel
 - EMMO_DATAMODELALT
 changed: true
-date: 2024-06-19 14:10:24.442477
+date: 2024-11-04 13:41:22.353058
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 94
@@ -100,7 +100,7 @@ results:
     status: PASS
   ROBOT Report:
     status: PASS
-sha256_hash: 1cd705af347476df3307ed8e6917b2617662fa47136e503014e523904598dc87
+sha256_hash: 4632d37c21fbe609ac2444e142f4c7eb50f20e4c23b4ec109617f8fdcfac6921
 summary:
   comment: 6 errors
   status: ERROR

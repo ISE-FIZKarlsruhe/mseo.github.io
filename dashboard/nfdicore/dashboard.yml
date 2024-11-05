@@ -3,52 +3,43 @@ base_prefixes:
 - nfdicore
 - NFDICOREALT
 changed: true
-date: 2024-06-19 14:12:13.416438
+date: 2024-11-04 13:43:08.881423
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 3222
-    AnnotationPropertyRangeOf: 1
-    ClassAssertion: 20
-    DataPropertyDomain: 12
-    DataPropertyRange: 10
-    Declaration: 541
+    AnnotationAssertion: 1259
+    ClassAssertion: 18
+    DataPropertyDomain: 8
+    DataPropertyRange: 7
+    Declaration: 237
     DifferentIndividuals: 2
-    DisjointClasses: 21
-    EquivalentClasses: 21
-    EquivalentObjectProperties: 4
-    FunctionalDataProperty: 4
-    FunctionalObjectProperty: 4
+    DisjointClasses: 11
+    EquivalentClasses: 12
+    EquivalentObjectProperties: 7
+    FunctionalObjectProperty: 1
     InverseFunctionalObjectProperty: 1
-    InverseObjectProperties: 44
-    IrrefexiveObjectProperty: 1
-    ObjectPropertyDomain: 50
-    ObjectPropertyRange: 50
+    InverseObjectProperties: 36
+    ObjectPropertyDomain: 37
+    ObjectPropertyRange: 37
     Rule: 9
-    SubAnnotationPropertyOf: 8
-    SubClassOf: 392
-    SubObjectPropertyOf: 66
-    SubPropertyChainOf: 2
+    SubClassOf: 95
+    SubObjectPropertyOf: 38
     SymmetricObjectProperty: 1
     TransitiveObjectProperty: 4
-  'Axioms: Number of axioms': 4490
+  'Axioms: Number of axioms': 1820
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 89
-  'Entities: Number of classes': 316
-  'Entities: Number of data properties': 12
-  'Entities: Number of individuals': 20
-  'Entities: Number of object properties': 108
+  'Entities: Number of annotation properties': 48
+  'Entities: Number of classes': 88
+  'Entities: Number of data properties': 8
+  'Entities: Number of individuals': 18
+  'Entities: Number of object properties': 79
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 1361
-    DataExactCardinality: 6
-    DataMinCardinality: 1
-    ObjectAllValuesFrom: 7
-    ObjectComplementOf: 3
-    ObjectExactCardinality: 1
-    ObjectIntersectionOf: 26
-    ObjectMinCardinality: 1
+    Class: 466
+    ObjectAllValuesFrom: 2
+    ObjectComplementOf: 2
+    ObjectIntersectionOf: 9
     ObjectOneOf: 3
-    ObjectSomeValuesFrom: 91
+    ObjectSomeValuesFrom: 9
     ObjectUnionOf: 7
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
@@ -63,27 +54,21 @@ metrics:
   'Info: Logical consistency': true
   'Info: Syntax': Turtle
   'Info: Usage of namespaces in axioms':
-    APOLLO_SV: 22
-    BFO: 367
-    GAZ: 2
-    IAO: 3410
-    OBI: 77
-    OMO: 6
-    PATO: 16
-    RO: 140
-    UO: 10
-    dc: 8
-    dc11: 29
-    foaf: 4
-    oboInOwl: 33
-    owl: 34
-    prefix_unknown: 466
+    APOLLO_SV: 4
+    BFO: 169
+    IAO: 870
+    OBI: 21
+    OMO: 3
+    RO: 101
+    dc: 12
+    dc11: 6
+    owl: 4
+    prefix_unknown: 475
     rdf: 7
-    rdfs: 861
-    schema: 4
-    skos: 46
+    rdfs: 603
+    skos: 39
     void: 1
-    xsd: 9
+    xsd: 6
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/main/nfdicore.ttl
 namespace: nfdicore
@@ -99,7 +84,7 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'https://nfdi.fiz-karlsruhe.de/ontology/2.0.0' is not in
+    comment: Version IRI 'https://nfdi.fiz-karlsruhe.de/ontology/2.1.0' is not in
       recommended format
     status: WARN
   FP05 Scope:
@@ -126,7 +111,7 @@ results:
     status: PASS
   ROBOT Report:
     status: PASS
-sha256_hash: bf035963552abc83d56145219fe042949f9dd5b3b78a7e9beb838efb2a6293f6
+sha256_hash: 3cd67a013e35fdf9a7567a3eb3b7e7ecaafb2be9e3c7de23213ae39f029c3e45
 summary:
   comment: 5 errors
   status: ERROR
@@ -134,4 +119,4 @@ summary:
     ERROR: 5
     INFO: 1
     WARN: 2
-version: https://nfdi.fiz-karlsruhe.de/ontology/2.0.0
+version: https://nfdi.fiz-karlsruhe.de/ontology/2.1.0

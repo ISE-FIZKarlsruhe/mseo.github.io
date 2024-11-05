@@ -3,18 +3,18 @@ base_prefixes:
 - OIEcharacterisation-methods
 - OIECHARACTERISATION-METHODSALT
 changed: true
-date: 2024-06-19 14:13:09.458607
+date: 2024-11-04 13:46:19.178599
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 6687
+    AnnotationAssertion: 6732
     AnnotationPropertyDomain: 2
     AnnotationPropertyRangeOf: 17
     AsymmetricObjectProperty: 22
-    ClassAssertion: 5
-    DataPropertyDomain: 5
-    DataPropertyRange: 5
-    Declaration: 1954
-    DisjointClasses: 30
+    ClassAssertion: 6
+    DataPropertyDomain: 8
+    DataPropertyRange: 8
+    Declaration: 1988
+    DisjointClasses: 31
     DisjointObjectProperties: 12
     DisjointUnion: 79
     EquivalentClasses: 279
@@ -22,25 +22,25 @@ metrics:
     InverseFunctionalObjectProperty: 2
     InverseObjectProperties: 9
     IrrefexiveObjectProperty: 35
-    ObjectPropertyDomain: 97
-    ObjectPropertyRange: 123
+    ObjectPropertyDomain: 107
+    ObjectPropertyRange: 131
     Rule: 12
     SubAnnotationPropertyOf: 35
-    SubClassOf: 2226
-    SubDataPropertyOf: 8
-    SubObjectPropertyOf: 235
+    SubClassOf: 2237
+    SubDataPropertyOf: 11
+    SubObjectPropertyOf: 245
     SymmetricObjectProperty: 14
     TransitiveObjectProperty: 5
-  'Axioms: Number of axioms': 11901
+  'Axioms: Number of axioms': 12030
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 63
-  'Entities: Number of classes': 1691
-  'Entities: Number of data properties': 10
-  'Entities: Number of individuals': 5
-  'Entities: Number of object properties': 201
+  'Entities: Number of annotation properties': 64
+  'Entities: Number of classes': 1704
+  'Entities: Number of data properties': 13
+  'Entities: Number of individuals': 6
+  'Entities: Number of object properties': 211
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 7228
+    Class: 7290
     DataAllValuesFrom: 3
     DataExactCardinality: 2
     DataHasValue: 203
@@ -49,9 +49,9 @@ metrics:
     ObjectComplementOf: 3
     ObjectExactCardinality: 11
     ObjectHasValue: 2
-    ObjectIntersectionOf: 17
+    ObjectIntersectionOf: 18
     ObjectMinCardinality: 1
-    ObjectSomeValuesFrom: 316
+    ObjectSomeValuesFrom: 317
     ObjectUnionOf: 68
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
@@ -67,13 +67,13 @@ metrics:
   'Info: Syntax': Turtle
   'Info: Usage of namespaces in axioms':
     dc: 27
-    foaf: 9
-    owl: 25
-    prefix_unknown: 12559
+    foaf: 12
+    owl: 29
+    prefix_unknown: 12712
     rdf: 213
-    rdfs: 952
-    skos: 2318
-    xsd: 13
+    rdfs: 951
+    skos: 2337
+    xsd: 16
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
 namespace: OIEcharacterisation-methods

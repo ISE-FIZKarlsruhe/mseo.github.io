@@ -3,7 +3,7 @@ base_prefixes:
 - BWMD-MID
 - BWMD-MIDALT
 changed: true
-date: 2024-06-19 14:09:58.565454
+date: 2024-11-04 13:40:56.515723
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1234
@@ -92,7 +92,7 @@ results:
     status: ERROR
   ROBOT Report:
     status: PASS
-sha256_hash: a3f53082fd4a6098d827a57b0a4be79e90f3a13c6a258d0ee7f74a36c007ad54
+sha256_hash: 2a359417ad16374fbd5edbcb1a89f13b66726c563370d3e621adca7447a27c91
 summary:
   comment: 6 errors
   status: ERROR
