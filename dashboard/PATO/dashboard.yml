@@ -77,10 +77,10 @@ metrics:
     oboInOwl: 98869
     owl: 1006
     prefix_unknown: 11
-    rdf: 322
+    rdf: 313
     rdfs: 11989
     skos: 3
-    xsd: 1122
+    xsd: 1130
   'Info: Which ontologies use it?':
   - A
   - CHEMINF

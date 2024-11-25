@@ -3,7 +3,7 @@ base_prefixes:
 - OIEmanufacturing
 - OIEMANUFACTURINGALT
 changed: true
-date: 2024-11-04 13:46:14.016797
+date: 2024-11-25 13:46:44.569098
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 944
