@@ -3,7 +3,7 @@ base_prefixes:
 - m4i
 - M4IALT
 changed: true
-date: 2024-11-04 13:43:05.465466
+date: 2024-12-02 13:47:02.311614
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 802
