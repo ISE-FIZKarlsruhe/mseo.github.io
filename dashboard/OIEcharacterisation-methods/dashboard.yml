@@ -3,18 +3,18 @@ base_prefixes:
 - OIEcharacterisation-methods
 - OIECHARACTERISATION-METHODSALT
 changed: true
-date: 2024-11-04 13:46:19.178599
+date: 2024-12-09 13:47:52.612899
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 6732
+    AnnotationAssertion: 6765
     AnnotationPropertyDomain: 2
     AnnotationPropertyRangeOf: 17
     AsymmetricObjectProperty: 22
-    ClassAssertion: 6
+    ClassAssertion: 5
     DataPropertyDomain: 8
     DataPropertyRange: 8
-    Declaration: 1988
-    DisjointClasses: 31
+    Declaration: 1994
+    DisjointClasses: 33
     DisjointObjectProperties: 12
     DisjointUnion: 79
     EquivalentClasses: 279
@@ -22,25 +22,25 @@ metrics:
     InverseFunctionalObjectProperty: 2
     InverseObjectProperties: 9
     IrrefexiveObjectProperty: 35
-    ObjectPropertyDomain: 107
-    ObjectPropertyRange: 131
+    ObjectPropertyDomain: 110
+    ObjectPropertyRange: 135
     Rule: 12
     SubAnnotationPropertyOf: 35
-    SubClassOf: 2237
+    SubClassOf: 2256
     SubDataPropertyOf: 11
-    SubObjectPropertyOf: 245
+    SubObjectPropertyOf: 246
     SymmetricObjectProperty: 14
     TransitiveObjectProperty: 5
-  'Axioms: Number of axioms': 12030
+  'Axioms: Number of axioms': 12097
   'Entities: % of entities reused': 100.0
   'Entities: Number of annotation properties': 64
-  'Entities: Number of classes': 1704
+  'Entities: Number of classes': 1709
   'Entities: Number of data properties': 13
-  'Entities: Number of individuals': 6
-  'Entities: Number of object properties': 211
+  'Entities: Number of individuals': 5
+  'Entities: Number of object properties': 213
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 7290
+    Class: 7344
     DataAllValuesFrom: 3
     DataExactCardinality: 2
     DataHasValue: 203
@@ -51,7 +51,7 @@ metrics:
     ObjectHasValue: 2
     ObjectIntersectionOf: 18
     ObjectMinCardinality: 1
-    ObjectSomeValuesFrom: 317
+    ObjectSomeValuesFrom: 328
     ObjectUnionOf: 68
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
@@ -69,10 +69,10 @@ metrics:
     dc: 27
     foaf: 12
     owl: 29
-    prefix_unknown: 12712
+    prefix_unknown: 12783
     rdf: 213
-    rdfs: 951
-    skos: 2337
+    rdfs: 955
+    skos: 2369
     xsd: 16
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/OIEcharacterisation-methods.ttl
