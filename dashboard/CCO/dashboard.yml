@@ -3,7 +3,7 @@ base_prefixes:
 - cco
 - CCOALT
 changed: true
-date: 2024-11-04 13:40:53.340384
+date: 2024-12-09 13:43:35.373289
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 7929

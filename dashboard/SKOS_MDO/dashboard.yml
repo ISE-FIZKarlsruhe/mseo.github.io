@@ -3,7 +3,7 @@ base_prefixes:
 - skos_mdo
 - SKOS_MDOALT
 changed: true
-date: 2024-11-04 13:41:58.357779
+date: 2024-12-09 13:45:42.427506
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 3491
@@ -21,12 +21,12 @@ metrics:
     Class: 996
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
-    _dashboard: 0.378
+    _dashboard: 0.311
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.189
+    oboscore: 0.155
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -61,7 +61,9 @@ results:
   FP07 Relations:
     status: PASS
   FP08 Documented:
-    status: PASS
+    comment: Homepage URL (https://data.nist.gov/od/id/67C783D4BA814C8EE05324570681708A1899)
+      does not resolve
+    status: ERROR
   FP09 Plurality of Users:
     comment: Missing tracker and usages
     status: ERROR
@@ -80,10 +82,10 @@ results:
     status: PASS
 sha256_hash: 559f66ca1a7feb00349cc2cb176d63b7fcfb6258d9b08153611ef11db34b4088
 summary:
-  comment: 8 errors
+  comment: 9 errors
   status: ERROR
   summary_count:
-    ERROR: 8
+    ERROR: 9
     INFO: 0
     WARN: 1
 version: null
