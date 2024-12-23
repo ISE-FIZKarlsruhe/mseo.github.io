@@ -53575,7 +53575,7 @@ height&apos;).</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0070028"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron projection quality that is a characteristic of neurons whose soma is located in the telencephalon and that project to structures outside the telencephalon</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -53596,7 +53596,7 @@ height&apos;).</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0070029"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron projection quality that is a characteristic of neurons with soma in the cerebral cortex and projections to the thalamus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -53617,7 +53617,7 @@ height&apos;).</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0070030"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron projection quality that is a characteristic of neurons with projections that terminate locally rather than distantly.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -53637,7 +53637,7 @@ height&apos;).</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0070031"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron projection quality that is a characteristic of neurons that project to the medulla oblongata from other brain regions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -53656,7 +53656,7 @@ height&apos;).</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0070033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality inhering in a neuron by virtue of the relative location of its soma and the regions to which it projects and makes synaptic contacts in.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -53677,7 +53677,7 @@ height&apos;).</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0070034"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron projection quality that is a characteristic of neurons with both soma and projections entirely within the telencephalon.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

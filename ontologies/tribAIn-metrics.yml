@@ -53,8 +53,8 @@ metrics:
   - "SubDataPropertyOf"
   - "DataPropertyRange"
   - "AnnotationPropertyRangeOf"
-  - "ObjectPropertyRange"
   - "ClassAssertion"
+  - "ObjectPropertyRange"
   - "SubClassOf"
   - "AnnotationAssertion"
   - "DataPropertyAssertion"
@@ -74,8 +74,8 @@ metrics:
   - "SubDataPropertyOf"
   - "DataPropertyRange"
   - "AnnotationPropertyRangeOf"
-  - "ObjectPropertyRange"
   - "ClassAssertion"
+  - "ObjectPropertyRange"
   - "SubClassOf"
   - "AnnotationAssertion"
   - "DataPropertyAssertion"
@@ -109,8 +109,8 @@ metrics:
     SubDataPropertyOf: 2
     DataPropertyRange: 2
     AnnotationPropertyRangeOf: 3
-    ObjectPropertyRange: 26
     ClassAssertion: 21
+    ObjectPropertyRange: 26
     SubClassOf: 306
     AnnotationAssertion: 256
     DataPropertyAssertion: 1
@@ -130,8 +130,8 @@ metrics:
     SubDataPropertyOf: 2
     DataPropertyRange: 2
     AnnotationPropertyRangeOf: 3
-    ObjectPropertyRange: 26
     ClassAssertion: 21
+    ObjectPropertyRange: 26
     SubClassOf: 306
     AnnotationAssertion: 256
     DataPropertyAssertion: 1
