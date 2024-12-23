@@ -1,12 +1,12 @@
 metrics:
-  abox_axiom_count: 6
-  abox_axiom_count_incl: 6
-  annotation_property_count: 64
-  annotation_property_count_incl: 64
-  axiom_count: 12030
-  axiom_count_incl: 12030
-  class_count: 1704
-  class_count_incl: 1704
+  abox_axiom_count: 5
+  abox_axiom_count_incl: 5
+  annotation_property_count: 65
+  annotation_property_count_incl: 65
+  axiom_count: 12087
+  axiom_count_incl: 12087
+  class_count: 1709
+  class_count_incl: 1709
   consistent: true
   dataproperty_count: 13
   dataproperty_count_incl: 13
@@ -18,12 +18,12 @@ metrics:
   dt_notbuiltin_count_incl: 0
   expressivity: "SROIQ(D)"
   expressivity_incl: "SROIQ(D)"
-  individual_count: 6
-  individual_count_incl: 6
-  logical_axiom_count: 3244
-  logical_axiom_count_incl: 3244
-  obj_property_count: 211
-  obj_property_count_incl: 211
+  individual_count: 5
+  individual_count_incl: 5
+  logical_axiom_count: 3272
+  logical_axiom_count_incl: 3272
+  obj_property_count: 213
+  obj_property_count_incl: 213
   ontology_anno_count: 4
   ontology_iri: "http://emmo.info/emmo/domain/oie/characterisation-methods"
   ontology_version_iri: "no.iri"
@@ -32,18 +32,18 @@ metrics:
   owl2_el: false
   owl2_ql: false
   owl2_rl: false
-  rbox_axiom_count: 353
-  rbox_axiom_count_incl: 353
+  rbox_axiom_count: 354
+  rbox_axiom_count_incl: 354
   rdfs: false
   rule_count: 0
   rule_count_incl: 0
-  signature_entity_count: 2007
-  signature_entity_count_incl: 2007
+  signature_entity_count: 2014
+  signature_entity_count_incl: 2014
   syntax: "Turtle"
-  tbox_axiom_count: 2885
-  tbox_axiom_count_incl: 2885
-  tboxrbox_axiom_count: 3238
-  tboxrbox_axiom_count_incl: 3238
+  tbox_axiom_count: 2913
+  tbox_axiom_count_incl: 2913
+  tboxrbox_axiom_count: 3267
+  tboxrbox_axiom_count_incl: 3267
   unsatisfiable_class_count: 0
   axiom_types:
   - "TransitiveObjectProperty"
@@ -115,54 +115,54 @@ metrics:
   valid_imports_incl: []
   axiom_type_count:
     TransitiveObjectProperty: 5
-    SubObjectPropertyOf: 245
+    SubObjectPropertyOf: 246
     SymmetricObjectProperty: 14
     SubDataPropertyOf: 11
     DataPropertyRange: 8
     DisjointUnion: 79
-    SubClassOf: 2237
-    ObjectPropertyRange: 131
-    AnnotationAssertion: 6732
+    SubClassOf: 2256
+    ObjectPropertyRange: 135
+    AnnotationAssertion: 6755
     DisjointObjectProperties: 12
     SubAnnotationPropertyOf: 35
-    DisjointClasses: 31
+    DisjointClasses: 33
     DataPropertyDomain: 8
-    Declaration: 1988
+    Declaration: 1994
     FunctionalDataProperty: 3
     InverseFunctionalObjectProperty: 2
     InverseObjectProperties: 9
     IrrefexiveObjectProperty: 35
     EquivalentClasses: 279
     AnnotationPropertyRangeOf: 17
-    ClassAssertion: 6
+    ClassAssertion: 5
     AsymmetricObjectProperty: 22
-    ObjectPropertyDomain: 107
+    ObjectPropertyDomain: 110
     AnnotationPropertyDomain: 2
     Rule: 12
   axiom_type_count_incl:
     TransitiveObjectProperty: 5
-    SubObjectPropertyOf: 245
+    SubObjectPropertyOf: 246
     SymmetricObjectProperty: 14
     SubDataPropertyOf: 11
     DataPropertyRange: 8
     DisjointUnion: 79
-    SubClassOf: 2237
-    ObjectPropertyRange: 131
-    AnnotationAssertion: 6732
+    SubClassOf: 2256
+    ObjectPropertyRange: 135
+    AnnotationAssertion: 6755
     DisjointObjectProperties: 12
     SubAnnotationPropertyOf: 35
-    DisjointClasses: 31
+    DisjointClasses: 33
     DataPropertyDomain: 8
-    Declaration: 1988
+    Declaration: 1994
     FunctionalDataProperty: 3
     InverseFunctionalObjectProperty: 2
     InverseObjectProperties: 9
     IrrefexiveObjectProperty: 35
     EquivalentClasses: 279
     AnnotationPropertyRangeOf: 17
-    ClassAssertion: 6
+    ClassAssertion: 5
     AsymmetricObjectProperty: 22
-    ObjectPropertyDomain: 107
+    ObjectPropertyDomain: 110
     AnnotationPropertyDomain: 2
     Rule: 12
   class_expression_count:
@@ -175,10 +175,10 @@ metrics:
     DataExactCardinality: 2
     ObjectHasValue: 2
     ObjectExactCardinality: 11
-    Class: 7290
+    Class: 7344
     ObjectUnionOf: 68
     DataSomeValuesFrom: 3
-    ObjectSomeValuesFrom: 317
+    ObjectSomeValuesFrom: 328
   class_expression_count_incl:
     DataHasValue: 203
     ObjectMinCardinality: 1
@@ -189,10 +189,10 @@ metrics:
     DataExactCardinality: 2
     ObjectHasValue: 2
     ObjectExactCardinality: 11
-    Class: 7290
+    Class: 7344
     ObjectUnionOf: 68
     DataSomeValuesFrom: 3
-    ObjectSomeValuesFrom: 317
+    ObjectSomeValuesFrom: 328
   curie_map:
     rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     owl: "http://www.w3.org/2002/07/owl#"
@@ -202,41 +202,42 @@ metrics:
     foaf: "http://xmlns.com/foaf/0.1/"
     dc: "http://purl.org/dc/terms/"
   namespace_axiom_count:
-    prefix_unknown: 12712
+    prefix_unknown: 12775
     rdf: 213
     owl: 29
     xsd: 16
-    skos: 2337
-    rdfs: 951
+    skos: 2372
+    rdfs: 950
     foaf: 12
     dc: 27
   namespace_axiom_count_incl:
-    prefix_unknown: 12712
+    prefix_unknown: 12775
     rdf: 213
     owl: 29
     xsd: 16
-    skos: 2337
-    rdfs: 951
+    skos: 2372
+    rdfs: 950
     foaf: 12
     dc: 27
   namespace_entity_count:
-    prefix_unknown: 1964
+    prefix_unknown: 1970
     owl: 7
     rdf: 1
     xsd: 7
-    skos: 3
+    skos: 4
     rdfs: 5
     foaf: 5
     dc: 15
   namespace_entity_count_incl:
-    prefix_unknown: 1964
+    prefix_unknown: 1970
     owl: 7
     rdf: 1
     xsd: 7
-    skos: 3
+    skos: 4
     rdfs: 5
     foaf: 5
     dc: 15
   owl2dl_profile_violation:
     UseOfUndeclaredClass: 1
     UseOfReservedVocabularyForAnnotationPropertyIRI: 16
+    UseOfUndeclaredAnnotationProperty: 1
