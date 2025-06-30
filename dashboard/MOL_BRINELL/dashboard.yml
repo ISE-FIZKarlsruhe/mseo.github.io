@@ -3,7 +3,7 @@ base_prefixes:
 - MOL_BRINELL
 - MOL_BRINELLALT
 changed: true
-date: 2024-11-04 13:42:06.794748
+date: 2025-06-30 13:46:47.245839
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 191
@@ -24,12 +24,12 @@ metrics:
     Class: 3118
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
-    _dashboard: 0.378
+    _dashboard: 0.311
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.189
+    oboscore: 0.155
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -64,7 +64,9 @@ results:
   FP07 Relations:
     status: PASS
   FP08 Documented:
-    status: PASS
+    comment: Homepage URL (https://matportal.org/ontologies/MOL_BRINELL) does not
+      resolve
+    status: ERROR
   FP09 Plurality of Users:
     comment: Missing tracker and usages
     status: ERROR
@@ -83,10 +85,10 @@ results:
     status: PASS
 sha256_hash: 0538943a21c284c133ecf7452b7a547d9b351e3464dd00ed3140650f77b7336b
 summary:
-  comment: 8 errors
+  comment: 9 errors
   status: ERROR
   summary_count:
-    ERROR: 8
+    ERROR: 9
     INFO: 0
     WARN: 1
 version: null

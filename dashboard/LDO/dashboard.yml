@@ -3,7 +3,7 @@ base_prefixes:
 - LDO
 - LDOALT
 changed: true
-date: 2024-11-04 13:46:38.070270
+date: 2025-06-30 13:48:41.441335
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 37

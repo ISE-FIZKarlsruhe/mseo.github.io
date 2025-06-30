@@ -3,44 +3,42 @@ base_prefixes:
 - nfdicore
 - NFDICOREALT
 changed: true
-date: 2024-11-04 13:43:08.881423
+date: 2025-06-30 13:47:42.425266
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 1259
-    ClassAssertion: 18
-    DataPropertyDomain: 8
-    DataPropertyRange: 7
-    Declaration: 237
-    DifferentIndividuals: 2
-    DisjointClasses: 11
+    AnnotationAssertion: 1854
+    ClassAssertion: 25
+    DataPropertyDomain: 5
+    DataPropertyRange: 5
+    Declaration: 471
+    DisjointClasses: 13
     EquivalentClasses: 12
-    EquivalentObjectProperties: 7
-    FunctionalObjectProperty: 1
+    FunctionalObjectProperty: 6
     InverseFunctionalObjectProperty: 1
-    InverseObjectProperties: 36
-    ObjectPropertyDomain: 37
-    ObjectPropertyRange: 37
-    Rule: 9
-    SubClassOf: 95
-    SubObjectPropertyOf: 38
-    SymmetricObjectProperty: 1
-    TransitiveObjectProperty: 4
-  'Axioms: Number of axioms': 1820
+    InverseObjectProperties: 42
+    ObjectPropertyDomain: 50
+    ObjectPropertyRange: 64
+    SubAnnotationPropertyOf: 4
+    SubClassOf: 295
+    SubDataPropertyOf: 3
+    SubObjectPropertyOf: 54
+    TransitiveObjectProperty: 8
+  'Axioms: Number of axioms': 2912
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 48
-  'Entities: Number of classes': 88
+  'Entities: Number of annotation properties': 83
+  'Entities: Number of classes': 247
   'Entities: Number of data properties': 8
-  'Entities: Number of individuals': 18
-  'Entities: Number of object properties': 79
+  'Entities: Number of individuals': 43
+  'Entities: Number of object properties': 95
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 466
-    ObjectAllValuesFrom: 2
-    ObjectComplementOf: 2
-    ObjectIntersectionOf: 9
+    Class: 1091
+    ObjectAllValuesFrom: 32
+    ObjectComplementOf: 13
+    ObjectIntersectionOf: 55
     ObjectOneOf: 3
-    ObjectSomeValuesFrom: 9
-    ObjectUnionOf: 7
+    ObjectSomeValuesFrom: 58
+    ObjectUnionOf: 24
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
     _dashboard: 0.549
@@ -54,21 +52,19 @@ metrics:
   'Info: Logical consistency': true
   'Info: Syntax': Turtle
   'Info: Usage of namespaces in axioms':
-    APOLLO_SV: 4
-    BFO: 169
-    IAO: 870
-    OBI: 21
-    OMO: 3
-    RO: 101
-    dc: 12
-    dc11: 6
-    owl: 4
-    prefix_unknown: 475
-    rdf: 7
-    rdfs: 603
-    skos: 39
-    void: 1
-    xsd: 6
+    BFO: 610
+    IAO: 891
+    OMO: 2
+    dc: 10
+    dc11: 89
+    foaf: 3
+    obo: 12
+    oboInOwl: 63
+    owl: 5
+    prefix_unknown: 928
+    rdfs: 780
+    skos: 298
+    xsd: 2
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/main/nfdicore.ttl
 namespace: nfdicore
@@ -84,7 +80,7 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'https://nfdi.fiz-karlsruhe.de/ontology/2.1.0' is not in
+    comment: Version IRI 'https://nfdi.fiz-karlsruhe.de/ontology/3.0.1' is not in
       recommended format
     status: WARN
   FP05 Scope:
@@ -111,7 +107,7 @@ results:
     status: PASS
   ROBOT Report:
     status: PASS
-sha256_hash: 3cd67a013e35fdf9a7567a3eb3b7e7ecaafb2be9e3c7de23213ae39f029c3e45
+sha256_hash: 6093da767e3ae7b2eb1088d91f03e040f0a79386671768fe82b415497adbd06f
 summary:
   comment: 5 errors
   status: ERROR
@@ -119,4 +115,4 @@ summary:
     ERROR: 5
     INFO: 1
     WARN: 2
-version: https://nfdi.fiz-karlsruhe.de/ontology/2.1.0
+version: https://nfdi.fiz-karlsruhe.de/ontology/3.0.1

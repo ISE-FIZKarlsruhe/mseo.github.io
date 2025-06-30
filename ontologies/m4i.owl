@@ -1,55 +1,76 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://w3id.org/nfdi4ing/metadata4ing#"
      xml:base="http://w3id.org/nfdi4ing/metadata4ing"
+     xmlns:v3="http://www.loc.gov/premis/rdf/v3/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:voaf="http://purl.org/vocommons/voaf#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
     <owl:Ontology rdf:about="http://w3id.org/nfdi4ing/metadata4ing#">
-        <owl:versionIRI rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.3.0"/>
-        <terms:abstract>The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance.</terms:abstract>
-        <terms:contributor>Alexander Wellmann (https://orcid.org/0000-0002-9033-5538), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)</terms:contributor>
-        <terms:contributor>Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62)</terms:contributor>
-        <terms:contributor>Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77)</terms:contributor>
-        <terms:contributor>Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66)</terms:contributor>
-        <terms:contributor>Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03)</terms:contributor>
-        <terms:contributor>Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)</terms:contributor>
-        <terms:contributor>Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34)</terms:contributor>
-        <terms:contributor>Marc Fuhrmans (https://orcid.org/0000-0002-9826-018X), Technische Universität Darmstadt (https://ror.org/05n911h24)</terms:contributor>
-        <terms:contributor>Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38)</terms:contributor>
-        <terms:contributor>Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)</terms:contributor>
-        <terms:contributor>Susanne Arndt (https://orcid.org/0000-0002-1019-9151), Technische Informationsbibliothek (TIB) (https://ror.org/04aj4c181)</terms:contributor>
-        <terms:contributor>Vasiliki Sdralia (https://orcid.org/0000-0002-7213-5110), Technische Universität München (TUM) (https://ror.org/02kkvpp62)</terms:contributor>
-        <terms:created>2022-02-22</terms:created>
+        <owl:versionIRI rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.3.1"/>
+        <terms:abstract xml:lang="en">The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance.</terms:abstract>
+        <terms:bibliographicCitation xml:lang="en">Metadata4Ing Workgroup (2025). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity. v1.3.1. http://w3id.org/nfdi4ing/metadata4ing/1.3.1 [ttl, jsonld, nt, rdf/xml]</terms:bibliographicCitation>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6272-204X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8341-1478"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1019-9151"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1489-6501"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1698-6826"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2239-3955"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2639-1949"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5031-9170"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7213-5110"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8524-0569"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-9033-5538"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-9826-018X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-22</terms:created>
         <terms:creator>Metadata4Ing Workgroup</terms:creator>
-        <terms:issued>2022-02-22</terms:issued>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-10</terms:issued>
+        <terms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/deu"/>
+        <terms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:modified>2024-09-20</terms:modified>
-        <terms:publisher>NFDI4Ing (https://www.nfdi4ing.de/)</terms:publisher>
-        <terms:references rdf:resource="https://doi.org/10.14454/G8E5-6293"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-10</terms:modified>
+        <terms:publisher rdf:resource="http://d-nb.info/gnd/1227971389"/>
+        <terms:references rdf:resource="https://doi.org/10.14454/csba-e454"/>
         <terms:references rdf:resource="https://doi.org/10.1504/IJMSO.2020.107792"/>
         <terms:references rdf:resource="https://doi.org/10.26083/tuprints-00024573"/>
         <terms:references rdf:resource="https://doi.org/10.5281/zenodo.3816686"/>
         <terms:references rdf:resource="https://doi.org/10.5281/zenodo.3982367"/>
         <terms:references rdf:resource="https://doi.org/10.5281/zenodo.4846313"/>
         <terms:references rdf:resource="https://doi.org/10.52825/cordi.v1i.271"/>
-        <terms:replaces rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.2.1"/>
+        <terms:replaces rdf:resource="http://w3id.org/nfdi4ing/metadata4ing/1.3.0"/>
         <terms:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:source rdf:resource="https://doi.org/10.5281/zenodo.7362037"/>
         <terms:source rdf:resource="https://doi.org/10.52825/CoRDI.v1i.271"/>
         <terms:source rdf:resource="https://nfdi4ing.de/wp-content/uploads/2019/10/Programmheft-NFDI4Ing-Community-Meeting.pdf#page=6"/>
+        <terms:subject rdf:resource="http://d-nb.info/gnd/1227971389"/>
+        <terms:subject rdf:resource="http://d-nb.info/gnd/1342271416"/>
+        <terms:subject rdf:resource="http://d-nb.info/gnd/4137304-2"/>
+        <terms:subject rdf:resource="http://d-nb.info/gnd/4384643-9"/>
+        <terms:subject rdf:resource="http://d-nb.info/gnd/4827894-4"/>
         <terms:title xml:lang="en">Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.</terms:title>
-        <bibo:doi rdf:resource="https://doi.org/10.5281/zenodo.5957104"/>
+        <bibo:doi rdf:resource="https://doi.org/10.5281/zenodo.5957103"/>
         <bibo:status xml:lang="en">active</bibo:status>
+        <vann:example rdf:resource="https://w3id.org/nfdi4ing/metadata4ing/first-steps-guide.md"/>
         <vann:preferredNamespacePrefix>m4i</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://w3id.org/nfdi4ing/metadata4ing#</vann:preferredNamespaceUri>
+        <voaf:extends rdf:resource="http://emmo.info/emmo#"/>
+        <voaf:extends rdf:resource="http://purl.obolibrary.org/obo/"/>
+        <voaf:extends rdf:resource="http://www.molmod.info/semantics/pims-ii.ttl#"/>
+        <voaf:extends rdf:resource="https://ptb.de/si/"/>
+        <doap:audience xml:lang="en">Engineers and scientists working with quantitative data</doap:audience>
+        <doap:audience xml:lang="de">Ingenieure und Forschende, die mit quantitativen Daten arbeiten</doap:audience>
+        <doap:bug-database rdf:resource="https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/-/issues"/>
+        <doap:repository rdf:resource="https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/"/>
+        <v3:documentation rdf:resource="https://w3id.org/nfdi4ing/metadata4ing"/>
         <rdfs:comment xml:lang="en">
-Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing. 
+Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing.
 New concepts and properties are located in the namespace of Metadata4Ing.
 Metadata4Ing does not import complete ontologies for the sake of relevance, readability, understandability and usability by and for engineers.
 Instead, it tries to make re-use of existing identifiers for classes and properties by re-using all or a relevant subset of the axioms from the original ontology.
@@ -58,34 +79,35 @@ In some cases there was a need to extend or modify the original set of statement
 Any editorial changes on elements from external ontologies are declared in Metadata4Ing by an annotation with skos:editorialNote at item-level.
 To get the original set of statements we encourage to visit the original namespace of the respective item.
 Metadata4Ing reuses elements from the following ontologies:
-- BIBO = Bibliographic Ontology  
-- BIRO = Bibliographic Reference Ontology  
+- BIRO = Bibliographic Reference Ontology
 - CR = Croissant
-- DCAT = Data Catalog  
-- DCC = Digital Calibration Certificate  
-- DCTERMS = Dublin Core Terms  
-- EMMO = European Materials and Modelling Ontology  
-- FOAF = Friend of a Friend  
+- DCAT = Data Catalog
+- DCC = Digital Calibration Certificate
+- DCTERMS = Dublin Core Terms
+- EMMO = European Materials and Modelling Ontology
+- FOAF = Friend of a Friend
 - OBO = Open Biological and Biomedical Ontologies:
-  - BFO = Basic Formal Ontology  
-  - RO = Relation Ontology  
-- OWL = Web Ontology Language  
-- PIMS-II = PIMS Interoperability Infrastructure  
-- PROV = Provenance Namespace  
-- QUDT = Quantities, Units, Dimensions and Types  
-- RDF = Resource Description Framework  
-- RDFS = RDF Schema  
-- SCHEMA = schema.org  
-- D-SI = Digital System of Units  
-- SIO = Semanticscience Integrated Ontology  
-- SKOS = Simple Knowledge Organization System  
-- SSN = Semantic Sensor Network Ontology  
-- VANN = Vocabulary for Annotating vocabulary descriptions  
-- XSD = XML Schema Definition  
+  - BFO = Basic Formal Ontology
+  - RO = Relation Ontology
+- OWL = Web Ontology Language
+- PIMS-II = PIMS Interoperability Infrastructure
+- PROV = Provenance Namespace
+- QUDT = Quantities, Units, Dimensions and Types
+- RDF = Resource Description Framework
+- RDFS = RDF Schema
+- SCHEMA = schema.org
+- D-SI = Digital System of Units
+- SIO = Semanticscience Integrated Ontology
+- SKOS = Simple Knowledge Organization System
+- SSN = Semantic Sensor Network Ontology
+- XSD = XML Schema Definition
 </rdfs:comment>
-        <rdfs:label>Metadata4Ing</rdfs:label>
-        <owl:versionInfo>v1.3.0</owl:versionInfo>
-        <schema:citation xml:lang="en">Metadata4Ing Workgroup (2022). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.</schema:citation>
+        <rdfs:label xml:lang="de">Metadata4Ing</rdfs:label>
+        <rdfs:label xml:lang="en">Metadata4Ing</rdfs:label>
+        <owl:versionInfo>v1.3.1</owl:versionInfo>
+        <schema:funder rdf:resource="https://ror.org/018mejw64"/>
+        <schema:funding rdf:resource="https://gepris.dfg.de/gepris/projekt/442146713"/>
+        <schema:logo rdf:resource="https://w3id.org/nfdi4ing/metadata4ing/m4i_logo.png"/>
     </owl:Ontology>
 </rdf:RDF>
 

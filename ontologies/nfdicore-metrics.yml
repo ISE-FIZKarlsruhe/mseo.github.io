@@ -1,12 +1,12 @@
 metrics:
-  abox_axiom_count: 20
-  abox_axiom_count_incl: 20
-  annotation_property_count: 48
-  annotation_property_count_incl: 48
-  axiom_count: 1820
-  axiom_count_incl: 1820
-  class_count: 88
-  class_count_incl: 88
+  abox_axiom_count: 25
+  abox_axiom_count_incl: 25
+  annotation_property_count: 83
+  annotation_property_count_incl: 83
+  axiom_count: 2912
+  axiom_count_incl: 2912
+  class_count: 247
+  class_count_incl: 247
   consistent: true
   dataproperty_count: 8
   dataproperty_count_incl: 8
@@ -18,73 +18,69 @@ metrics:
   dt_notbuiltin_count_incl: 1
   expressivity: "SHOIF(D)"
   expressivity_incl: "SHOIF(D)"
-  individual_count: 18
-  individual_count_incl: 18
-  logical_axiom_count: 315
-  logical_axiom_count_incl: 315
-  obj_property_count: 79
-  obj_property_count_incl: 79
-  ontology_anno_count: 16
+  individual_count: 43
+  individual_count_incl: 43
+  logical_axiom_count: 583
+  logical_axiom_count_incl: 583
+  obj_property_count: 95
+  obj_property_count_incl: 95
+  ontology_anno_count: 17
   ontology_iri: "https://nfdi.fiz-karlsruhe.de/ontology"
-  ontology_version_iri: "https://nfdi.fiz-karlsruhe.de/ontology/2.1.0"
+  ontology_version_iri: "https://nfdi.fiz-karlsruhe.de/ontology/3.0.1"
   owl2: true
   owl2_dl: true
   owl2_el: false
   owl2_ql: false
   owl2_rl: false
-  rbox_axiom_count: 86
-  rbox_axiom_count_incl: 86
+  rbox_axiom_count: 107
+  rbox_axiom_count_incl: 107
   rdfs: false
   rule_count: 0
   rule_count_incl: 0
-  signature_entity_count: 245
-  signature_entity_count_incl: 245
+  signature_entity_count: 480
+  signature_entity_count_incl: 480
   syntax: "Turtle"
-  tbox_axiom_count: 209
-  tbox_axiom_count_incl: 209
-  tboxrbox_axiom_count: 295
-  tboxrbox_axiom_count_incl: 295
+  tbox_axiom_count: 451
+  tbox_axiom_count_incl: 451
+  tboxrbox_axiom_count: 558
+  tboxrbox_axiom_count_incl: 558
   unsatisfiable_class_count: 0
   axiom_types:
   - "EquivalentClasses"
   - "TransitiveObjectProperty"
   - "FunctionalObjectProperty"
   - "SubObjectPropertyOf"
-  - "SymmetricObjectProperty"
+  - "SubDataPropertyOf"
   - "DataPropertyRange"
-  - "ObjectPropertyRange"
   - "SubClassOf"
+  - "ObjectPropertyRange"
   - "ClassAssertion"
   - "AnnotationAssertion"
-  - "EquivalentObjectProperties"
+  - "SubAnnotationPropertyOf"
   - "ObjectPropertyDomain"
   - "DisjointClasses"
   - "DataPropertyDomain"
   - "Declaration"
-  - "Rule"
   - "InverseObjectProperties"
   - "InverseFunctionalObjectProperty"
-  - "DifferentIndividuals"
   axiom_types_incl:
   - "EquivalentClasses"
   - "TransitiveObjectProperty"
   - "FunctionalObjectProperty"
   - "SubObjectPropertyOf"
-  - "SymmetricObjectProperty"
+  - "SubDataPropertyOf"
   - "DataPropertyRange"
-  - "ObjectPropertyRange"
   - "SubClassOf"
+  - "ObjectPropertyRange"
   - "ClassAssertion"
   - "AnnotationAssertion"
-  - "EquivalentObjectProperties"
+  - "SubAnnotationPropertyOf"
   - "ObjectPropertyDomain"
   - "DisjointClasses"
   - "DataPropertyDomain"
   - "Declaration"
-  - "Rule"
   - "InverseObjectProperties"
   - "InverseFunctionalObjectProperty"
-  - "DifferentIndividuals"
   constructs:
   - "S"
   - "D"
@@ -103,62 +99,58 @@ metrics:
   valid_imports_incl: []
   axiom_type_count:
     EquivalentClasses: 12
-    TransitiveObjectProperty: 4
-    FunctionalObjectProperty: 1
-    SubObjectPropertyOf: 38
-    SymmetricObjectProperty: 1
-    DataPropertyRange: 7
-    ObjectPropertyRange: 37
-    SubClassOf: 95
-    ClassAssertion: 18
-    AnnotationAssertion: 1259
-    EquivalentObjectProperties: 7
-    ObjectPropertyDomain: 37
-    DisjointClasses: 11
-    DataPropertyDomain: 8
-    Declaration: 237
-    Rule: 9
-    InverseObjectProperties: 36
+    TransitiveObjectProperty: 8
+    FunctionalObjectProperty: 6
+    SubObjectPropertyOf: 54
+    SubDataPropertyOf: 3
+    DataPropertyRange: 5
+    SubClassOf: 295
+    ObjectPropertyRange: 64
+    ClassAssertion: 25
+    AnnotationAssertion: 1854
+    SubAnnotationPropertyOf: 4
+    ObjectPropertyDomain: 50
+    DisjointClasses: 13
+    DataPropertyDomain: 5
+    Declaration: 471
+    InverseObjectProperties: 42
     InverseFunctionalObjectProperty: 1
-    DifferentIndividuals: 2
   axiom_type_count_incl:
     EquivalentClasses: 12
-    TransitiveObjectProperty: 4
-    FunctionalObjectProperty: 1
-    SubObjectPropertyOf: 38
-    SymmetricObjectProperty: 1
-    DataPropertyRange: 7
-    ObjectPropertyRange: 37
-    SubClassOf: 95
-    ClassAssertion: 18
-    AnnotationAssertion: 1259
-    EquivalentObjectProperties: 7
-    ObjectPropertyDomain: 37
-    DisjointClasses: 11
-    DataPropertyDomain: 8
-    Declaration: 237
-    Rule: 9
-    InverseObjectProperties: 36
+    TransitiveObjectProperty: 8
+    FunctionalObjectProperty: 6
+    SubObjectPropertyOf: 54
+    SubDataPropertyOf: 3
+    DataPropertyRange: 5
+    SubClassOf: 295
+    ObjectPropertyRange: 64
+    ClassAssertion: 25
+    AnnotationAssertion: 1854
+    SubAnnotationPropertyOf: 4
+    ObjectPropertyDomain: 50
+    DisjointClasses: 13
+    DataPropertyDomain: 5
+    Declaration: 471
+    InverseObjectProperties: 42
     InverseFunctionalObjectProperty: 1
-    DifferentIndividuals: 2
   class_expression_count:
-    ObjectAllValuesFrom: 2
-    ObjectComplementOf: 2
-    Class: 466
+    ObjectAllValuesFrom: 32
+    ObjectComplementOf: 13
+    Class: 1091
     ObjectOneOf: 3
-    ObjectUnionOf: 7
-    ObjectSomeValuesFrom: 9
-    ObjectIntersectionOf: 9
+    ObjectUnionOf: 24
+    ObjectSomeValuesFrom: 58
+    ObjectIntersectionOf: 55
   class_expression_count_incl:
-    ObjectAllValuesFrom: 2
-    ObjectComplementOf: 2
-    Class: 466
+    ObjectAllValuesFrom: 32
+    ObjectComplementOf: 13
+    Class: 1091
     ObjectOneOf: 3
-    ObjectUnionOf: 7
-    ObjectSomeValuesFrom: 9
-    ObjectIntersectionOf: 9
+    ObjectUnionOf: 24
+    ObjectSomeValuesFrom: 58
+    ObjectIntersectionOf: 55
   curie_map:
-    void: "http://rdfs.org/ns/void#"
+    oboInOwl: "http://www.geneontology.org/formats/oboInOwl#"
     owl: "http://www.w3.org/2002/07/owl#"
     xsd: "http://www.w3.org/2001/XMLSchema#"
     skos: "http://www.w3.org/2004/02/skos/core#"
@@ -168,72 +160,65 @@ metrics:
     dc11: "http://purl.org/dc/elements/1.1/"
     rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     IAO: "http://purl.obolibrary.org/obo/IAO_"
-    OBI: "http://purl.obolibrary.org/obo/OBI_"
-    APOLLO_SV: "http://purl.obolibrary.org/obo/APOLLO_SV_"
-    RO: "http://purl.obolibrary.org/obo/RO_"
+    obo: "http://purl.obolibrary.org/obo/"
+    foaf: "http://xmlns.com/foaf/0.1/"
     dc: "http://purl.org/dc/terms/"
   namespace_axiom_count:
-    prefix_unknown: 475
-    void: 1
-    owl: 4
-    xsd: 6
-    skos: 39
-    rdfs: 603
-    BFO: 169
-    OMO: 3
-    dc11: 6
-    rdf: 7
-    IAO: 870
-    OBI: 21
-    APOLLO_SV: 4
-    RO: 101
-    dc: 12
+    prefix_unknown: 928
+    oboInOwl: 63
+    owl: 5
+    xsd: 2
+    skos: 298
+    rdfs: 780
+    BFO: 610
+    OMO: 2
+    dc11: 89
+    IAO: 891
+    obo: 12
+    foaf: 3
+    dc: 10
   namespace_axiom_count_incl:
-    prefix_unknown: 475
-    void: 1
-    owl: 4
-    xsd: 6
-    skos: 39
-    rdfs: 603
-    BFO: 169
-    OMO: 3
-    dc11: 6
-    rdf: 7
-    IAO: 870
-    OBI: 21
-    APOLLO_SV: 4
-    RO: 101
-    dc: 12
+    prefix_unknown: 928
+    oboInOwl: 63
+    owl: 5
+    xsd: 2
+    skos: 298
+    rdfs: 780
+    BFO: 610
+    OMO: 2
+    dc11: 89
+    IAO: 891
+    obo: 12
+    foaf: 3
+    dc: 10
   namespace_entity_count:
-    prefix_unknown: 122
-    void: 1
+    prefix_unknown: 272
     owl: 4
+    oboInOwl: 9
     xsd: 2
-    skos: 2
-    BFO: 22
+    skos: 6
+    BFO: 80
     rdfs: 5
     OMO: 1
-    dc11: 4
+    dc11: 8
     rdf: 1
-    IAO: 52
-    OBI: 3
-    APOLLO_SV: 1
-    RO: 15
-    dc: 10
+    IAO: 74
+    obo: 6
+    foaf: 3
+    dc: 9
   namespace_entity_count_incl:
-    prefix_unknown: 122
-    void: 1
+    prefix_unknown: 272
     owl: 4
+    oboInOwl: 9
     xsd: 2
-    skos: 2
-    BFO: 22
+    skos: 6
+    BFO: 80
     rdfs: 5
     OMO: 1
-    dc11: 4
+    dc11: 8
     rdf: 1
-    IAO: 52
-    OBI: 3
-    APOLLO_SV: 1
-    RO: 15
-    dc: 10
+    IAO: 74
+    obo: 6
+    foaf: 3
+    dc: 9
   owl2dl_profile_violation: {}
