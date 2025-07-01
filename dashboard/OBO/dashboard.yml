@@ -3,7 +3,7 @@ base_prefixes:
 - obo
 - OBOALT
 changed: true
-date: 2025-06-30 13:38:38.430193
+date: 2025-07-01 15:54:32.839628
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 323

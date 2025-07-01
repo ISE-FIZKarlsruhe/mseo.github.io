@@ -3,7 +3,7 @@ base_prefixes:
 - EXPO
 - EXPOALT
 changed: true
-date: 2025-06-30 13:48:00.828749
+date: 2025-07-01 15:59:28.838059
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 646

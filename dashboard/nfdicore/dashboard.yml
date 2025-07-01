@@ -3,7 +3,7 @@ base_prefixes:
 - nfdicore
 - NFDICOREALT
 changed: true
-date: 2025-06-30 13:47:42.425266
+date: 2025-07-01 15:59:10.585884
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1854
@@ -41,12 +41,12 @@ metrics:
     ObjectUnionOf: 24
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
-    _dashboard: 0.549
+    _dashboard: 0.593
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.275
+    oboscore: 0.296
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -70,8 +70,9 @@ mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/main/nf
 namespace: nfdicore
 results:
   FP01 Open:
-    comment: Missing registry license.
-    status: ERROR
+    comment: Registry license 'https://creativecommons.org/publicdomain/zero/1.0/'
+      is not a valid open license.
+    status: WARN
   FP02 Common Format:
     comment: OWL syntax (Turtle), but should be RDF/XML
     status: WARN
@@ -109,10 +110,10 @@ results:
     status: PASS
 sha256_hash: 6093da767e3ae7b2eb1088d91f03e040f0a79386671768fe82b415497adbd06f
 summary:
-  comment: 5 errors
+  comment: 4 errors
   status: ERROR
   summary_count:
-    ERROR: 5
+    ERROR: 4
     INFO: 1
-    WARN: 2
+    WARN: 3
 version: https://nfdi.fiz-karlsruhe.de/ontology/3.0.1

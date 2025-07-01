@@ -3,7 +3,7 @@ base_prefixes:
 - pmdco
 - PMDCOALT
 changed: true
-date: 2025-06-30 13:38:28.711594
+date: 2025-07-01 15:54:23.110279
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 2226

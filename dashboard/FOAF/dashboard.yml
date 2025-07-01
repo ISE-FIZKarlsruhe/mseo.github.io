@@ -3,7 +3,7 @@ base_prefixes:
 - foaf
 - FOAFALT
 changed: true
-date: 2025-06-30 13:41:01.711483
+date: 2025-07-01 15:56:54.853085
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 245

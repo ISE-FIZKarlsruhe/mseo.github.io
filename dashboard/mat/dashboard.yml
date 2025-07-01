@@ -3,7 +3,7 @@ base_prefixes:
 - mat
 - MATALT
 changed: true
-date: 2025-06-30 13:47:50.299840
+date: 2025-07-01 15:59:18.477729
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 202

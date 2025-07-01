@@ -3,7 +3,7 @@ base_prefixes:
 - MSLE
 - MSLEALT
 changed: true
-date: 2025-06-30 13:48:49.842210
+date: 2025-07-01 16:00:15.274585
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 341

@@ -3,7 +3,7 @@ base_prefixes:
 - MDS
 - MDSALT
 changed: true
-date: 2025-06-30 13:48:24.286000
+date: 2025-07-01 15:59:51.116902
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 890
