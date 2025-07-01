@@ -3,7 +3,7 @@ base_prefixes:
 - LPBFO
 - LPBFOALT
 changed: true
-date: 2025-06-30 13:43:34.726758
+date: 2025-07-01 15:57:16.584458
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1579
