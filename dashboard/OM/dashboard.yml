@@ -3,7 +3,7 @@ base_prefixes:
 - om
 - OMALT
 changed: true
-date: 2025-07-01 15:58:36.441434
+date: 2025-07-01 16:20:03.507454
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 8471

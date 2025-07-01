@@ -3,7 +3,7 @@ base_prefixes:
 - mdo
 - MDOALT
 changed: true
-date: 2025-07-01 15:57:57.039079
+date: 2025-07-01 16:19:24.053608
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 268

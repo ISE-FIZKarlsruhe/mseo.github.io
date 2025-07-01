@@ -3,7 +3,7 @@ base_prefixes:
 - emmo_mappings
 - EMMO_MAPPINGSALT
 changed: true
-date: 2025-07-01 15:57:31.310899
+date: 2025-07-01 16:18:59.397853
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1915
