@@ -3,7 +3,7 @@ base_prefixes:
 - foaf
 - FOAFALT
 changed: true
-date: 2024-11-04 13:40:47.010840
+date: 2025-06-30 13:41:01.711483
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 245
@@ -30,12 +30,12 @@ metrics:
   'Info: Experimental OBO score':
     _dashboard: 0.333
     _formula: (1*impact+1*dashboard)/2
-    _impact: 0.262
+    _impact: 0.25
     _impact_external: 0
     _reuse: 0.146
-    oboscore: 0.297
+    oboscore: 0.291
   'Info: How many externally documented uses?': 0
-  'Info: How many ontologies use it?': 22
+  'Info: How many ontologies use it?': 21
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
@@ -48,7 +48,6 @@ metrics:
   - BWMD-DOMAIN
   - BWMD-MID
   - CCO
-  - CHAMEO
   - CHEMINF
   - DSIM
   - EMMO
@@ -58,7 +57,6 @@ metrics:
   - MSLE
   - NanoMine
   - OA
-  - OIEcharacterisation-methods
   - OM
   - PATO
   - SEMMD
@@ -67,6 +65,7 @@ metrics:
   - m4i
   - mvc
   - mwo
+  - nfdicore
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/FOAF.owl
 namespace: FOAF
 results:

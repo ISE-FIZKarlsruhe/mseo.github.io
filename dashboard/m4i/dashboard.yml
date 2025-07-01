@@ -3,17 +3,18 @@ base_prefixes:
 - m4i
 - M4IALT
 changed: true
-date: 2024-11-04 13:43:05.465466
+date: 2025-06-30 13:47:38.499708
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 802
-    ClassAssertion: 21
+    AnnotationAssertion: 841
+    ClassAssertion: 47
     DataPropertyDomain: 31
     DataPropertyRange: 35
     Declaration: 202
     EquivalentClasses: 2
     InverseFunctionalObjectProperty: 1
     InverseObjectProperties: 15
+    ObjectPropertyAssertion: 4
     ObjectPropertyDomain: 43
     ObjectPropertyRange: 38
     SubClassOf: 46
@@ -21,16 +22,16 @@ metrics:
     SubObjectPropertyOf: 21
     SubPropertyChainOf: 2
     TransitiveObjectProperty: 5
-  'Axioms: Number of axioms': 1278
+  'Axioms: Number of axioms': 1347
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 40
-  'Entities: Number of classes': 45
+  'Entities: Number of annotation properties': 53
+  'Entities: Number of classes': 44
   'Entities: Number of data properties': 37
-  'Entities: Number of individuals': 21
+  'Entities: Number of individuals': 48
   'Entities: Number of object properties': 63
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 267
+    Class: 293
     DataExactCardinality: 8
     DataMaxCardinality: 2
     ObjectExactCardinality: 1
@@ -53,9 +54,9 @@ metrics:
     BFO: 35
     RO: 37
     dc: 17
-    foaf: 20
+    foaf: 65
     owl: 13
-    prefix_unknown: 541
+    prefix_unknown: 599
     prov: 70
     rdf: 2
     rdfs: 96
@@ -76,7 +77,7 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'http://w3id.org/nfdi4ing/metadata4ing/1.3.0' is not in recommended
+    comment: Version IRI 'http://w3id.org/nfdi4ing/metadata4ing/1.3.1' is not in recommended
       format
     status: WARN
   FP05 Scope:
@@ -104,7 +105,7 @@ results:
     status: ERROR
   ROBOT Report:
     status: PASS
-sha256_hash: 910943be600e7a1051969a4ea6500e8b3207735b9d3a88709685cd19adf75a1e
+sha256_hash: b9c6dffeb882ed5d53fa15be29238ba7d41ae5e1d154db8895d73a9de2319260
 summary:
   comment: 6 errors
   status: ERROR
@@ -112,4 +113,4 @@ summary:
     ERROR: 6
     INFO: 1
     WARN: 2
-version: http://w3id.org/nfdi4ing/metadata4ing/1.3.0
+version: http://w3id.org/nfdi4ing/metadata4ing/1.3.1

@@ -6,68 +6,84 @@
 @prefix dcat:    <http://www.w3.org/ns/dcat#> .
 @prefix dcc:     <https://ptb.de/dcc/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap:    <http://usefulinc.com/ns/doap#> .
 @prefix emmo:    <http://emmo.info/emmo#> .
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix gnd:     <http://d-nb.info/gnd/> .
+@prefix mod:     <https://w3id.org/mod#> .
 @prefix obo:     <http://purl.obolibrary.org/obo/> .
+@prefix orcid:   <https://orcid.org/> .
 @prefix owl:     <http://www.w3.org/2002/07/owl#> .
 @prefix pims-ii: <http://www.molmod.info/semantics/pims-ii.ttl#> .
+@prefix premis:  <http://www.loc.gov/premis/rdf/v3/> .
 @prefix prov:    <http://www.w3.org/ns/prov#> .
 @prefix qudt:    <http://qudt.org/schema/qudt/> .
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ror:     <https://ror.org/> .
 @prefix schema:  <https://schema.org/> .
 @prefix si:      <https://ptb.de/si/> .
 @prefix sio:     <http://semanticscience.org/resource/> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
 @prefix ssn:     <http://www.w3.org/ns/ssn/> .
 @prefix vann:    <http://purl.org/vocab/vann/> .
-@prefix xml:     <http://www.w3.org/XML/1998/namespace> .
+@prefix voaf:    <http://purl.org/vocommons/voaf#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 @base            <http://w3id.org/nfdi4ing/metadata4ing#> .
 
 <http://w3id.org/nfdi4ing/metadata4ing#> rdf:type owl:Ontology ;
-    rdfs:label    "Metadata4Ing" ;
-    dcterms:title "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
-    vann:preferredNamespacePrefix "m4i" ;
     vann:preferredNamespaceUri    "http://w3id.org/nfdi4ing/metadata4ing#" ;
-    owl:versionIRI   <http://w3id.org/nfdi4ing/metadata4ing/1.3.0> ;
-    dcterms:replaces <http://w3id.org/nfdi4ing/metadata4ing/1.2.1> ;
-    owl:versionInfo  "v1.3.0" ;
-    bibo:status      "active"@en ;
-    dcterms:created  "2022-02-22" ;
-    dcterms:issued   "2022-02-22" ;
-    dcterms:modified "2024-09-20" ;
-    dcterms:abstract "The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance." ;
-    schema:citation  "Metadata4Ing Workgroup (2022). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
-    bibo:doi        <https://doi.org/10.5281/zenodo.5957104> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:rights  <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:source  <https://doi.org/10.52825/CoRDI.v1i.271> ,
-                    <https://doi.org/10.5281/zenodo.7362037> ,
-                    <https://nfdi4ing.de/wp-content/uploads/2019/10/Programmheft-NFDI4Ing-Community-Meeting.pdf#page=6> ;
-    dcterms:references <https://doi.org/10.14454/G8E5-6293> , 
-                       <https://doi.org/10.5281/zenodo.3982367> ,
-                       <https://doi.org/10.5281/zenodo.3816686> ,
-                       <https://doi.org/10.52825/cordi.v1i.271> ,
-                       <https://doi.org/10.26083/tuprints-00024573> ,
-                       <https://doi.org/10.5281/zenodo.4846313> ,
-                       <https://doi.org/10.1504/IJMSO.2020.107792> ;
-    dcterms:publisher "NFDI4Ing (https://www.nfdi4ing.de/)" ;
-    dcterms:creator   "Metadata4Ing Workgroup" ;
-    dcterms:contributor "Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77)" ,
-        "Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03)" ,
-        "Susanne Arndt (https://orcid.org/0000-0002-1019-9151), Technische Informationsbibliothek (TIB) (https://ror.org/04aj4c181)" ,
-        "Marc Fuhrmans (https://orcid.org/0000-0002-9826-018X), Technische Universität Darmstadt (https://ror.org/05n911h24)" ,
-        "Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66)" ,
-        "Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38)" ,
-        "Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34)" ,
-        "Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)" ,
-        "Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)" ,
-        "Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62)" ,
-        "Vasiliki Sdralia (https://orcid.org/0000-0002-7213-5110), Technische Universität München (TUM) (https://ror.org/02kkvpp62)" ,
-        "Alexander Wellmann (https://orcid.org/0000-0002-9033-5538), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16)" ;
+    vann:preferredNamespacePrefix "m4i" ;
+    rdfs:label           "Metadata4Ing"@en, "Metadata4Ing"@de ;
+    dcterms:title        "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en ;
+    dcterms:abstract     "The ontology Metadata4Ing provides a framework for the semantic description of research data and of the whole data generation process, embracing the object of investigation, all sample and data manipulation methods and tools, the data files themselves, and the roles of persons and institutions. The structure and application of the ontology are based on the principles of modularity and inheritance."@en ;
+    bibo:status          "active"@en ;
+    owl:versionInfo      "v1.3.1" ;
+    owl:versionIRI       <http://w3id.org/nfdi4ing/metadata4ing/1.3.1> ;
+    dcterms:replaces     <http://w3id.org/nfdi4ing/metadata4ing/1.3.0> ;
+    dcterms:created      "2022-02-22"^^xsd:date ;
+    dcterms:modified     "2025-03-10"^^xsd:date ;
+    dcterms:issued       "2025-03-10"^^xsd:date ;
+    dcterms:creator      "Metadata4Ing Workgroup" ;
+    dcterms:contributor  orcid:0000-0002-8524-0569 , orcid:0000-0002-2239-3955 ,
+                         orcid:0000-0002-1019-9151 , orcid:0000-0002-9826-018X ,
+                         orcid:0000-0002-1698-6826 , orcid:0000-0001-6272-204X ,
+                         orcid:0000-0002-2639-1949 , orcid:0000-0001-8341-1478 ,
+                         orcid:0000-0002-5031-9170 , orcid:0000-0002-1489-6501 ,
+                         orcid:0000-0002-7213-5110 , orcid:0000-0002-9033-5538 ;
+    dcterms:publisher    gnd:1227971389 ;
+    schema:funder        ror:018mejw64 ;
+    schema:funding       <https://gepris.dfg.de/gepris/projekt/442146713> ;
+    bibo:doi             <https://doi.org/10.5281/zenodo.5957103> ;
+    dcterms:bibliographicCitation "Metadata4Ing Workgroup (2025). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity. v1.3.1. http://w3id.org/nfdi4ing/metadata4ing/1.3.1 [ttl, jsonld, nt, rdf/xml]"@en ;
+    dcterms:license      <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:rights       <https://creativecommons.org/licenses/by/4.0/> ;
+    schema:logo          <https://w3id.org/nfdi4ing/metadata4ing/m4i_logo.png> ;
+    vann:example         <https://w3id.org/nfdi4ing/metadata4ing/first-steps-guide.md> ;
+    premis:documentation <https://w3id.org/nfdi4ing/metadata4ing> ;
+    doap:repository      <https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/> ;
+    doap:bug-database    <https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/-/issues> ;
+    doap:audience        "Engineers and scientists working with quantitative data"@en ,
+                         "Ingenieure und Forschende, die mit quantitativen Daten arbeiten"@de ;
+    dcterms:language     <http://id.loc.gov/vocabulary/iso639-2/eng> , <http://id.loc.gov/vocabulary/iso639-2/deu> ;
+    dcat:distribution    <https://w3id.org/nfdi4ing/metadata4ing/ontology.nt> ,
+                         <https://w3id.org/nfdi4ing/metadata4ing/ontology.jsonld> ,
+                         <https://w3id.org/nfdi4ing/metadata4ing/ontology.xml> ,
+                         <https://w3id.org/nfdi4ing/metadata4ing/ontology.ttl> ;
+    dcterms:subject      gnd:4384643-9 , gnd:4137304-2 , gnd:1342271416 , gnd:1227971389 , gnd:4827894-4 ;
+    dcterms:source       <https://doi.org/10.52825/CoRDI.v1i.271> ,
+                         <https://doi.org/10.5281/zenodo.7362037> ,
+                         <https://nfdi4ing.de/wp-content/uploads/2019/10/Programmheft-NFDI4Ing-Community-Meeting.pdf#page=6> ;
+    voaf:extends         emmo: , obo: , pims-ii: , si: ;
+    dcterms:references   <https://doi.org/10.14454/csba-e454> ,
+                         <https://doi.org/10.5281/zenodo.3982367> ,
+                         <https://doi.org/10.5281/zenodo.3816686> ,
+                         <https://doi.org/10.52825/cordi.v1i.271> ,
+                         <https://doi.org/10.26083/tuprints-00024573> ,
+                         <https://doi.org/10.5281/zenodo.4846313> ,
+                         <https://doi.org/10.1504/IJMSO.2020.107792> ;
     rdfs:comment """
-Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing. 
+Metadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing.
 New concepts and properties are located in the namespace of Metadata4Ing.
 Metadata4Ing does not import complete ontologies for the sake of relevance, readability, understandability and usability by and for engineers.
 Instead, it tries to make re-use of existing identifiers for classes and properties by re-using all or a relevant subset of the axioms from the original ontology.
@@ -76,31 +92,56 @@ In some cases there was a need to extend or modify the original set of statement
 Any editorial changes on elements from external ontologies are declared in Metadata4Ing by an annotation with skos:editorialNote at item-level.
 To get the original set of statements we encourage to visit the original namespace of the respective item.
 Metadata4Ing reuses elements from the following ontologies:
-- BIBO = Bibliographic Ontology  
-- BIRO = Bibliographic Reference Ontology  
+- BIRO = Bibliographic Reference Ontology
 - CR = Croissant
-- DCAT = Data Catalog  
-- DCC = Digital Calibration Certificate  
-- DCTERMS = Dublin Core Terms  
-- EMMO = European Materials and Modelling Ontology  
-- FOAF = Friend of a Friend  
+- DCAT = Data Catalog
+- DCC = Digital Calibration Certificate
+- DCTERMS = Dublin Core Terms
+- EMMO = European Materials and Modelling Ontology
+- FOAF = Friend of a Friend
 - OBO = Open Biological and Biomedical Ontologies:
-  - BFO = Basic Formal Ontology  
-  - RO = Relation Ontology  
-- OWL = Web Ontology Language  
-- PIMS-II = PIMS Interoperability Infrastructure  
-- PROV = Provenance Namespace  
-- QUDT = Quantities, Units, Dimensions and Types  
-- RDF = Resource Description Framework  
-- RDFS = RDF Schema  
-- SCHEMA = schema.org  
-- D-SI = Digital System of Units  
-- SIO = Semanticscience Integrated Ontology  
-- SKOS = Simple Knowledge Organization System  
-- SSN = Semantic Sensor Network Ontology  
-- VANN = Vocabulary for Annotating vocabulary descriptions  
-- XSD = XML Schema Definition  
+  - BFO = Basic Formal Ontology
+  - RO = Relation Ontology
+- OWL = Web Ontology Language
+- PIMS-II = PIMS Interoperability Infrastructure
+- PROV = Provenance Namespace
+- QUDT = Quantities, Units, Dimensions and Types
+- RDF = Resource Description Framework
+- RDFS = RDF Schema
+- SCHEMA = schema.org
+- D-SI = Digital System of Units
+- SIO = Semanticscience Integrated Ontology
+- SKOS = Simple Knowledge Organization System
+- SSN = Semantic Sensor Network Ontology
+- XSD = XML Schema Definition
 """@en .
+
+orcid:0000-0002-8524-0569 a foaf:Person ; foaf:name "Dorothea Iglezakis" ;     schema:affiliation ror:04vnq7t77 .
+orcid:0000-0002-2239-3955 a foaf:Person ; foaf:name "Giacomo Lanza" ;          schema:affiliation ror:05r3f7h03 .
+orcid:0000-0002-1019-9151 a foaf:Person ; foaf:name "Susanne Arndt" ;          schema:affiliation ror:04aj4c181 .
+orcid:0000-0002-9826-018X a foaf:Person ; foaf:name "Marc Fuhrmans" ;          schema:affiliation ror:05n911h24 .
+orcid:0000-0002-1698-6826 a foaf:Person ; foaf:name "Džulia Terzijska" ;       schema:affiliation ror:010nsgg66 .
+orcid:0000-0001-6272-204X a foaf:Person ; foaf:name "Sophia Leimer" ;          schema:affiliation ror:04mz5ra38 .
+orcid:0000-0002-2639-1949 a foaf:Person ; foaf:name "Johannes Theissen-Lipp" ; schema:affiliation ror:04xfq0f34 .
+orcid:0000-0001-8341-1478 a foaf:Person ; foaf:name "Stephan Hachinger" ;      schema:affiliation ror:05558nw16 .
+orcid:0000-0002-5031-9170 a foaf:Person ; foaf:name "Johannes Munke" ;         schema:affiliation ror:05558nw16 .
+orcid:0000-0002-1489-6501 a foaf:Person ; foaf:name "Benjamin Farnbacher" ;    schema:affiliation ror:02kkvpp62 .
+orcid:0000-0002-7213-5110 a foaf:Person ; foaf:name "Vasiliki Sdralia" ;       schema:affiliation ror:02kkvpp62 .
+orcid:0000-0002-9033-5538 a foaf:Person ; foaf:name "Alexander Wellmann" ;     schema:affiliation ror:05558nw16 .
+ror:04vnq7t77       a foaf:Organization ; foaf:name "Universität Stuttgart" .
+ror:05r3f7h03       a foaf:Organization ; foaf:name "Physikalisch-Technische Bundesanstalt (PTB)" .
+ror:04aj4c181       a foaf:Organization ; foaf:name "Technische Informationsbibliothek (TIB)" .
+ror:05n911h24       a foaf:Organization ; foaf:name "Technische Universität Darmstadt" .
+ror:010nsgg66       a foaf:Organization ; foaf:name "Technische Universität Braunschweig (TUBS)" .
+ror:04mz5ra38       a foaf:Organization ; foaf:name "Universität Duisburg-Essen" .
+ror:04xfq0f34       a foaf:Organization ; foaf:name "RWTH Aachen University" .
+ror:02kkvpp62       a foaf:Organization ; foaf:name "Technische Universität München (TUM)" .
+ror:05558nw16       a foaf:Organization ; foaf:name "Leibniz Supercomputing Centre (LRZ)" .
+gnd:1227971389      a foaf:Organization ; foaf:name "NFDI4Ing" ; foaf:homepage <https://nfdi4ing.de> .
+<https://w3id.org/nfdi4ing/metadata4ing/ontology.nt>     a dcat:Distribution; mod:hasSyntax <https://www.w3.org/ns/formats/N-Triples> .
+<https://w3id.org/nfdi4ing/metadata4ing/ontology.jsonld> a dcat:Distribution; mod:hasSyntax <https://www.w3.org/ns/formats/JSON-LD> .
+<https://w3id.org/nfdi4ing/metadata4ing/ontology.xml>    a dcat:Distribution; mod:hasSyntax <https://www.w3.org/ns/formats/RDF_XML> .
+<https://w3id.org/nfdi4ing/metadata4ing/ontology.ttl>    a dcat:Distribution; mod:hasSyntax <https://www.w3.org/ns/formats/Turtle> .
 
 
 #################################################################
@@ -359,7 +400,7 @@ obo:BFO_0000063 rdf:type owl:ObjectProperty ,
                 rdfs:domain obo:BFO_0000015 ;
                 rdfs:range obo:BFO_0000015 ;
                 skos:definition "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."@en ;
-                skos:prefLabel "ist Voraussetzung für Schritt"@de ,
+                skos:prefLabel "findet statt vor"@de ,
                                "precedes"@en .
 
 
@@ -394,7 +435,7 @@ obo:RO_0002090 rdf:type owl:ObjectProperty ;
                skos:definition "X immediately precedes_Y iff: end(X) simultaneous_with start(Y)" ;
                skos:editorialNote "changed by m4i: added skos:prefLabel"@en ;
                skos:prefLabel "immediately precedes"@en ,
-                              "ist unmittelbare Voraussetzung für Schritt"@de .
+                              "findet statt unmittelbar vor"@de .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002224
@@ -694,7 +735,7 @@ m4i:realizesMethod rdf:type owl:ObjectProperty ;
 m4i:representsVariable rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf sio:SIO_000210 ;
                    rdfs:domain cr:Field ;
-                   rdfs:range m4i:Variable ;
+                   rdfs:range pims-ii:Variable ;
                    skos:definition "Points to a variable that is represented through a field within a recordset"@en ;
                    skos:prefLabel "repräsentiert Variable"@de ,
                                   "represents variable"@en .
@@ -702,7 +743,7 @@ m4i:representsVariable rdf:type owl:ObjectProperty ;
 
 sio:SIO_000001 rdf:type owl:ObjectProperty ;
                    skos:definition "A is related to B iff there is some relation between A and B."@en,
-		                   "A ist verwandt zu B wenn eine Beziehnung zwischen beiden besteht";
+                                   "A ist verwandt zu B wenn eine Beziehnung zwischen beiden besteht";
                    skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels" ;
                    skos:prefLabel "is related to"@en ,
                                   "ist verwandt mit"@de .
@@ -711,7 +752,7 @@ sio:SIO_000001 rdf:type owl:ObjectProperty ;
 sio:SIO_000210 rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf sio:SIO_000628 ;
                    skos:definition "A represents B when A serves as a sign, symbol or model of B."@en,
-		                   "A repräsentiert B wenn es als ein Zeichen, Symbol oder Modell von B dient";
+                                   "A repräsentiert B wenn es als ein Zeichen, Symbol oder Modell von B dient";
                    skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels" ;
                    skos:prefLabel "repräsentiert"@de ,
                                   "represents"@en .
@@ -720,7 +761,7 @@ sio:SIO_000210 rdf:type owl:ObjectProperty ;
 sio:SIO_000628 rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf sio:SIO_000001 ;
                    skos:definition "refers to is a relation between one entity and the entity that it makes reference to."@en,
-		                   "bezieht sich auf ist eine Relation zwischen einer Entität und einer anderen Entität, auf die sie sich bezieht";
+                                   "bezieht sich auf ist eine Relation zwischen einer Entität und einer anderen Entität, auf die sie sich bezieht";
                    skos:editorialNote "changed by m4i: added skos:prefLabel, added german labels" ;
                    skos:prefLabel "bezieht sich auf"@de ,
                                   "refers to"@en .
@@ -907,15 +948,15 @@ prov:qualifiedAssociation rdf:type owl:ObjectProperty ;
                           skos:editorialNote "changed by m4i: added german label, added skos:prefLabel, added skos:definition, skos:example and skos:note"@en ;
                           skos:example """Example application in m4i:
 :SomeProcess
-    a m4i:ProcessingStep; 
+    a m4i:ProcessingStep;
     obo:RO_0000057 :SomePerson;
     prov:qualifiedAssociation [
         a prov:Association;
         prov:agent   :SomePerson;
         prov:hadRole :SomeRole;
         rdfs:comment \":SomePerson had the :SomeRole in this :SomeProcess\"@en
-    ] ; 
-                          skos:prefLabel "has qualified association"@en , 
+    ] ;
+                          skos:prefLabel "has qualified association"@en ,
                                          "hat qualifizierte Beziehung"@de .
 
 The direct relation between an activity and an agent expressed with 'has participant' (http://purl.obolibrary.org/obo/RO_0000057 or http://www.w3.org/ns/prov#wasAssociatedWith) does not give details about the agent's role in that activity. Using the property prov:qualifiedAssociation one can point to a blank node (cf. https://en.wikipedia.org/w/index.php?title=Blank_node) containing additional information about the participation relation.
@@ -1270,8 +1311,8 @@ m4i:projectReferenceID rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf m4i:identifier ;
                        rdfs:domain schema:Project ;
                        rdfs:range xsd:string ;
-                       skos:definition "An alphanumeric identifier for a project."@en ,
-                                       "Eine alphanumerische ID zur Referenzierung eines Projekts."@de ;
+                       skos:definition "An alphanumeric identifier for a project. We recommend using an identifier which is understandable outside the involved institutions and possibly resolvable and persistent, such as the [Research Activity Identifier (RAiD)](https://raid.org/) or a funder-given ID (see for example the [DFG project database](https://gepris.dfg.de/gepris/OCTOPUS) or the [EU project database](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-results))."@en ,
+                                       "Eine alphanumerische ID zur Referenzierung eines Projekts. Wir empfehlen die Nutzung einer auch außerhalb der teilnehmenden Institutionen verständlichen ID, am besten persistent und mit einem Resolving-System verknüpft, wie bspw. die [Research Activity Identifier (RAiD)](https://raid.org/) oder eine von einem Förderer zugewiesene ID (siehe bspw. die [DFG-Projektendatenbank](https://gepris.dfg.de/gepris/OCTOPUS) oder die [EU-Projektendatenbank](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-results))."@de ;
                        skos:prefLabel "has project ID"@en ,
                                       "hat Projekt-ID"@de .
 
@@ -1480,12 +1521,12 @@ schema:temporal rdf:type owl:DatatypeProperty ;
 
 ###  http://mlcommons.org/croissant/Field
 cr:Field rdf:type owl:Class ;
-  rdfs:subClassOf schema:Intangible ;
-  skos:prefLabel "Field"@en,
-  		 "Feld"@de;
-  skos:definition "A component of the structure of a RecordSet, such as a column of a table."@en,
-  		  "Ein Bestandteil der Struktur eines RecordSets wie z.B. eine Spalte einer Tabelle"@de ;
-              skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel and skos:definition"@en .
+         rdfs:subClassOf schema:Intangible ;
+         skos:definition "A component of the structure of a RecordSet, such as a column of a table."@en,
+                         "Ein Bestandteil der Struktur eines RecordSets wie z.B. eine Spalte einer Tabelle"@de ;
+         skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel and skos:definition"@en ;
+         skos:prefLabel "Field"@en,
+                        "Feld"@de.
 
 
 ###  http://mlcommons.org/croissant/FileObject
@@ -1506,15 +1547,15 @@ cr:FileSet rdf:type owl:Class ;
            skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel, harmonized spelling to OBO naming conventions (lower case, space separated)"@en ;
            skos:prefLabel "file set"@en ,
                           "Dateimenge"@de .
-			  
+
 ###  http://mlcommons.org/croissant/RecordSet
 cr:RecordSet rdf:type owl:Class ;
-  	     rdfs:subClassOf schema:Intangible ;
-  	     skos:prefLabel "record set"@en,
-	     		    "Menge von Einträgen"@de;
-	     skos:definition "A description of a set of structured records from one or more data sources and their structure, expressed as a set of fields."@en,
-	     		     "Eine Beschreibung einer Menge strukturierter Einträge von einer oder mehrerer Datenquellen mit ihrer Struktur, ausgedrückt durch eine Menge von Feldern"@de;
-             skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel and skos:definition, harmonized spelling to OBO naming conventions (lower case, space separated)"@en .		     
+             rdfs:subClassOf schema:Intangible ;
+             skos:prefLabel "record set"@en,
+                            "Menge von Einträgen"@de;
+             skos:definition "A description of a set of structured records from one or more data sources and their structure, expressed as a set of fields."@en,
+                             "Eine Beschreibung einer Menge strukturierter Einträge von einer oder mehrerer Datenquellen mit ihrer Struktur, ausgedrückt durch eine Menge von Feldern"@de;
+             skos:editorialNote "changed by m4i: added german labels, added skos:prefLabel and skos:definition, harmonized spelling to OBO naming conventions (lower case, space separated)"@en .
 
 
 
@@ -1743,7 +1784,7 @@ dcat:Distribution rdf:type owl:Class ;
                   skos:prefLabel "Verteilung"@de ,
                                  "distribution"@en .
 
-				 
+
 ###  http://www.w3.org/ns/prov#Activity
 prov:Activity rdf:type owl:Class ;
               rdfs:subClassOf obo:BFO_0000015 ;
@@ -1981,7 +2022,7 @@ m4i:DataCurator rdf:type owl:NamedIndividual ,
                 skos:definition "Person tasked with reviewing, enhancing, cleaning, or standardizing metadata and the associated data submitted for storage, use, and maintenance within a data centre or repository"@en ;
                 skos:prefLabel "Datenkurator*in"@de ,
                                "data curator"@en ;
-                skos:scopeNote """While the DataManager is concerned with digital maintenance, the DataCurator's role encompasses quality assurance focused on content and metadata. DataCurator responsibilities include: checking completeness of the submitted dataset against the content as described by the submitter; verifying standard metadata according to the applicable system or schema; adding or verifying specialized metadata to add value and ensure access across disciplines; and determining how the metadata might map to search engines, database products, and automated feeds. Repository managers as well as data librarians working in the repository fall within this category. 
+                skos:scopeNote """While the DataManager is concerned with digital maintenance, the DataCurator's role encompasses quality assurance focused on content and metadata. DataCurator responsibilities include: checking completeness of the submitted dataset against the content as described by the submitter; verifying standard metadata according to the applicable system or schema; adding or verifying specialized metadata to add value and ensure access across disciplines; and determining how the metadata might map to search engines, database products, and automated feeds. Repository managers as well as data librarians working in the repository fall within this category.
 
 Example: https://doi.org/10.20375/0000-000D-1D1F-2"""@en .
 

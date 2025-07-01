@@ -1,8 +1,8 @@
 metrics:
   abox_axiom_count: 0
   abox_axiom_count_incl: 0
-  annotation_property_count: 12
-  annotation_property_count_incl: 12
+  annotation_property_count: 11
+  annotation_property_count_incl: 11
   axiom_count: 0
   axiom_count_incl: 0
   class_count: 0
@@ -24,9 +24,9 @@ metrics:
   logical_axiom_count_incl: 0
   obj_property_count: 0
   obj_property_count_incl: 0
-  ontology_anno_count: 16
+  ontology_anno_count: 17
   ontology_iri: "https://nfdi.fiz-karlsruhe.de/ontology"
-  ontology_version_iri: "https://nfdi.fiz-karlsruhe.de/ontology/2.1.0"
+  ontology_version_iri: "https://nfdi.fiz-karlsruhe.de/ontology/3.0.1"
   owl2: true
   owl2_dl: false
   owl2_el: false
@@ -37,8 +37,8 @@ metrics:
   rdfs: true
   rule_count: 0
   rule_count_incl: 0
-  signature_entity_count: 12
-  signature_entity_count_incl: 12
+  signature_entity_count: 11
+  signature_entity_count_incl: 11
   syntax: "Turtle"
   tbox_axiom_count: 0
   tbox_axiom_count_incl: 0
@@ -67,11 +67,11 @@ metrics:
     prefix_unknown: 2
     owl: 2
     rdfs: 1
-    dc: 7
+    dc: 6
   namespace_entity_count_incl:
     prefix_unknown: 2
     owl: 2
     rdfs: 1
-    dc: 7
+    dc: 6
   owl2dl_profile_violation:
     UseOfUndeclaredAnnotationProperty: 13

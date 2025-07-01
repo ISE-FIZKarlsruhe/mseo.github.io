@@ -3,7 +3,7 @@ base_prefixes:
 - mvc
 - MVCALT
 changed: true
-date: 2024-11-04 13:43:01.223975
+date: 2025-06-30 13:47:34.747493
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 75

@@ -3,7 +3,7 @@ base_prefixes:
 - CMSO
 - CMSOALT
 changed: true
-date: 2024-11-04 13:43:21.548367
+date: 2025-06-30 13:47:53.291051
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 270

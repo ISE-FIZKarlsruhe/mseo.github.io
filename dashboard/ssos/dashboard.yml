@@ -3,7 +3,7 @@ base_prefixes:
 - ssos
 - SSOSALT
 changed: true
-date: 2024-11-04 13:43:15.860005
+date: 2025-06-30 13:47:47.583701
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 79
@@ -31,12 +31,12 @@ metrics:
     DataAllValuesFrom: 1
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
-    _dashboard: 0.378
+    _dashboard: 0.311
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.189
+    oboscore: 0.155
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -73,7 +73,9 @@ results:
   FP07 Relations:
     status: PASS
   FP08 Documented:
-    status: PASS
+    comment: Homepage URL (https://www.niso.org/standards-committees/ssos) does not
+      resolve
+    status: ERROR
   FP09 Plurality of Users:
     comment: Missing tracker and usages
     status: ERROR
@@ -92,10 +94,10 @@ results:
     status: PASS
 sha256_hash: 51592cd5f6375ff0ecbe6a014ef5d59faab9e91ad4ae167d82712e34dea6c207
 summary:
-  comment: 8 errors
+  comment: 9 errors
   status: ERROR
   summary_count:
-    ERROR: 8
+    ERROR: 9
     INFO: 0
     WARN: 1
 version: null

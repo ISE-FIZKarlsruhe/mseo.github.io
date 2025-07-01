@@ -3,7 +3,7 @@ base_prefixes:
 - emmo_crystallography
 - EMMO_CRYSTALLOGRAPHYALT
 changed: true
-date: 2024-11-04 13:41:16.084010
+date: 2025-06-30 13:43:40.606095
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 9482
@@ -56,12 +56,12 @@ metrics:
     ObjectUnionOf: 13
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
-    _dashboard: 0.549
+    _dashboard: 0.504
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.275
+    oboscore: 0.252
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -89,9 +89,8 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'http://emmo.info/domain-crystallography/0.0.1/crystallography'
-      is not in recommended format
-    status: WARN
+    comment: Version IRI does not resolve
+    status: ERROR
   FP05 Scope:
     comment: Missing domain (scope)
     status: ERROR
@@ -118,10 +117,10 @@ results:
     status: PASS
 sha256_hash: ba194d6a152b2103d8ca4f6d2980961870b581a8d2a1d4bcf02ab46cb3805503
 summary:
-  comment: 5 errors
+  comment: 6 errors
   status: ERROR
   summary_count:
-    ERROR: 5
+    ERROR: 6
     INFO: 1
-    WARN: 2
+    WARN: 1
 version: http://emmo.info/domain-crystallography/0.0.1/crystallography
