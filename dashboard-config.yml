@@ -437,7 +437,7 @@ ontologies:
       mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/nfdicore/main/nfdicore.ttl
       license:
         url: https://creativecommons.org/publicdomain/zero/1.0/
-        label: CC0-1.0
+        label: CC0 1.0
     - id: mwo
       description: MatWerk Ontology
       homepage: https://git.rwth-aachen.de/nfdi-matwerk/ta-oms/mwo
