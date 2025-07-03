@@ -3,7 +3,7 @@ base_prefixes:
 - qudt
 - QUDTALT
 changed: true
-date: 2025-07-01 15:58:33.832593
+date: 2025-07-01 16:20:00.642895
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1307

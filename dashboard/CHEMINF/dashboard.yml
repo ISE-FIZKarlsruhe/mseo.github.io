@@ -3,7 +3,7 @@ base_prefixes:
 - CHEMINF
 - CHEMINFALT
 changed: true
-date: 2025-07-01 15:59:48.582510
+date: 2025-07-01 16:21:14.921441
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 4432
