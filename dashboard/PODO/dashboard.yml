@@ -3,7 +3,7 @@ base_prefixes:
 - PODO
 - PODOALT
 changed: true
-date: 2025-07-01 16:21:28.272267
+date: 2026-09-07 18:18:37.755273
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 109

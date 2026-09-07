@@ -3,45 +3,44 @@ base_prefixes:
 - CHEMINF
 - CHEMINFALT
 changed: true
-date: 2025-07-01 16:21:14.921441
+date: 2026-09-07 18:18:23.892655
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 4432
-    AnnotationPropertyRangeOf: 1
-    ClassAssertion: 20
+    AnnotationAssertion: 4590
+    AnnotationPropertyRangeOf: 2
+    ClassAssertion: 21
     DataPropertyDomain: 6
     DataPropertyRange: 5
-    Declaration: 1073
+    Declaration: 1102
     DifferentIndividuals: 2
     DisjointClasses: 58
     DisjointObjectProperties: 1
     EquivalentClasses: 41
-    EquivalentObjectProperties: 3
     FunctionalDataProperty: 5
     FunctionalObjectProperty: 4
     InverseFunctionalObjectProperty: 1
-    InverseObjectProperties: 34
+    InverseObjectProperties: 36
     IrrefexiveObjectProperty: 1
     ObjectPropertyDomain: 54
     ObjectPropertyRange: 53
     Rule: 4
-    SubAnnotationPropertyOf: 7
-    SubClassOf: 1213
+    SubAnnotationPropertyOf: 20
+    SubClassOf: 1220
     SubDataPropertyOf: 5
     SubObjectPropertyOf: 61
     SubPropertyChainOf: 4
     SymmetricObjectProperty: 5
     TransitiveObjectProperty: 17
-  'Axioms: Number of axioms': 7110
+  'Axioms: Number of axioms': 7318
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 86
-  'Entities: Number of classes': 853
+  'Entities: Number of annotation properties': 107
+  'Entities: Number of classes': 858
   'Entities: Number of data properties': 7
-  'Entities: Number of individuals': 20
-  'Entities: Number of object properties': 111
+  'Entities: Number of individuals': 21
+  'Entities: Number of object properties': 112
   'Entities: Number of unsatisfiable classes': 15
   'Info: Breakdown of OWL class expressions used':
-    Class: 3734
+    Class: 3756
     DataExactCardinality: 6
     DataMinCardinality: 1
     DataSomeValuesFrom: 18
@@ -52,7 +51,7 @@ metrics:
     ObjectMinCardinality: 1
     ObjectOneOf: 3
     ObjectSomeValuesFrom: 446
-    ObjectUnionOf: 16
+    ObjectUnionOf: 18
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
     _dashboard: 0.4
@@ -67,27 +66,28 @@ metrics:
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
     APOLLO_SV: 22
-    BFO: 557
+    BFO: 560
     CHEBI: 109
+    COB: 26
     GO: 4
-    IAO: 3619
-    OBI: 83
-    OMO: 6
+    IAO: 3708
+    OBI: 64
+    OMO: 37
     PATO: 24
     PR: 3
     RO: 198
     UO: 10
-    dc: 1
-    dc11: 400
+    dc: 40
+    dc11: 412
     foaf: 4
     obo: 15
-    oboInOwl: 195
+    oboInOwl: 210
     owl: 35
-    prefix_unknown: 2791
+    prefix_unknown: 2794
     rdf: 2
-    rdfs: 1365
+    rdfs: 1395
     skos: 2
-    xsd: 26
+    xsd: 27
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/cheminf.owl
 namespace: CHEMINF
