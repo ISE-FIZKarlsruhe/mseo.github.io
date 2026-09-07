@@ -3,44 +3,44 @@ base_prefixes:
 - mseo
 - MSEOALT
 changed: true
-date: 2025-07-01 16:18:25.554241
+date: 2026-09-07 18:15:16.167777
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 2321
+    AnnotationAssertion: 2733
     ClassAssertion: 2
     DataPropertyDomain: 2
     DataPropertyRange: 1
-    Declaration: 424
-    DisjointClasses: 12
-    EquivalentClasses: 35
+    Declaration: 475
+    DisjointClasses: 14
+    EquivalentClasses: 42
     FunctionalObjectProperty: 9
     InverseFunctionalObjectProperty: 2
-    InverseObjectProperties: 49
-    ObjectPropertyDomain: 127
-    ObjectPropertyRange: 128
+    InverseObjectProperties: 54
+    ObjectPropertyDomain: 147
+    ObjectPropertyRange: 148
     SubAnnotationPropertyOf: 31
-    SubClassOf: 334
+    SubClassOf: 359
     SubDataPropertyOf: 2
-    SubObjectPropertyOf: 92
-    SubPropertyChainOf: 1
+    SubObjectPropertyOf: 113
+    SubPropertyChainOf: 3
     SymmetricObjectProperty: 1
-    TransitiveObjectProperty: 22
-  'Axioms: Number of axioms': 3595
+    TransitiveObjectProperty: 24
+  'Axioms: Number of axioms': 4162
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 58
-  'Entities: Number of classes': 239
+  'Entities: Number of annotation properties': 65
+  'Entities: Number of classes': 268
   'Entities: Number of data properties': 3
   'Entities: Number of individuals': 2
-  'Entities: Number of object properties': 129
+  'Entities: Number of object properties': 150
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 1476
-    ObjectAllValuesFrom: 45
-    ObjectComplementOf: 35
-    ObjectIntersectionOf: 127
-    ObjectSomeValuesFrom: 161
-    ObjectUnionOf: 88
-  'Info: Does the ontology fall under OWL 2 DL?': true
+    Class: 1649
+    ObjectAllValuesFrom: 52
+    ObjectComplementOf: 39
+    ObjectIntersectionOf: 147
+    ObjectSomeValuesFrom: 185
+    ObjectUnionOf: 104
+  'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
     _dashboard: 0.444
     _formula: (1*impact+1*dashboard)/2
@@ -53,15 +53,15 @@ metrics:
   'Info: Logical consistency': true
   'Info: Syntax': Turtle
   'Info: Usage of namespaces in axioms':
-    BFO: 1045
+    BFO: 1117
     CHEBI: 2
     IAO: 15
     dc: 23
     dc11: 103
-    owl: 17
-    prefix_unknown: 2262
-    rdfs: 539
-    skos: 819
+    owl: 22
+    prefix_unknown: 2682
+    rdfs: 754
+    skos: 850
     xsd: 1
   'Info: Which ontologies use it?': []
 mirror_from: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/MSEO.ttl
