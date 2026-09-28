@@ -6,29 +6,31 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://nfdi.fiz-karlsruhe.de/ontology">
-        <owl:versionIRI rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/3.0.1"/>
-        <terms:bibliographicCitation>Jörg Waitelonis, Oleksandra Bruns, Tabea Tietz, Etienne Posthumus, Hossein Beygi Nasrabadi, Harald Sack. NFDIcore Ontology. Revision: v3.0.1. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.1</terms:bibliographicCitation>
-        <terms:created>2025-03-28</terms:created>
-        <terms:creator rdf:resource="https://nfdi4culture.de/id/E1925"/>
-        <terms:creator rdf:resource="https://nfdi4culture.de/id/E2415"/>
-        <terms:creator rdf:resource="https://nfdi4culture.de/id/E2416"/>
-        <terms:creator rdf:resource="https://nfdi4culture.de/id/E3095"/>
+        <owl:versionIRI rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/3.0.5"/>
+        <terms:bibliographicCitation>Jörg Waitelonis, Oleksandra Bruns, Tabea Tietz, Dilek Yargan, Etienne Posthumus, Hossein Beygi Nasrabadi, Harald Sack. NFDIcore Ontology. Revision: v3.0.5. Retrieved from: https://nfdi.fiz-karlsruhe.de/ontology/3.0.5</terms:bibliographicCitation>
+        <terms:created>2026-04-30</terms:created>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-7069-9804"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0001-9618-6740"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0006-7542"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-1648-1684"/>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-3092-0532"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-8501-6700"/>
         <terms:description xml:lang="en">The National Research Data Infrastructure (NFDI) initiative has led to the formation of various consortia, each focused on developing a research data infrastructure tailored to its specific domain. To ensure interoperability across these consortia, the NFDIcore ontology has been developed as a mid-level ontology for representing metadata related to NFDI resources, including individuals, organizations, projects, data portals, and more.
 Further infomration can be found at GitHub: https://github.com/ISE-FIZKarlsruhe/nfdicore/</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title xml:lang="en">NFDIcore Ontology</terms:title>
         <bibo:status xml:lang="en">Ontology Specification</bibo:status>
         <vann:preferredNamespaceUri rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/"/>
+        <doap:repository rdf:resource="https://github.com/ISE-FIZKarlsruhe/nfdicore/"/>
         <rdfs:label>NFDIcore</rdfs:label>
-        <owl:priorVersion rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/2.0.0"/>
-        <owl:priorVersion rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/3.0.0"/>
-        <owl:versionInfo>3.0.1</owl:versionInfo>
+        <owl:priorVersion rdf:resource="https://nfdi.fiz-karlsruhe.de/ontology/3.0.4"/>
+        <owl:versionInfo>3.0.5</owl:versionInfo>
     </owl:Ontology>
 </rdf:RDF>
 
