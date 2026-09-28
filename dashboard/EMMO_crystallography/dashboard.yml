@@ -3,7 +3,7 @@ base_prefixes:
 - emmo_crystallography
 - EMMO_CRYSTALLOGRAPHYALT
 changed: true
-date: 2025-07-01 16:18:50.097777
+date: 2026-09-28 20:20:10.964498
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 9482

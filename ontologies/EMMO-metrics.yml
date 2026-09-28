@@ -188,8 +188,8 @@ metrics:
     DataSomeValuesFrom: 4
     ObjectSomeValuesFrom: 317
   curie_map:
-    owl: "http://www.w3.org/2002/07/owl#"
     rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    owl: "http://www.w3.org/2002/07/owl#"
     xsd: "http://www.w3.org/2001/XMLSchema#"
     skos: "http://www.w3.org/2004/02/skos/core#"
     rdfs: "http://www.w3.org/2000/01/rdf-schema#"
@@ -197,8 +197,8 @@ metrics:
     dc: "http://purl.org/dc/terms/"
   namespace_axiom_count:
     prefix_unknown: 8167
-    owl: 22
     rdf: 130
+    owl: 22
     xsd: 388
     skos: 1481
     rdfs: 1648
@@ -206,8 +206,8 @@ metrics:
     dc: 6
   namespace_axiom_count_incl:
     prefix_unknown: 8167
-    owl: 22
     rdf: 130
+    owl: 22
     xsd: 388
     skos: 1481
     rdfs: 1648

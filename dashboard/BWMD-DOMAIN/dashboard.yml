@@ -3,7 +3,7 @@ base_prefixes:
 - BWMD-DOMAIN
 - BWMD-DOMAINALT
 changed: true
-date: 2025-07-01 16:18:37.144678
+date: 2026-09-28 20:15:35.426864
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 2151
@@ -30,12 +30,12 @@ metrics:
     Class: 2507
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
-    _dashboard: 0.504
+    _dashboard: 0.393
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.252
+    oboscore: 0.197
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -64,9 +64,8 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/master/BWMD_domain.owl'
-      is not in recommended format
-    status: WARN
+    comment: Version IRI does not resolve
+    status: ERROR
   FP05 Scope:
     comment: Missing domain (scope)
     status: ERROR
@@ -75,7 +74,9 @@ results:
   FP07 Relations:
     status: PASS
   FP08 Documented:
-    status: PASS
+    comment: Homepage URL (https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology)
+      does not resolve
+    status: ERROR
   FP09 Plurality of Users:
     comment: Missing tracker and usages
     status: ERROR
@@ -94,10 +95,10 @@ results:
     status: PASS
 sha256_hash: 727b4486f9ff037bfa9b842890c084fcfa05fa12951cfa78a408cf282fe051cc
 summary:
-  comment: 6 errors
+  comment: 8 errors
   status: ERROR
   summary_count:
-    ERROR: 6
+    ERROR: 8
     INFO: 1
-    WARN: 1
+    WARN: 0
 version: https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology/-/raw/master/BWMD_domain.owl

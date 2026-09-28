@@ -3,7 +3,7 @@ base_prefixes:
 - BWMD-MID
 - BWMD-MIDALT
 changed: true
-date: 2025-07-01 16:18:32.840678
+date: 2026-09-28 20:11:05.090760
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1234
@@ -30,12 +30,12 @@ metrics:
     Class: 1235
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
-    _dashboard: 0.504
+    _dashboard: 0.438
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
     _impact_external: 0
     _reuse: 1.0
-    oboscore: 0.252
+    oboscore: 0.219
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
@@ -75,7 +75,9 @@ results:
   FP07 Relations:
     status: PASS
   FP08 Documented:
-    status: PASS
+    comment: Homepage URL (https://gitlab.cc-asp.fraunhofer.de/EMI_datamanagement/bwmd_ontology)
+      does not resolve
+    status: ERROR
   FP09 Plurality of Users:
     comment: Missing tracker and usages
     status: ERROR
@@ -94,10 +96,10 @@ results:
     status: PASS
 sha256_hash: 2a359417ad16374fbd5edbcb1a89f13b66726c563370d3e621adca7447a27c91
 summary:
-  comment: 6 errors
+  comment: 7 errors
   status: ERROR
   summary_count:
-    ERROR: 6
+    ERROR: 7
     INFO: 1
     WARN: 1
 version: https://raw.githubusercontent.com/ISE-FIZKarlsruhe/mseo.github.io/master/Ontology_files/BWMD_mid.owl
