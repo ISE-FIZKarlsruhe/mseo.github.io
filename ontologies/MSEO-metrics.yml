@@ -1,12 +1,12 @@
 metrics:
   abox_axiom_count: 2
   abox_axiom_count_incl: 2
-  annotation_property_count: 58
-  annotation_property_count_incl: 58
-  axiom_count: 3595
-  axiom_count_incl: 3595
-  class_count: 239
-  class_count_incl: 239
+  annotation_property_count: 65
+  annotation_property_count_incl: 65
+  axiom_count: 4162
+  axiom_count_incl: 4162
+  class_count: 268
+  class_count_incl: 268
   consistent: true
   dataproperty_count: 3
   dataproperty_count_incl: 3
@@ -20,30 +20,30 @@ metrics:
   expressivity_incl: "SRIF(D)"
   individual_count: 2
   individual_count_incl: 2
-  logical_axiom_count: 819
-  logical_axiom_count_incl: 819
-  obj_property_count: 129
-  obj_property_count_incl: 129
+  logical_axiom_count: 923
+  logical_axiom_count_incl: 923
+  obj_property_count: 150
+  obj_property_count_incl: 150
   ontology_anno_count: 15
   ontology_iri: "https://purl.matolab.org/mseo/mid"
   ontology_version_iri: "no.iri"
   owl2: true
-  owl2_dl: true
+  owl2_dl: false
   owl2_el: false
   owl2_ql: false
   owl2_rl: false
-  rbox_axiom_count: 167
-  rbox_axiom_count_incl: 167
+  rbox_axiom_count: 197
+  rbox_axiom_count_incl: 197
   rdfs: false
   rule_count: 0
   rule_count_incl: 0
-  signature_entity_count: 435
-  signature_entity_count_incl: 435
+  signature_entity_count: 492
+  signature_entity_count_incl: 492
   syntax: "Turtle"
-  tbox_axiom_count: 650
-  tbox_axiom_count_incl: 650
-  tboxrbox_axiom_count: 817
-  tboxrbox_axiom_count_incl: 817
+  tbox_axiom_count: 724
+  tbox_axiom_count_incl: 724
+  tboxrbox_axiom_count: 921
+  tboxrbox_axiom_count_incl: 921
   unsatisfiable_class_count: 0
   axiom_types:
   - "EquivalentClasses"
@@ -55,8 +55,8 @@ metrics:
   - "SymmetricObjectProperty"
   - "DataPropertyRange"
   - "SubClassOf"
-  - "ObjectPropertyRange"
   - "ClassAssertion"
+  - "ObjectPropertyRange"
   - "AnnotationAssertion"
   - "SubAnnotationPropertyOf"
   - "ObjectPropertyDomain"
@@ -75,8 +75,8 @@ metrics:
   - "SymmetricObjectProperty"
   - "DataPropertyRange"
   - "SubClassOf"
-  - "ObjectPropertyRange"
   - "ClassAssertion"
+  - "ObjectPropertyRange"
   - "AnnotationAssertion"
   - "SubAnnotationPropertyOf"
   - "ObjectPropertyDomain"
@@ -100,59 +100,59 @@ metrics:
   valid_imports: []
   valid_imports_incl: []
   axiom_type_count:
-    EquivalentClasses: 35
-    TransitiveObjectProperty: 22
+    EquivalentClasses: 42
+    TransitiveObjectProperty: 24
     FunctionalObjectProperty: 9
-    SubObjectPropertyOf: 92
-    SubPropertyChainOf: 1
+    SubObjectPropertyOf: 113
+    SubPropertyChainOf: 3
     SubDataPropertyOf: 2
     SymmetricObjectProperty: 1
     DataPropertyRange: 1
-    SubClassOf: 334
-    ObjectPropertyRange: 128
+    SubClassOf: 359
     ClassAssertion: 2
-    AnnotationAssertion: 2321
+    ObjectPropertyRange: 148
+    AnnotationAssertion: 2733
     SubAnnotationPropertyOf: 31
-    ObjectPropertyDomain: 127
-    DisjointClasses: 12
+    ObjectPropertyDomain: 147
+    DisjointClasses: 14
     DataPropertyDomain: 2
-    Declaration: 424
-    InverseObjectProperties: 49
+    Declaration: 475
+    InverseObjectProperties: 54
     InverseFunctionalObjectProperty: 2
   axiom_type_count_incl:
-    EquivalentClasses: 35
-    TransitiveObjectProperty: 22
+    EquivalentClasses: 42
+    TransitiveObjectProperty: 24
     FunctionalObjectProperty: 9
-    SubObjectPropertyOf: 92
-    SubPropertyChainOf: 1
+    SubObjectPropertyOf: 113
+    SubPropertyChainOf: 3
     SubDataPropertyOf: 2
     SymmetricObjectProperty: 1
     DataPropertyRange: 1
-    SubClassOf: 334
-    ObjectPropertyRange: 128
+    SubClassOf: 359
     ClassAssertion: 2
-    AnnotationAssertion: 2321
+    ObjectPropertyRange: 148
+    AnnotationAssertion: 2733
     SubAnnotationPropertyOf: 31
-    ObjectPropertyDomain: 127
-    DisjointClasses: 12
+    ObjectPropertyDomain: 147
+    DisjointClasses: 14
     DataPropertyDomain: 2
-    Declaration: 424
-    InverseObjectProperties: 49
+    Declaration: 475
+    InverseObjectProperties: 54
     InverseFunctionalObjectProperty: 2
   class_expression_count:
-    ObjectAllValuesFrom: 45
-    ObjectComplementOf: 35
-    Class: 1476
-    ObjectUnionOf: 88
-    ObjectSomeValuesFrom: 161
-    ObjectIntersectionOf: 127
+    ObjectAllValuesFrom: 52
+    ObjectComplementOf: 39
+    Class: 1649
+    ObjectUnionOf: 104
+    ObjectSomeValuesFrom: 185
+    ObjectIntersectionOf: 147
   class_expression_count_incl:
-    ObjectAllValuesFrom: 45
-    ObjectComplementOf: 35
-    Class: 1476
-    ObjectUnionOf: 88
-    ObjectSomeValuesFrom: 161
-    ObjectIntersectionOf: 127
+    ObjectAllValuesFrom: 52
+    ObjectComplementOf: 39
+    Class: 1649
+    ObjectUnionOf: 104
+    ObjectSomeValuesFrom: 185
+    ObjectIntersectionOf: 147
   curie_map:
     dc11: "http://purl.org/dc/elements/1.1/"
     owl: "http://www.w3.org/2002/07/owl#"
@@ -161,53 +161,55 @@ metrics:
     CHEBI: "http://purl.obolibrary.org/obo/CHEBI_"
     xsd: "http://www.w3.org/2001/XMLSchema#"
     skos: "http://www.w3.org/2004/02/skos/core#"
-    BFO: "http://purl.obolibrary.org/obo/BFO_"
     rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+    BFO: "http://purl.obolibrary.org/obo/BFO_"
     dc: "http://purl.org/dc/terms/"
   namespace_axiom_count:
     dc11: 103
-    prefix_unknown: 2262
-    owl: 17
+    prefix_unknown: 2682
+    owl: 22
     IAO: 15
     CHEBI: 2
     xsd: 1
-    skos: 819
-    BFO: 1045
-    rdfs: 539
+    skos: 850
+    rdfs: 754
+    BFO: 1117
     dc: 23
   namespace_axiom_count_incl:
     dc11: 103
-    prefix_unknown: 2262
-    owl: 17
+    prefix_unknown: 2682
+    owl: 22
     IAO: 15
     CHEBI: 2
     xsd: 1
-    skos: 819
-    BFO: 1045
-    rdfs: 539
+    skos: 850
+    rdfs: 754
+    BFO: 1117
     dc: 23
   namespace_entity_count:
     dc11: 3
-    prefix_unknown: 296
+    prefix_unknown: 352
     owl: 3
     rdf: 1
     CHEBI: 1
     IAO: 3
     xsd: 3
     skos: 9
-    BFO: 100
+    BFO: 101
     rdfs: 4
     dc: 12
   namespace_entity_count_incl:
     dc11: 3
-    prefix_unknown: 296
+    prefix_unknown: 352
     owl: 3
     rdf: 1
     CHEBI: 1
     IAO: 3
     xsd: 3
     skos: 9
-    BFO: 100
+    BFO: 101
     rdfs: 4
     dc: 12
-  owl2dl_profile_violation: {}
+  owl2dl_profile_violation:
+    UseOfUndeclaredClass: 2
+    UseOfUndeclaredAnnotationProperty: 38
