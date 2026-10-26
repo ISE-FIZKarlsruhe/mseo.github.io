@@ -3,41 +3,45 @@ base_prefixes:
 - m4i
 - M4IALT
 changed: true
-date: 2025-07-01 16:20:33.327359
+date: 2026-10-26 19:23:33.014142
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 841
-    ClassAssertion: 47
-    DataPropertyDomain: 31
-    DataPropertyRange: 35
-    Declaration: 202
+    AnnotationAssertion: 1065
+    ClassAssertion: 21
+    DataPropertyDomain: 34
+    DataPropertyRange: 37
+    Declaration: 268
+    DisjointObjectProperties: 1
+    DisjointUnion: 1
     EquivalentClasses: 2
+    FunctionalObjectProperty: 2
     InverseFunctionalObjectProperty: 1
     InverseObjectProperties: 15
-    ObjectPropertyAssertion: 4
-    ObjectPropertyDomain: 43
-    ObjectPropertyRange: 38
-    SubClassOf: 46
-    SubDataPropertyOf: 14
-    SubObjectPropertyOf: 21
-    SubPropertyChainOf: 2
+    ObjectPropertyAssertion: 6
+    ObjectPropertyDomain: 49
+    ObjectPropertyRange: 62
+    SubAnnotationPropertyOf: 1
+    SubClassOf: 47
+    SubDataPropertyOf: 16
+    SubObjectPropertyOf: 36
+    SubPropertyChainOf: 11
     TransitiveObjectProperty: 5
-  'Axioms: Number of axioms': 1347
+  'Axioms: Number of axioms': 1680
   'Entities: % of entities reused': 100.0
-  'Entities: Number of annotation properties': 53
-  'Entities: Number of classes': 44
-  'Entities: Number of data properties': 37
-  'Entities: Number of individuals': 48
-  'Entities: Number of object properties': 63
+  'Entities: Number of annotation properties': 50
+  'Entities: Number of classes': 60
+  'Entities: Number of data properties': 39
+  'Entities: Number of individuals': 28
+  'Entities: Number of object properties': 99
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 293
+    Class: 327
     DataExactCardinality: 8
     DataMaxCardinality: 2
     ObjectExactCardinality: 1
     ObjectMinCardinality: 3
     ObjectSomeValuesFrom: 4
-    ObjectUnionOf: 5
+    ObjectUnionOf: 10
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
     _dashboard: 0.482
@@ -51,17 +55,19 @@ metrics:
   'Info: Logical consistency': true
   'Info: Syntax': Turtle
   'Info: Usage of namespaces in axioms':
-    BFO: 35
+    BFO: 36
+    CHEBI: 2
+    IAO: 44
     RO: 37
-    dc: 17
-    foaf: 65
-    owl: 13
-    prefix_unknown: 599
-    prov: 70
-    rdf: 2
-    rdfs: 96
-    skos: 722
-    xsd: 25
+    dc: 21
+    foaf: 20
+    owl: 28
+    prefix_unknown: 760
+    prov: 72
+    rdf: 3
+    rdfs: 770
+    skos: 256
+    xsd: 29
   'Info: Which ontologies use it?': []
 mirror_from: https://git.rwth-aachen.de/nfdi4ing/metadata4ing/metadata4ing/-/raw/develop/metadata4ing.ttl
 namespace: m4i
@@ -77,7 +83,7 @@ results:
     file: fp3
     status: ERROR
   FP04 Versioning:
-    comment: Version IRI 'http://w3id.org/nfdi4ing/metadata4ing/1.3.1' is not in recommended
+    comment: Version IRI 'http://w3id.org/nfdi4ing/metadata4ing/1.5.0' is not in recommended
       format
     status: WARN
   FP05 Scope:
@@ -105,7 +111,7 @@ results:
     status: ERROR
   ROBOT Report:
     status: PASS
-sha256_hash: b9c6dffeb882ed5d53fa15be29238ba7d41ae5e1d154db8895d73a9de2319260
+sha256_hash: 328202147fb67d8a09e89df9c49a44af2bae5cb5334a87f057e11a73e638cce2
 summary:
   comment: 6 errors
   status: ERROR
@@ -113,4 +119,4 @@ summary:
     ERROR: 6
     INFO: 1
     WARN: 2
-version: http://w3id.org/nfdi4ing/metadata4ing/1.3.1
+version: http://w3id.org/nfdi4ing/metadata4ing/1.5.0
