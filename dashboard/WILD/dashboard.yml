@@ -3,7 +3,7 @@ base_prefixes:
 - wild
 - WILDALT
 changed: true
-date: 2025-07-01 16:19:51.387066
+date: 2026-11-02 22:30:39.916240
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 2

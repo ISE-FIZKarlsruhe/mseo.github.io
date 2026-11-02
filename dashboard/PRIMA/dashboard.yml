@@ -3,7 +3,7 @@ base_prefixes:
 - PRIMA
 - PRIMAALT
 changed: true
-date: 2025-07-01 16:21:39.312637
+date: 2026-11-02 22:36:57.899226
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 44
