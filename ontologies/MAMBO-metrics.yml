@@ -140,24 +140,24 @@ metrics:
     ObjectSomeValuesFrom: 1
     ObjectIntersectionOf: 1
   curie_map:
-    rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     owl: "http://www.w3.org/2002/07/owl#"
+    rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     oboInOwl: "http://www.geneontology.org/formats/oboInOwl#"
     xsd: "http://www.w3.org/2001/XMLSchema#"
     BFO: "http://purl.obolibrary.org/obo/BFO_"
     rdfs: "http://www.w3.org/2000/01/rdf-schema#"
   namespace_axiom_count:
     prefix_unknown: 907
-    rdf: 7
     owl: 59
+    rdf: 7
     oboInOwl: 4
     xsd: 97
     BFO: 6
     rdfs: 54
   namespace_axiom_count_incl:
     prefix_unknown: 907
-    rdf: 7
     owl: 59
+    rdf: 7
     oboInOwl: 4
     xsd: 97
     BFO: 6
